@@ -5,6 +5,9 @@
 # Time.zone = "UTC"
 
 activate :blog do |blog|
+
+  blog.name = 'blog name'
+
   # This will add a prefix to all links, template references and source paths
   # blog.prefix = "blog"
 
@@ -24,9 +27,9 @@ activate :blog do |blog|
   blog.calendar_template = "calendar.html"
 
   # Enable pagination
-  # blog.paginate = true
-  # blog.per_page = 10
-  # blog.page_link = "page/{num}"
+  blog.paginate = true
+  blog.per_page = 10
+  blog.page_link = "page/{num}"
 end
 
 page "/feed.xml", layout: false
@@ -78,19 +81,19 @@ page "/feed.xml", layout: false
 #   end
 # end
 
-set :css_dir, 'stylesheets'
+set :css_dir, 'css'
 
-set :js_dir, 'javascripts'
+set :js_dir, 'js'
 
-set :images_dir, 'images'
+set :images_dir, 'imgs'
 
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # Enable cache buster
   # activate :asset_hash
@@ -100,4 +103,12 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+end
+
+# slim
+set :slim, { :pretty => true, :sort_attrs => false, :format => :html5 }
+
+# minify
+configure :build do
+  activate :minify_html, :remove_quotes => false, :remove_intertag_spaces => true
 end
