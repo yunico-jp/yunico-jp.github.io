@@ -8,6 +8,7 @@ gem "middleman-blog", "~> 3.5.3"
 gem 'middleman-deploy', '~> 0.3.0'
 gem 'middleman-rouge'
 gem 'middleman-slim'
+gem 'compass'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"

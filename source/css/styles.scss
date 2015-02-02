@@ -1,7 +1,7 @@
 @charset "utf-8";
 
-body {
-}
+@import 'compass/reset';
+@import 'compass/css3';
 
 .container {
   width: 1140px;
