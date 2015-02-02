@@ -144,6 +144,7 @@ PLATFORMS
 
 DEPENDENCIES
   builder (~> 3.0)
+  compass
   middleman (~> 3.3.7)
   middleman-blog (~> 3.5.3)
   middleman-deploy (~> 0.3.0)
