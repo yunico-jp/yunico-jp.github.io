@@ -105,6 +105,13 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch = 'master'
+  deploy.commit_message = "deploy - #{Time.new}"
+  deploy.build_before = true
+end
+
 # slim
 set :slim, { :pretty => true, :sort_attrs => false, :format => :html5 }
 

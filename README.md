@@ -3,17 +3,17 @@
 develop
 
 ```
-% bundle exec middleman server
+% middleman server
 ```
 
 build
 
 ```
-% bundle exec middleman build
+% middleman build
 ```
 
 deploy to master branch
 
 ```
-% bundle exec middleman deploy
+% middleman deploy
 ```
