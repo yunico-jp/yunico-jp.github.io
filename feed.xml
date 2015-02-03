@@ -11,10 +11,10 @@
   </author>
   <entry>
     <title>Hello world.</title>
-    <link rel="alternate" href="http://blog.url.com/2015/02/02/hoge.html"/>
-    <id>http://blog.url.com/2015/02/02/hoge.html</id>
+    <link rel="alternate" href="http://blog.url.com/2015/02/02/helloworld.html"/>
+    <id>http://blog.url.com/2015/02/02/helloworld.html</id>
     <published>2015-02-02T09:00:00+09:00</published>
-    <updated>2015-02-02T12:46:47+09:00</updated>
+    <updated>2015-02-03T12:58:01+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -29,29 +29,6 @@
 &lt;ul&gt;
   &lt;li&gt;hoge&lt;/li&gt;
   &lt;li&gt;hoge&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Hello world!</title>
-    <link rel="alternate" href="http://blog.url.com/2015/02/02/helloworld.html"/>
-    <id>http://blog.url.com/2015/02/02/helloworld.html</id>
-    <published>2015-02-02T09:00:00+09:00</published>
-    <updated>2015-02-02T22:04:02+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Hello, world!&lt;/p&gt;
-
-&lt;h2 id="section"&gt;これはテストです&lt;/h2&gt;
-
-&lt;p&gt;テスト記事記事〜&lt;/p&gt;
-
-&lt;h3 id="section-1"&gt;いれこ&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;リストちゃん&lt;/li&gt;
-  &lt;li&gt;リストちゃん&lt;/li&gt;
 &lt;/ul&gt;
 </content>
   </entry>
