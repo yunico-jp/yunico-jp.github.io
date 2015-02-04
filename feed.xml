@@ -5,60 +5,46 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-02-03T09:00:00+09:00</updated>
+  <updated>2015-02-04T09:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>slimとsassをがんばる.</title>
+    <link rel="alternate" href="http://blog.url.com/2015/02/04/github.html"/>
+    <id>http://blog.url.com/2015/02/04/github.html</id>
+    <published>2015-02-04T09:00:00+09:00</published>
+    <updated>2015-02-04T22:51:43+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。会社でバレンタイン禁止令が出てしまいました。ちょっとさみしいのでこっそり持っていこうと思います。&lt;/p&gt;
+
+&lt;p&gt;さて今日はおしごとでslimとsassを少し使いました。Pull Requestを送ったらガンガン指摘が入り、わしわし直したら大丈夫でした。&lt;/p&gt;
+
+&lt;p&gt;slimは突然Rubyになるところがむずいね…でも閉じカッコがないのはcoolだと思います。sassもね&lt;/p&gt;
+
+&lt;p&gt;明日はエンジニアの方とペアプロで新しいことを学ぶよてい。がんばるぞ！&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>今日は節分.</title>
     <link rel="alternate" href="http://blog.url.com/2015/02/03/setsubun.html"/>
     <id>http://blog.url.com/2015/02/03/setsubun.html</id>
     <published>2015-02-03T09:00:00+09:00</published>
-    <updated>2015-02-03T23:07:12+09:00</updated>
+    <updated>2015-02-04T22:25:57+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。
 今日は節分ですね。&lt;/p&gt;
 
-&lt;p&gt;せっかく恵方巻きを買ってきたのに、うどんを食べ過ぎて恵方巻きは食べられませんでした…
-明日の朝では遅いですか？
-それではまた＜(_ _)＞&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Hello world.</title>
-    <link rel="alternate" href="http://blog.url.com/2015/02/02/helloworld.html"/>
-    <id>http://blog.url.com/2015/02/02/helloworld.html</id>
-    <published>2015-02-02T09:00:00+09:00</published>
-    <updated>2015-02-03T12:58:01+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Hello, world.&lt;/p&gt;
+&lt;p&gt;せっかく恵方巻きを買ってきたのに、うどんを食べ過ぎて恵方巻きは食べられませんでした…&lt;/p&gt;
 
-&lt;h2 id="hello"&gt;hello&lt;/h2&gt;
+&lt;p&gt;明日の朝では遅いですか？&lt;/p&gt;
 
-&lt;p&gt;hoge&lt;/p&gt;
-
-&lt;h3 id="hoge"&gt;hoge&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;hoge&lt;/li&gt;
-  &lt;li&gt;hoge&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Example Article</title>
-    <link rel="alternate" href="http://blog.url.com/2012/01/01/example-article.html"/>
-    <id>http://blog.url.com/2012/01/01/example-article.html</id>
-    <published>2012-01-01T09:00:00+09:00</published>
-    <updated>2015-02-02T12:35:32+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+&lt;p&gt;それではまた＜(_ _)＞&lt;/p&gt;
 </content>
   </entry>
 </feed>
