@@ -14,12 +14,15 @@ html
     == javascript_include_tag  "scripts"
 
   body class="#{page_classes}"
-    h1
-      | yuni.co
+    .header-contents
+      h1.header-contents__site-title
+        = link_to 'yuni.co', '/index.html', relative: true
+      p.site-description
+        | 毎日よかったことを３つづつ挙げていくほっこりブログです  ( ◠‿◠ )
     == yield
 
   .sidebar
     = partial "partials/sidebar"
 
   p.footer-section
-     | 2015 &copy; yuni.co
+    = link_to '2015 &copy; yuni.co', '/index.html', relative: true
