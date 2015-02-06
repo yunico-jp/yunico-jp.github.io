@@ -5,10 +5,27 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-02-05T09:00:00+09:00</updated>
+  <updated>2015-02-06T09:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>今日は引っ越し</title>
+    <link rel="alternate" href="http://blog.url.com/2015/02/06/.moving.html"/>
+    <id>http://blog.url.com/2015/02/06/.moving.html</id>
+    <published>2015-02-06T09:00:00+09:00</published>
+    <updated>2015-02-06T17:23:15+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。今日は今のオフィスでおしごとをする最後の日でした。月曜日から表参道で働きます。&lt;/p&gt;
+
+&lt;p&gt;今日までのオフィスは１年契約だったので１年間限定。でもたった１年でも愛着湧くもんなんだな〜。最初きたときはあんまりとか思っていたけどいつのまにか好きになっていました。だからさみしい。次のオフィスもそうだといいな〜&lt;/p&gt;
+
+&lt;p&gt;nanapiに入ってから次で５つめのオフィスです。どきわくです&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>ペアプロたのしい(╹◡╹)</title>
     <link rel="alternate" href="http://blog.url.com/2015/02/05/pair-programming.html"/>
