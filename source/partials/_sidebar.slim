@@ -1,21 +1,27 @@
 fieldset
-  h2
+  h2.title
     | 最近の記事一覧
   ol
     - blog.articles[0...10].each do |article|
       li
         = link_to article.title, article
 fieldset
-  h2
+  h2.title
     | タグ一覧
   ol
     - blog.tags.each do |tag, articles|
       li
         = link_to "#{tag} (#{articles.size})", tag_path(tag)
 fieldset
-  h2
+  h2.title
     | 書いた年
   ol
     - blog.articles.group_by { |a| a.date.year }.each do |year, articles|
       li
         = link_to "#{year} (#{articles.size})", blog_year_path(year)
+
+fieldset
+  h2.title
+    | はてなブログ
+  ol
+    =  link_to '水割りを、ロックで　リターンズ', '/http://yunico.hatenablog.com/'

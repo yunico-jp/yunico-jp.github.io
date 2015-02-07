@@ -8,7 +8,7 @@ html
 
     /! Use title if it's in the page YAML frontmatter
     title
-      | yuni.co#{ ("-" + current_article.title) unless current_article.nil?}
+      | ゆにこ〜ど#{ ("-" + current_article.title) unless current_article.nil?}
 
     == stylesheet_link_tag "styles"
     == javascript_include_tag  "scripts"
@@ -16,7 +16,7 @@ html
   body class="#{page_classes}"
     .header-contents
       h1.header-contents__site-title
-        = link_to 'yuni.co', '/index.html', relative: true
+        = link_to 'ゆにこ〜ど', '/index.html', relative: true
       p.site-description
         | 毎日よかったことを３つづつ挙げていくほっこりブログです  ( ◠‿◠ )
     == yield
