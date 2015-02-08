@@ -5,10 +5,27 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-02-07T09:00:00+09:00</updated>
+  <updated>2015-02-08T09:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>一回休み</title>
+    <link rel="alternate" href="http://blog.url.com/2015/02/08/holiday.html"/>
+    <id>http://blog.url.com/2015/02/08/holiday.html</id>
+    <published>2015-02-08T09:00:00+09:00</published>
+    <updated>2015-02-08T23:00:01+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。風邪ぽくてだらだらした日曜日でした。&lt;/p&gt;
+
+&lt;p&gt;休みの日は平日より自由な時間がとれないから勉強するならやっぱり平日。でも平日がんばりすぎると疲れで扁桃腺が腫れ高熱が出るのでそこは気をつけようはい。&lt;/p&gt;
+
+&lt;p&gt;明日から表参道だ&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>vertical-align全然言うこと聞いてくれない説</title>
     <link rel="alternate" href="http://blog.url.com/2015/02/07/mamipeko.html"/>
