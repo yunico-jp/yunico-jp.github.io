@@ -5,10 +5,27 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-02-08T09:00:00+09:00</updated>
+  <updated>2015-02-09T09:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>表参道</title>
+    <link rel="alternate" href="http://blog.url.com/2015/02/09/omotesandou.html"/>
+    <id>http://blog.url.com/2015/02/09/omotesandou.html</id>
+    <published>2015-02-09T09:00:00+09:00</published>
+    <updated>2015-02-09T23:35:35+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。今日からオフィスが表参道になりました。&lt;/p&gt;
+
+&lt;p&gt;駅とか街とかオフィスの匂いとか、いまは渋谷が恋しいです。代々木から渋谷に行くときは渋谷が嫌で代々木が恋しかったのにナー。こんな調子でまた表参道のことを好きになれたらいいですね。&lt;/p&gt;
+
+&lt;p&gt;今日はleyout.slimあたりがわからなくて教えてもらった。自分でも調べてたけど全然見当違い…　むずいわ！わかるか！&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>一回休み</title>
     <link rel="alternate" href="http://blog.url.com/2015/02/08/holiday.html"/>
@@ -94,25 +111,6 @@
 
 &lt;p&gt;明日はエンジニアの方とペアプロで新しいことを学ぶよてい。がんばるぞ！&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>今日は節分.</title>
-    <link rel="alternate" href="http://blog.url.com/2015/02/03/setsubun.html"/>
-    <id>http://blog.url.com/2015/02/03/setsubun.html</id>
-    <published>2015-02-03T09:00:00+09:00</published>
-    <updated>2015-02-04T22:25:57+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。
-今日は節分ですね。&lt;/p&gt;
-
-&lt;p&gt;せっかく恵方巻きを買ってきたのに、うどんを食べ過ぎて恵方巻きは食べられませんでした…&lt;/p&gt;
-
-&lt;p&gt;明日の朝では遅いですか？&lt;/p&gt;
-
-&lt;p&gt;それではまた＜(_ _)＞&lt;/p&gt;
 </content>
   </entry>
 </feed>
