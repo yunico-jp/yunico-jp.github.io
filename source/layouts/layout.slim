@@ -19,7 +19,15 @@ html
         = link_to 'ゆにこ〜ど', '/index.html', relative: true
       p.site-description
         | 毎日よかったことを３つづつ挙げていくほっこりブログです  ( ◠‿◠ )
-    == yield
+
+    - unless current_article.nil?
+      article.article
+        h1
+          = current_article.title
+
+        == yield
+    - else
+      == yield
 
   .sidebar
     = partial "partials/sidebar"
