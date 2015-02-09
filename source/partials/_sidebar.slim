@@ -19,9 +19,3 @@ fieldset
     - blog.articles.group_by { |a| a.date.year }.each do |year, articles|
       li
         = link_to "#{year} (#{articles.size})", blog_year_path(year)
-
-fieldset
-  h2.title
-    | はてなブログ
-  ol
-    =  link_to '水割りを、ロックで　リターンズ', '/http://yunico.hatenablog.com/'

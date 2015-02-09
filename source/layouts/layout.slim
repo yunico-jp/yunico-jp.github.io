@@ -22,8 +22,10 @@ html
 
     - unless current_article.nil?
       article.article
-        h1
+        h1.article__title
           = current_article.title
+        p
+          = current_article.date.strftime('%A %B %e %Y')
 
         == yield
     - else
