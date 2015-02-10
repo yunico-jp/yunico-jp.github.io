@@ -25,7 +25,7 @@ html
         h1.article__title
           = current_article.title
         p
-          = current_article.date.strftime('%b %e %Y')
+          = current_article.date.strftime('%Y.%m.%d')
 
         == yield
     - else
