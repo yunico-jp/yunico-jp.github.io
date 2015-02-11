@@ -3,7 +3,9 @@ html
   head
     meta charset="utf-8"
 
-    /! Always force latest IE rendering engine or request Chrome Frame
+
+
+    /! 個別ページ
     meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
 
     /! Use title if it's in the page YAML frontmatter
@@ -14,25 +16,30 @@ html
     == javascript_include_tag  "scripts"
 
   body class="#{page_classes}"
-    .header-contents
-      h1.header-contents__site-title
-        = link_to 'ゆにこ〜ど', '/index.html', relative: true
-      p.site-description
-        | 毎日よかったことを３つづつ挙げていくほっこりブログです  ( ◠‿◠ )
+    #layout
+      .header-contents
+        h1.header-contents__site-title
+          = link_to 'ゆにこ〜ど', '/index.html', relative: true
+        p.site-description
+          | 毎日よかったことを３つづつ挙げていくほっこりブログです  ( ◠‿◠ )
 
-    - unless current_article.nil?
-      article.article
-        h1.article__title
-          = current_article.title
-        p
-          = current_article.date.strftime('%Y.%m.%d')
+      .container
+        - unless current_article.nil?
+          article.article
+            h1.article__title
+              = current_article.title
+            p
+              = current_article.date.strftime('%Y.%m.%d')
 
-        == yield
-    - else
-      == yield
+            p
+              = current_page.data.tags.each do |tag|
 
-  .sidebar
-    = partial "partials/sidebar"
+            == yield
+        - else
+          == yield
 
-  p.footer-section
-    = link_to '2015 &copy; yuni.co', '/index.html', relative: true
+      .sidebar
+        = partial "partials/sidebar"
+
+      p.footer-section
+        = link_to '2015 &copy; yuni.co', '/index.html', relative: true
