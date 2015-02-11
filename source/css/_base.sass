@@ -1,5 +1,7 @@
 @charset "utf-8"
 
+$small: "only screen and (max-width:940px)"
+
 body
   position: relative
   color: #333333
@@ -9,9 +11,15 @@ body
 
 a
   text-decoration: none
+  color: #3D82C6
+
+#layout
+  position: relative
+  padding: 0 20px
+  @media #{$small}
+    padding: 0 10px
 
 .header-contents
-  width: 760px
   margin: 0 auto
   text-align: center
   padding: 10px 0
@@ -19,14 +27,12 @@ a
 .header-contents__site-title
   font-weight: bold
   font-size: 45px
-  margin: 0 0 10px
 
 .container
-  width: 760px
   margin: 0 auto
-  padding: 30px
   background: #f4f4f4
   border-radius: 5px
+  padding: 10px
   p
     margin: 0 0 8px
     line-height: 1.3
