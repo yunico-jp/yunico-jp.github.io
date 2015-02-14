@@ -39,9 +39,9 @@ page "/feed.xml", layout: false
 ###
 
 # Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
+compass_config do |config|
+  config.output_style = :compact
+end
 
 ###
 # Page options, layouts, aliases and proxies
@@ -82,9 +82,7 @@ page "/feed.xml", layout: false
 # end
 
 set :css_dir, 'css'
-
 set :js_dir, 'js'
-
 set :images_dir, 'imgs'
 
 # Build-specific configuration
