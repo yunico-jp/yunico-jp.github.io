@@ -5,10 +5,24 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-02-14T09:00:00+09:00</updated>
+  <updated>2015-02-15T09:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>やりたいことが多すぎる</title>
+    <link rel="alternate" href="http://blog.url.com/2015/02/15/study.html"/>
+    <id>http://blog.url.com/2015/02/15/study.html</id>
+    <published>2015-02-15T09:00:00+09:00</published>
+    <updated>2015-02-15T23:42:13+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。一日Wi-Fiと電源がある洞窟に籠ってずっと勉強してたいです。しかし現実はそうもいかないので時間をもっとうまく使わないとな〜。どんなに忙しくても1日1commitは続けよう。&lt;/p&gt;
+
+&lt;p&gt;ロジカルシンキング的な本を読んでますが、今更ながら問題解決あたりを学ぶと面白い。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>ハッピーバレンタイン(♡◡♡)</title>
     <link rel="alternate" href="http://blog.url.com/2015/02/14/valentine.html"/>
@@ -80,23 +94,6 @@
 &lt;p&gt;プルリクもらってGithub上でmergeしても一旦git pullしてきてlocalでdeployしなきゃいけないの忘れててはまってた…&lt;/p&gt;
 
 &lt;p&gt;冷静になって考えれば当然すぎてしにたくなったぞ( ◠死◠ )&lt;/p&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>表参道</title>
-    <link rel="alternate" href="http://blog.url.com/2015/02/09/omotesandou.html"/>
-    <id>http://blog.url.com/2015/02/09/omotesandou.html</id>
-    <published>2015-02-09T09:00:00+09:00</published>
-    <updated>2015-02-11T22:09:03+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。今日からオフィスが表参道になりました。&lt;/p&gt;
-
-&lt;p&gt;駅とか街とかオフィスの匂いとか、いまは渋谷が恋しいです。代々木から渋谷に行くときは渋谷が嫌で代々木が恋しかったのにナー。こんな調子でまた表参道のことを好きになれたらいいですね。&lt;/p&gt;
-
-&lt;p&gt;今日はleyout.slimあたりがわからなくて教えてもらった。自分でも調べてたけど全然見当違い…　むずいわ！わかるか！&lt;/p&gt;
 
 </content>
   </entry>
