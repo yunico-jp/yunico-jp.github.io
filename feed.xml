@@ -5,10 +5,30 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-02-17T09:00:00+09:00</updated>
+  <updated>2015-02-18T09:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>BEMを理解する</title>
+    <link rel="alternate" href="http://blog.url.com/2015/02/18/bem.html"/>
+    <id>http://blog.url.com/2015/02/18/bem.html</id>
+    <published>2015-02-18T09:00:00+09:00</published>
+    <updated>2015-02-18T23:47:35+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。今日も風のように１日が過ぎてしまった。１日が30時間ぐらいだったらいいのに、、&lt;/p&gt;
+
+&lt;p&gt;さて、環境がslim、sassに変わったというのもあり、classの命名規則はBEMで設計することになりました。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;参考：&lt;a href="https://app.codegrid.net/entry/bem-basic-1"&gt;BEMによるフロントエンドの設計　基本概念とルール&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;少し前だとscssでネストして書くのが普通て感じだったけど、たしかに入れ子にするとくちゃくちゃになりがちなのできちんと理解して実践してゆきたい所存。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>一回休み</title>
     <link rel="alternate" href="http://blog.url.com/2015/02/17/break.html"/>
@@ -77,20 +97,6 @@
     <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。まだ全然スピード出せないけどslimわかってきた感ある。てかこれ慣れだな〜〜。それにしてもPull Requestなげるのちょーー楽しい。&lt;/p&gt;
 
 &lt;p&gt;今日は予定があるので夜commitできなそうだから早めの日記となります。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>git reset --hardが大好きだ</title>
-    <link rel="alternate" href="http://blog.url.com/2015/02/12/sass-ganbaruzo.html"/>
-    <id>http://blog.url.com/2015/02/12/sass-ganbaruzo.html</id>
-    <published>2015-02-12T09:00:00+09:00</published>
-    <updated>2015-02-12T22:28:41+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。git reset –hard が大好きです。潔さがいい。&lt;/p&gt;
-
-&lt;p&gt;ていうか、やっぱGitが好きです。Githubも好きです。みんなも使おう！楽しいよ&lt;/p&gt;
 </content>
   </entry>
 </feed>
