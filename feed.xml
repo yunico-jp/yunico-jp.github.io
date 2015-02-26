@@ -5,10 +5,27 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-02-25T09:00:00+09:00</updated>
+  <updated>2015-02-26T09:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>雨降りの一日</title>
+    <link rel="alternate" href="http://blog.url.com/2015/02/26/rainy-day.html"/>
+    <id>http://blog.url.com/2015/02/26/rainy-day.html</id>
+    <published>2015-02-26T09:00:00+09:00</published>
+    <updated>2015-02-26T23:50:30+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。雨だしクソさむい。でもとても楽しい一日だった。ありがたい&lt;/p&gt;
+
+&lt;p&gt;これからちょっと自分の中のGitに関する知識をまとめていくよてい。改めてそういうことをすると、学び直すことになるのでとてもいい機会だと思っています。わかってないことが浮き彫りになったりして…&lt;/p&gt;
+
+&lt;p&gt;いまめっちゃ熱量高いのでこのまま継続していろいろやってこー&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>朝活はじめたぞ</title>
     <link rel="alternate" href="http://blog.url.com/2015/02/25/asakatsu.html"/>
@@ -90,20 +107,6 @@
 
 &lt;p&gt;わたしもこの図でGitの概念を理解できたので、あわよくば他の人の役にも立てたらいいな〜とかゆるく思ってます。&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>時間がほしい</title>
-    <link rel="alternate" href="http://blog.url.com/2015/02/19/thursday.html"/>
-    <id>http://blog.url.com/2015/02/19/thursday.html</id>
-    <published>2015-02-19T09:00:00+09:00</published>
-    <updated>2015-02-25T23:12:08+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。今日もあっという間に終わってしまった。そしてあっという間に木曜日、、&lt;/p&gt;
-
-&lt;p&gt;日記書く以外の作業もやりたいのだけど…いろいろあって時間の確保が難しい。もどかしくてイラついてしまうなー。好きなだけ集中できる時間と癒しが欲しい…&lt;/p&gt;
 </content>
   </entry>
 </feed>
