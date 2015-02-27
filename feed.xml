@@ -5,25 +5,20 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-02-26T09:00:00+09:00</updated>
+  <updated>2015-02-27T09:00:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>雨降りの一日</title>
-    <link rel="alternate" href="http://blog.url.com/2015/02/26/rainy-day.html"/>
-    <id>http://blog.url.com/2015/02/26/rainy-day.html</id>
-    <published>2015-02-26T09:00:00+09:00</published>
-    <updated>2015-02-26T23:50:30+09:00</updated>
+    <title>送別会</title>
+    <link rel="alternate" href="http://blog.url.com/2015/02/27/touhoukenbunroku.html"/>
+    <id>http://blog.url.com/2015/02/27/touhoukenbunroku.html</id>
+    <published>2015-02-27T09:00:00+09:00</published>
+    <updated>2015-02-27T23:59:07+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。雨だしクソさむい。でもとても楽しい一日だった。ありがたい&lt;/p&gt;
-
-&lt;p&gt;これからちょっと自分の中のGitに関する知識をまとめていくよてい。改めてそういうことをすると、学び直すことになるのでとてもいい機会だと思っています。わかってないことが浮き彫りになったりして…&lt;/p&gt;
-
-&lt;p&gt;いまめっちゃ熱量高いのでこのまま継続していろいろやってこー&lt;/p&gt;
-
+    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。今日は大事な同僚の送別会。さみしくなるけどずっと応援してます。わたしもがんばる&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -31,7 +26,7 @@
     <link rel="alternate" href="http://blog.url.com/2015/02/25/asakatsu.html"/>
     <id>http://blog.url.com/2015/02/25/asakatsu.html</id>
     <published>2015-02-25T09:00:00+09:00</published>
-    <updated>2015-02-25T23:34:18+09:00</updated>
+    <updated>2015-02-27T23:55:58+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -47,7 +42,7 @@
     <link rel="alternate" href="http://blog.url.com/2015/02/24/facilitation.html"/>
     <id>http://blog.url.com/2015/02/24/facilitation.html</id>
     <published>2015-02-24T09:00:00+09:00</published>
-    <updated>2015-02-25T23:12:08+09:00</updated>
+    <updated>2015-02-27T23:55:58+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -61,7 +56,7 @@
     <link rel="alternate" href="http://blog.url.com/2015/02/23/design.html"/>
     <id>http://blog.url.com/2015/02/23/design.html</id>
     <published>2015-02-23T09:00:00+09:00</published>
-    <updated>2015-02-25T23:12:08+09:00</updated>
+    <updated>2015-02-27T23:55:58+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -76,7 +71,7 @@
     <link rel="alternate" href="http://blog.url.com/2015/02/22/logical-thinking.html"/>
     <id>http://blog.url.com/2015/02/22/logical-thinking.html</id>
     <published>2015-02-22T09:00:00+09:00</published>
-    <updated>2015-02-25T23:12:08+09:00</updated>
+    <updated>2015-02-27T23:55:58+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -93,7 +88,7 @@
     <link rel="alternate" href="http://blog.url.com/2015/02/20/chinese.html"/>
     <id>http://blog.url.com/2015/02/20/chinese.html</id>
     <published>2015-02-20T09:00:00+09:00</published>
-    <updated>2015-02-25T23:12:08+09:00</updated>
+    <updated>2015-02-27T23:55:58+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
