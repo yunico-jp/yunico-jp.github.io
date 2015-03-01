@@ -27,19 +27,44 @@ a
 .header-contents__site-title
   font-weight: bold
   font-size: 45px
+  font-family: 'Poiret One', Arial
 
 .container
   margin: 0 auto
-  background: #f4f4f4
   border-radius: 5px
   padding: 10px
-  p
-    margin: 0 0 8px
-    line-height: 1.3
+
+.article-box
+  margin: 0 0 30px
+
+.post-head
+  background: #f3f3f3
+  padding: 10px
+  margin: 0 0 10px
   h2
+    margin: 0 0 5px
     font-size: 20px
     font-weight: bold
-    margin: 20px 0 10px
-    span
-      margin: 0 0 0 15px
 
+.post-head__date
+  margin: 10px 5px 0 0
+  display: inline
+  font-size: 15px
+  @media #{$small}
+    display: block
+
+.post-head__tag-labels
+  margin: 0
+  display: inline
+  padding: 2px 3px 3px
+  font-size: 12px
+  background: #cccccc
+  color: #ffffff
+
+.tag-label
+  color: #ffffff
+
+.article-body
+  p
+    line-height: 1.8em
+    margin: 1em 0
