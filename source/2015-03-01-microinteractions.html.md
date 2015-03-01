@@ -1,5 +1,5 @@
 ---
-title:
+title: 雨の日に読書
 date: 2015-03-01
 tags:
   - Soliloquy
