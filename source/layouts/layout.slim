@@ -17,24 +17,20 @@ html
 
   body class="#{page_classes}"
     #layout
-      .header-contents
-        h1.header-contents__site-title
-          = link_to 'yunicode', '/index.html', relative: true
-        //p.header-contents__site-description
-          | 毎日よかったことを３つづつ挙げていくほっこりブログです  ( ◠‿◠ )
-        p.header-contents__site-image
-          img[src="../images/yona.jpg"]
+      .header
+        = partial "partials/header"
 
       .container
         - unless current_article.nil?
-          article.article
-            h1.article__title
-              = current_article.title
-            p
-              = current_article.date.strftime('%Y.%m.%d')
+          .article-box
+            .post-head
+              h2
+                = current_article.title
+              p.post-head__date
+                = current_article.date.strftime('%Y.%m.%d')
 
-            p
-              = current_page.data.tags.each do |tag|
+              p.post-head__tag-labels
+                = current_page.data.tags.each do |tag|
 
             == yield
         - else

@@ -1,18 +1,20 @@
-fieldset
+fieldset.sidebar__blog-article
   h2.title
     | 最近の記事一覧
   ul
     - blog.articles[0...10].each do |article|
       li
         = link_to article.title, article
-fieldset
+
+fieldset.sidebar__tag
   h2.title
     | タグ一覧
   ul
     - blog.tags.each do |tag, articles|
       li
         = link_to "#{tag} (#{articles.size})", tag_path(tag)
-fieldset
+
+fieldset.sidebar__year
   h2.title
     | 書いた年
   ul
