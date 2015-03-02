@@ -20,8 +20,10 @@ html
       .header-contents
         h1.header-contents__site-title
           = link_to 'yunicode', '/index.html', relative: true
-        p.site-description
+        //p.header-contents__site-description
           | 毎日よかったことを３つづつ挙げていくほっこりブログです  ( ◠‿◠ )
+        p.header-contents__site-image
+          img[src="../images/yona.jpg"]
 
       .container
         - unless current_article.nil?
