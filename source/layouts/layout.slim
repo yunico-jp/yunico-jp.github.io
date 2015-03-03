@@ -29,8 +29,12 @@ html
               p.post-head__date
                 = current_article.date.strftime('%Y.%m.%d')
 
-              p.post-head__tag-labels
-                = current_page.data.tags.each do |tag|
+              - if current_page.data.tags.size > 0
+                ul.post-head__tag-labels
+                  - current_page.data.tags.each do |tag|
+                    li
+                      = link_to tag_path tag
+                        = tag
 
             == yield
         - else
