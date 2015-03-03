@@ -53,11 +53,23 @@ body
 
 .post-head__tag-labels
   margin: 0
+  padding: 0
   display: inline
-  padding: 2px 3px 3px
-  font-size: 12px
-  background: #cccccc
-  color: #ffffff
+  @media #{$small}
+    display: block
+  li
+    margin: 0 5px 0 0
+    list-style-type: none
+    padding: 2px
+    display: inline
+    font-size: 13px
+    background: #cccccc
+    a
+      color: #ffffff
+
+
+
+
 
 .tag-label
   color: #ffffff
