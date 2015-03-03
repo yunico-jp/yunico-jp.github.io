@@ -21,3 +21,11 @@ fieldset.sidebar__year
     - blog.articles.group_by { |a| a.date.year }.each do |year, articles|
       li
         = link_to "#{year} (#{articles.size})", blog_year_path(year)
+
+fieldset.sidebar__yunico
+  h2.title
+    | 書いてる人
+  a.twitter-follow-button[href="https://twitter.com/yunico_jp" data-show-count="false" data-size="large"]
+    |Follow @yunico_jp</a>
+  javascript:
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
