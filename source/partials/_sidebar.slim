@@ -4,7 +4,7 @@ fieldset.sidebar__blog-article
       | 最近の記事一覧
     p.blog-article__sub
       | Recent Articles
-  ul
+  ul.blog-article__list
     - blog.articles[0...10].each do |article|
       li
         = link_to article.title, article
@@ -15,7 +15,7 @@ fieldset.sidebar__tag
       | タグ一覧
     p.tag__sub
       | Tags
-  ul
+  ul.tag__list
     - blog.tags.each do |tag, articles|
       li
         = link_to "#{tag} (#{articles.size})", tag_path(tag)
@@ -26,15 +26,18 @@ fieldset.sidebar__year
       | 書いた年
     p.year__sub
       | By Year
-  ul
+  ul.year__list
     - blog.articles.group_by { |a| a.date.year }.each do |year, articles|
       li
         = link_to "#{year} (#{articles.size})", blog_year_path(year)
 
 fieldset.sidebar__yunico
-  h2.yunico__title
-    | 書いてる人
-  a.twitter-follow-button[href="https://twitter.com/yunico_jp" data-show-count="false" data-size="large"]
-    |Follow @yunico_jp</a>
-  javascript:
-    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  .sidebar__yunico-box
+    h2.yunico__title
+      | 書いてる人
+    p.yunico__sub
+      | about
+    a.twitter-follow-button[href="https://twitter.com/yunico_jp" data-show-count="false" data-size="large"]
+      |Follow @yunico_jp</a>
+    javascript:
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');

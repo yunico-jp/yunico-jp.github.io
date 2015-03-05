@@ -18,13 +18,17 @@ body
   margin: 20px auto
   text-align: center
   padding: 10px 20px
-  font-size: 12px
+  @media #{$small}
+    margin: 10px auto
+    padding: 0
 
 .header-contents__site-title
   font-weight: bold
-  font-size: 400%
+  font-size: 300%
   font-family: 'Lily Script One', cursive
   margin: 0
+  @media #{$small}
+    font-size: 200%
 
 .container
   margin: 0 auto
