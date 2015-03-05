@@ -1,8 +1,46 @@
 @charset "utf-8"
 
-.article
-  margin: 0 auto
+.article-box
+  margin: 0 0 30px
 
-.article__title
-  font-size: 30px
-  font-weight: bold
+.post-head
+  background: #e7e7e7
+  padding: 10px
+  margin: 0 0 10px
+  h2
+    margin: 0
+    font-size: 20px
+    font-weight: bold
+    a
+      color: #5f5f5f
+
+.post-head__date
+  margin: 0 5px 0 0
+  display: inline
+  font-size: 15px
+  @media #{$small}
+    display: block
+
+.post-head__tag-labels
+  margin: 0
+  padding: 0
+  display: inline
+  @media #{$small}
+    display: block
+  li
+    margin: 0 5px 0 0
+    list-style-type: none
+    padding: 2px 3px
+    display: inline
+    font-size: 13px
+    background: #5f5f5f
+    a
+      color: #ffffff
+
+.tag-label
+  color: #ffffff
+
+.article-body
+  p
+    line-height: 1.8em
+    margin: 1em 0

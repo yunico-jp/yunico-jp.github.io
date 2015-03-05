@@ -1,29 +1,38 @@
 fieldset.sidebar__blog-article
-  h2.title
-    | 最近の記事一覧
+  .sidebar__blog-article-box
+    h2.blog-article__title
+      | 最近の記事一覧
+    p.blog-article__sub
+      | Recent Articles
   ul
     - blog.articles[0...10].each do |article|
       li
         = link_to article.title, article
 
 fieldset.sidebar__tag
-  h2.title
-    | タグ一覧
+  .sidebar__tag-box
+    h2.tag__title
+      | タグ一覧
+    p.tag__sub
+      | Tags
   ul
     - blog.tags.each do |tag, articles|
       li
         = link_to "#{tag} (#{articles.size})", tag_path(tag)
 
 fieldset.sidebar__year
-  h2.title
-    | 書いた年
+  .sidebar__year-box
+    h2.year__title
+      | 書いた年
+    p.year__sub
+      | By Year
   ul
     - blog.articles.group_by { |a| a.date.year }.each do |year, articles|
       li
         = link_to "#{year} (#{articles.size})", blog_year_path(year)
 
 fieldset.sidebar__yunico
-  h2.title
+  h2.yunico__title
     | 書いてる人
   a.twitter-follow-button[href="https://twitter.com/yunico_jp" data-show-count="false" data-size="large"]
     |Follow @yunico_jp</a>
