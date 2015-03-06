@@ -2,8 +2,18 @@
 
 .sidebar
   margin: 0 auto
-  padding: 30px 10px 10px
   background: #e7e7e7
+  @media #{$small}
+    padding: 30px 10px 10px
+
+.sidebar__blog-article,
+.sidebar__tag,
+.sidebar__year,
+.sidebar__yunico
+  background: #e7e7e7
+  padding: 0 25px
+  @media #{$small}
+    background: none
 
 .sidebar__blog-article-box,
 .sidebar__tag-box,
@@ -11,7 +21,9 @@
 .sidebar__yunico-box
   text-align: center
   margin: 0 0 10px
-  
+  padding: 20px 20px 0
+  @media #{$small}
+    padding: 0
 
 .blog-article__title,
 .tag__title,
@@ -32,15 +44,24 @@
 .blog-article__list,
 .tag__list,
 .year__list
-  border-bottom: solid 1px #d8d8d8
-  margin: 0 0 20px
   padding: 0 0 20px
+  margin: 0
+  @media #{$small}
+    border-bottom: solid 1px #d8d8d8
+    margin: 0 0 20px
   li
     list-style-type: none
+    line-height: 1.5
+    margin: 0 0 0.5em
 
 .twitter-follow-button
   margin: 10px 0 0 0
 
 .tag__list
   li
-    display: inline
+    display: inline-block
+    margin: 0 0 0.5em
+
+.year__list
+  li
+    text-align: center
