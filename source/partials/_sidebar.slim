@@ -1,4 +1,4 @@
-fieldset.sidebar__blog-article
+fieldset.sidebar__blog-article.col-sm-3
   .sidebar__blog-article-box
     h2.blog-article__title
       | 最近の記事一覧
@@ -9,7 +9,7 @@ fieldset.sidebar__blog-article
       li
         = link_to article.title, article
 
-fieldset.sidebar__tag
+fieldset.sidebar__tag.col-sm-3
   .sidebar__tag-box
     h2.tag__title
       | タグ一覧
@@ -20,7 +20,7 @@ fieldset.sidebar__tag
       li
         = link_to "#{tag} (#{articles.size})", tag_path(tag)
 
-fieldset.sidebar__year
+fieldset.sidebar__year.col-sm-3
   .sidebar__year-box
     h2.year__title
       | 書いた年
@@ -31,7 +31,7 @@ fieldset.sidebar__year
       li
         = link_to "#{year} (#{articles.size})", blog_year_path(year)
 
-fieldset.sidebar__yunico
+fieldset.sidebar__yunico.col-sm-3
   .sidebar__yunico-box
     h2.yunico__title
       | 書いてる人

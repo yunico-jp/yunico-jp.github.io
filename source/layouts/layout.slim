@@ -39,8 +39,8 @@ html
             == yield
         - else
           == yield
-        .sidebar
+        .sidebar.clearfix
           = partial "partials/sidebar"
 
-        .footer-section
+        .footer-section.col-sm-12
           = link_to '2015 &copy; yuni.co', '/index.html', relative: true
