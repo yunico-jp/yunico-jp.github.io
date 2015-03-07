@@ -3,7 +3,6 @@ html
   head
     meta charset="utf-8"
 
-    /! 個別ページ
     meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
     meta name="viewport" content="width=device-width"
     link href="http://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet" type="text/css"
@@ -29,16 +28,21 @@ html
               p.post-head__date
                 = current_article.date.strftime('%Y.%m.%d')
 
-              - if current_page.data.tags.size > 0
-                ul.post-head__tag-labels
-                  - current_page.data.tags.each do |tag|
-                    li
-                      = link_to tag_path tag
-                        = tag
-
             == yield
+
+            - if current_page.data.tags.size > 0
+              ul.post-head__tag-labels
+                - current_page.data.tags.each do |tag|
+                  li
+                    = link_to tag_path tag
+                      = tag
+            .paginate
+              = link_to 'Indexへ戻る', '/index.html', relative: true
+
+
         - else
           == yield
+
         .sidebar.clearfix
           = partial "partials/sidebar"
 

@@ -47,10 +47,11 @@ per_page: 10
                       })
             }(document, "script", "twitter-wjs"));
 
-  - if paginate
-    - if next_page
-      p
-        = link_to 'Next page', next_page
-    - if prev_page
-      p
-        = link_to 'Previous page', prev_page
+  .paginate
+    - if paginate
+      - if prev_page
+        p.paginate__prev
+          = link_to '< 前の記事', prev_page
+      - if next_page
+        p.paginate__next
+          = link_to '次の記事 >', next_page
