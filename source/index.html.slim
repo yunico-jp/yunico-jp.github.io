@@ -18,14 +18,35 @@ per_page: 10
         p.post-head__date
           = article.date.strftime('%Y.%m.%d')
 
-        - if article.tags.size > 0
-          ul.post-head__tag-labels
-            - article.tags.each do |tag|
-              li
-                = link_to tag_path tag
-                  = tag
       .article-body
         = article.body
+
+      - if article.tags.size > 0
+        ul.post-head__tag-labels
+          - article.tags.each do |tag|
+            li
+              = link_to tag_path tag
+                = tag
+
+      .shere-twitter
+        a href="https://twitter.com/share" class="twitter-share-button" data-url="http://yuni.co#{article.url}" data-via="yunico_jp" data-text="#{article.title}"
+          javascript:
+            window.twttr = (function (d, s, id) {
+              var t, js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) {
+                return
+              }
+              js = d.createElement(s);
+              js.id = id;
+              js.src = "https://platform.twitter.com/widgets.js";
+              fjs.parentNode.insertBefore(js, fjs);
+              return window.twttr || (t = {
+                        _e: [], ready: function (f) {
+                          t._e.push(f)
+                        }
+                      })
+            }(document, "script", "twitter-wjs"));
+
   - if paginate
     - if next_page
       p

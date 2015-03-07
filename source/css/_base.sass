@@ -1,14 +1,16 @@
 @charset "utf-8"
 
-$small: "only screen and (max-width: 740px)"
+$small: "only screen and (max-width: 640px)"
 
 body
   position: relative
   color: #5f5f5f
   font-family: 'Lucida Grande', Arial, 'Hiragino Kaku Gothic Pro', Meiryo, 'メイリオ', sans-serif
-  font-size: 15px
+  font-size: 14px
   line-height: 1.5
   margin: 1em 0
+  @media #{$small}
+    margin: 0
   a
     text-decoration: none
 
@@ -20,7 +22,7 @@ body
   text-align: center
   padding: 10px 20px
   @media #{$small}
-    margin: 10px auto
+    margin: 10px auto 0
     padding: 0
 
 .header-contents__site-title
@@ -29,8 +31,14 @@ body
   font-family: 'Lily Script One', cursive
   margin: 0
   @media #{$small}
-    font-size: 200%
-    padding: 0 0 10px
+    font-size: 180%
+    padding: 0
+
+.header-contents__site-description
+  padding: 10px 0 0
+  @media #{$small}
+    padding: 10px 0 20px
+    font-size: 12px
 
 .container
   margin: 0 auto
