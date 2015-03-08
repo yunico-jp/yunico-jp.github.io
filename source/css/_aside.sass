@@ -1,16 +1,28 @@
 @charset "utf-8"
 
-.sidebar
-  margin: 0 auto
+.about-yunico
+  border: solid 3px #e7e7e7
+  margin: 10px 0
+  @media #{$small}
+    padding: 30px 10px 10px
+.about-yunico__title
+  font-size: 17px
+  margin: 0
+  padding: 0
+.about-yunico__detail
+  text-align: left
+  @media #{$small}
+    margin: 10px 0
+
+.sub-contents
   background: #e7e7e7
+  margin: 0 auto
   @media #{$small}
     padding: 30px 10px 10px
 
 .sidebar__blog-article,
 .sidebar__tag,
-.sidebar__year,
-.sidebar__yunico
-  background: #e7e7e7
+.sidebar__year
   padding: 0 25px
   @media #{$small}
     background: none
@@ -19,7 +31,7 @@
 .sidebar__blog-article-box,
 .sidebar__tag-box,
 .sidebar__year-box,
-.sidebar__yunico-box
+.about-yunico-box
   text-align: center
   margin: 0 0 10px
   padding: 20px 20px 0
@@ -28,8 +40,7 @@
 
 .blog-article__title,
 .tag__title,
-.year__title,
-.yunico__title
+.year__title
   font-size: 17px
   margin: 0
   padding: 0
@@ -37,7 +48,7 @@
 .blog-article__sub,
 .tag__sub,
 .year__sub,
-.yunico__sub
+.about-yunico__sub
   color: #929292
   font-size: 12px
   margin: 0
@@ -54,9 +65,6 @@
     list-style-type: none
     line-height: 1.5
     margin: 0 0 0.5em
-
-.twitter-follow-button
-  margin: 10px 0 0 0
 
 .tag__list
   li

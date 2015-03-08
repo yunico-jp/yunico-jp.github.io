@@ -9,7 +9,7 @@ html
 
     /! Use title if it's in the page YAML frontmatter
     title
-      | yunicode#{ ("-" + current_article.title) unless current_article.nil?}
+      | Yunicode#{ ("-" + current_article.title) unless current_article.nil?}
 
     == stylesheet_link_tag "styles"
     == javascript_include_tag  "scripts"
@@ -43,7 +43,7 @@ html
         - else
           == yield
 
-        .sidebar.clearfix
+        .sidebar
           = partial "partials/sidebar"
 
         .footer-section.col-sm-12
