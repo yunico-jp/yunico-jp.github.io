@@ -5,10 +5,30 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-03-08T23:56:00+09:00</updated>
+  <updated>2015-03-10T00:14:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>まだ月曜日</title>
+    <link rel="alternate" href="http://blog.url.com/2015/03/09/still-monday.html"/>
+    <id>http://blog.url.com/2015/03/09/still-monday.html</id>
+    <published>2015-03-10T00:14:00+09:00</published>
+    <updated>2015-03-10T00:19:11+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。今日は帰り大雨すぎて笑いました。ビニル傘買った。&lt;/p&gt;
+
+&lt;p&gt;今日は盛りだくさんの１日で結構いろいろやったなあ〜と思ったけどまだ月曜日だった。他の人もそれぞれすごいがんばってるので負けてられないというより、刺激を受けて自分もがんばるぞって感じ。&lt;/p&gt;
+
+&lt;p&gt;今読んでる本はこれ。わかりやすい書き方でたすかります。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href="http://www.oreilly.co.jp/books/9784873115573/"&gt;インタフェースデザインの心理学――ウェブやアプリに新たな視点をもたらす100の指針&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+  </entry>
   <entry>
     <title>別れの季節であります</title>
     <link rel="alternate" href="http://blog.url.com/2015/03/08/season-of-farewell.html"/>
@@ -84,24 +104,6 @@
 
 &lt;p&gt;(*^^)v&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>知りたいことは大概Helperに書いてあるのだ</title>
-    <link rel="alternate" href="http://blog.url.com/2015/03/03/hinamatsuri.html"/>
-    <id>http://blog.url.com/2015/03/03/hinamatsuri.html</id>
-    <published>2015-03-03T22:35:00+09:00</published>
-    <updated>2015-03-03T23:33:10+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。middlemanのクソどうでもいいところで１日ぐらいハマってました。教えてもらったら普通にHelperに書いてあってしにたくなった。今後は詰まったらまず公式を見るのを忘れないようにします。&lt;/p&gt;
-
-&lt;p&gt;いま読んでる本はこれ&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href="http://www.amazon.co.jp/%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%BB%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3-%E4%BD%BF%E3%81%84%E3%82%84%E3%81%99%E3%81%84UI%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%AE%E7%A7%98%E8%A8%A3-Jakob-Nielsen/dp/4798133450"&gt;モバイル・ユーザビリティ 使いやすいUIデザインの秘訣&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
 </content>
   </entry>
 </feed>
