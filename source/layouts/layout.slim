@@ -36,6 +36,27 @@ html
                   li
                     = link_to tag_path tag
                       = tag
+
+            .shere-twitter
+              a class="twitter-share-button" href="https://twitter.com/share" data-url="http://yuni.co#{current_article.url}" data-via="yunico_jp" data-text="#{current_article.title}"
+                | Tweet
+                javascript:
+                  window.twttr = (function (d, s, id) {
+                    var t, js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) {
+                      return
+                    }
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "https://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                    return window.twttr || (t = {
+                              _e: [], ready: function (f) {
+                                t._e.push(f)
+                              }
+                            })
+                  }(document, "script", "twitter-wjs"));
+
             .paginate
               = link_to 'Indexへ戻る', '/index.html', relative: true
 
