@@ -33,12 +33,15 @@
   li
     margin: 0 5px 0 0
     list-style-type: none
-    padding: 2px
     display: inline
     font-size: 12px
-    background: #88C800
+    @media #{$small}
+      font-size: 13px
     a
       color: #ffffff
+      padding: 5px 8px
+      background: #88C800
+      border-radius: 3px
 
 .tag-label
   color: #ffffff

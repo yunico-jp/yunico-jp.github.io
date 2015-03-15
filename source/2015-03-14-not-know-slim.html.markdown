@@ -4,7 +4,7 @@ date: 2015-03-14 14:47 UTC
 tags:
   - Soliloquy
 ---
-![ショートケーキ](images/codecake.svg){:width="100px" style="display:inline;"}
+![ショートケーキ](images/codecake.svg){:width="15%" style="display:inline;"}
 
 こんにちは！yunico.nagataです。
 
