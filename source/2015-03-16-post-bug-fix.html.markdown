@@ -1,5 +1,5 @@
 ---
-title: post-bug-fix
+title: 数カ所直したよ！どこでしょうか？
 date: 2015-03-16 17:32 JST
 tags:
   - slim
