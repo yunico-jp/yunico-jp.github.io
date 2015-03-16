@@ -31,8 +31,9 @@ fieldset.about-yunico.col-sm-12
     ul.blog-article__list
       - blog.articles[0...7].each do |article|
         li
-          span.fa.fa-file-text-o
-          = link_to article.title, article
+          = link_to article
+            span.fa.fa-file-text-o
+            = article.title
 
   fieldset.sidebar__tag.col-sm-4
     .sidebar__tag-box
