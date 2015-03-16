@@ -1,6 +1,6 @@
 ---
 title: デザインをさわる
-date: 2015-03-05 14:37 UTC
+date: 2015-03-05
 tags:
   - Design
   - Slim

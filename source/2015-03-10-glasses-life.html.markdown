@@ -1,6 +1,6 @@
 ---
 title: メガネの日々とAppleWatch
-date: 2015-03-10 07:39 UTC
+date: 2015-03-10
 tags:
   - Soliloquy
 ---

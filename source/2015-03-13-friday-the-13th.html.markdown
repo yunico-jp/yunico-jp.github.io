@@ -1,6 +1,6 @@
 ---
 title: 13日の金曜日
-date: 2015-03-13 14:29 UTC
+date: 2015-03-13
 tags:
   - Soliloquy
 ---

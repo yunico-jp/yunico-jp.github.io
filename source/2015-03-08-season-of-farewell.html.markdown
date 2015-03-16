@@ -1,6 +1,6 @@
 ---
 title: 別れの季節であります
-date: 2015-03-08 14:56 UTC
+date: 2015-03-08
 tags:
   - Soliloquy
 ---

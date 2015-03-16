@@ -1,6 +1,6 @@
 ---
 title: 3月11日　震災から4年
-date: 2015-03-11 14:46 UTC
+date: 2015-03-11
 tags:
   - Soliloquy
 ---

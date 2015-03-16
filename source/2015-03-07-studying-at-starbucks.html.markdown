@@ -1,6 +1,6 @@
 ---
 title: スタバで自習
-date: 2015-03-07 15:36 UTC
+date: 2015-03-07
 tags:
   - Design
   - Slim

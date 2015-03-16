@@ -1,6 +1,6 @@
 ---
 title: 知りたいことは大概Helperに書いてあるのだ
-date: 2015-03-03 13:35 UTC
+date: 2015-03-03
 tags:
   - slim
   - reading

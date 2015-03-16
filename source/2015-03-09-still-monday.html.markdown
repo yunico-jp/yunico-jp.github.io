@@ -1,6 +1,6 @@
 ---
 title: まだ月曜日
-date: 2015-03-09 15:14 UTC
+date: 2015-03-09
 tags:
   - Soliloquy
 ---

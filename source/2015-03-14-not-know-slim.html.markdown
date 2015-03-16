@@ -1,6 +1,6 @@
 ---
 title: 頭の働かない1日
-date: 2015-03-14 14:47 UTC
+date: 2015-03-14
 tags:
   - Soliloquy
 ---

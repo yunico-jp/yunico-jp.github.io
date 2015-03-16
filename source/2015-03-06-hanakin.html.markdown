@@ -1,6 +1,6 @@
 ---
 title: レスポンシブのコーディングたのしい
-date: 2015-03-06 15:05 UTC
+date: 2015-03-06
 tags:
   - Design
   - sass

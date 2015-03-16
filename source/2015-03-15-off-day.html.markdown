@@ -1,6 +1,6 @@
 ---
 title: 何もしない日でした
-date: 2015-03-15 14:40 UTC
+date: 2015-03-15
 tags:
   - Soliloquy
 ---

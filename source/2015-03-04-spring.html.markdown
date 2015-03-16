@@ -1,6 +1,6 @@
 ---
 title: 春っぽくなってきた
-date: 2015-03-04 10:26 UTC
+date: 2015-03-04
 tags:
   - Soliloquy
 ---
