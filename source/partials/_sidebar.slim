@@ -5,7 +5,7 @@ fieldset.about-yunico.col-sm-12
     p.about-yunico__sub
       | about
     p.about-yunico__detail
-      | 永田ゆにこの個人ブログです。ニックネームは「ゆにこ」。日々の勉強についてつらつらと記しています。いわゆる日記です。
+      | 永田ゆにこの個人ブログです。ニックネームは「ゆにこ」。日々の勉強について記しています。このブログはGithubPageとMiddlemanでできています。
       = link_to 'もっとくわしくはこちら', '/about.html', relative: true
 
     a.twitter-follow-button[href="https://twitter.com/yunico_jp" data-show-count="false" data-size="large"]
@@ -44,7 +44,9 @@ fieldset.about-yunico.col-sm-12
     ul.tag__list
       - blog.tags.each do |tag, articles|
         li
-          = link_to "#{tag} (#{articles.size})", tag_path(tag)
+          = link_to tag_path(tag)
+            span.fa.fa-tag
+            = "#{tag} (#{articles.size})"
 
   fieldset.sidebar__year.col-sm-4
     .sidebar__year-box
