@@ -1,10 +1,13 @@
 @charset "utf-8"
 
+.article-body
+  margin: 0 0 20px
+
 .article-box
   margin: 0 0 35px
 
 .post-head
-  padding: 0px 0 20px
+  padding: 0px 0 15px
   color: #333333
   @media #{$small}
     padding: 0px 0 10px
@@ -31,17 +34,19 @@
   @media #{$small}
     display: inline
   li
-    margin: 0 5px 0 0
     list-style-type: none
     display: inline
     font-size: 12px
     @media #{$small}
       font-size: 13px
+      margin: 0 5px 0 0
     a
       color: #ffffff
       padding: 5px 8px
       background: #88C800
       border-radius: 3px
+      .fa-tag
+        padding: 0 3px 0 0
 
 .tag-label
   color: #ffffff
