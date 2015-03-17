@@ -29,8 +29,8 @@ html
                 = current_article.title
               p.post-head__date
                 = current_article.date.strftime('%Y.%m.%d')
-
-            == yield
+            .article-body
+              == yield
 
             - if current_page.data.tags.size > 0
               ul.post-head__tag-labels
