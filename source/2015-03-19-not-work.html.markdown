@@ -1,0 +1,12 @@
+---
+title: Middlemanわからん＼(^o^)／
+date: 2015-03-19 23:12 JST
+tags:
+- Middleman
+---
+
+こんにちは！yunico.nagataです。Middlemanで盛大につまずいています⊂(^▽^,,⊂⌒｀つ≡≡≡
+
+公式ドキュメントすごい用意されているのだけど、もっと初心者向けにたのむで…！
+
+>[ブログ機能](https://middlemanapp.com/jp/basics/blogging/)
