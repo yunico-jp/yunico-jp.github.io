@@ -10,23 +10,23 @@
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>「もっと読む」を追加しました</title>
+    <title>「続きを読む」を追加しました</title>
     <link rel="alternate" href="http://blog.url.com/2015/03/20/add-readmore.html"/>
     <id>http://blog.url.com/2015/03/20/add-readmore.html</id>
     <published>2015-03-20T22:23:00+09:00</published>
-    <updated>2015-03-20T22:49:53+09:00</updated>
+    <updated>2015-03-20T23:25:10+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。花金〜。ですが引きこもって残タスクをこなす。&lt;/p&gt;
 
-&lt;p&gt;さて、ずっとつけたかった長い記事を折り畳む「もっと読む」機能をリリースしました！&lt;/p&gt;
+&lt;p&gt;さて、ずっとつけたかった長い記事を折り畳む「続きを読む」機能をリリースしました！&lt;/p&gt;
 
 &lt;p&gt;昨日ハマってたのはそのへんです。もう無理すぎて&lt;a href="https://github.com/kozyty"&gt;@kozyty&lt;/a&gt;先生に助けて頂きました。１時間悩んでもできなかった箇所をほんの10分程度教えて頂いたらできた。精進致します、、&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
 
-&lt;p&gt;参考にしたのはこのへん&lt;/p&gt;
+&lt;p&gt;参考にしたのはこのへんでした。&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href="https://middlemanapp.com/jp/basics/blogging/"&gt;Middleman ブログ機能&lt;/a&gt;&lt;/li&gt;
