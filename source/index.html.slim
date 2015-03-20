@@ -20,7 +20,8 @@ per_page: 7
             = article.date.strftime('%Y.%m.%d')
 
       .article-body
-        = article.body
+        = article.summary(500)
+        = link_to 'もっと読む', article
 
       - if article.tags.size > 0
         ul.post-head__tag-labels

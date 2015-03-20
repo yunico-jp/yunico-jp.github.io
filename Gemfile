@@ -18,3 +18,4 @@ gem "builder", "~> 3.0"
 gem 'redcarpet'
 gem 'slim'
 gem 'middleman-minify-html'
+gem 'nokogiri'

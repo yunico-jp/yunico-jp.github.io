@@ -30,6 +30,9 @@ activate :blog do |blog|
   blog.paginate = true
   blog.per_page = 15
   blog.page_link = "page/{num}"
+
+  # Summary
+  blog.summary_separator = /SPLIT_SUMMARY_BEFORE_THIS/
 end
 
 page "/feed.xml", layout: false
@@ -117,3 +120,4 @@ set :slim, { :pretty => true, :sort_attrs => false, :format => :html5 }
 configure :build do
   activate :minify_html, :remove_quotes => false, :remove_intertag_spaces => true
 end
+
