@@ -33,7 +33,7 @@ html
             .article-body
               == yield
 
-            - if current_page.data.tags.size > 0
+            - if current_page.data.tags.present? && current_page.data.tags.size > 0
               ul.post-head__tag-labels
                 - current_page.data.tags.each do |tag|
                   li

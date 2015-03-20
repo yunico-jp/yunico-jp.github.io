@@ -32,7 +32,7 @@ activate :blog do |blog|
   blog.page_link = "page/{num}"
 
   # Summary
-  blog.summary_separator = /SPLIT_SUMMARY_BEFORE_THIS/
+  blog.summary_separator = /READMORE/
 end
 
 page "/feed.xml", layout: false
