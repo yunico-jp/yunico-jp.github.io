@@ -5,16 +5,41 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-03-19T23:12:00+09:00</updated>
+  <updated>2015-03-20T22:23:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>「もっと読む」を追加しました</title>
+    <link rel="alternate" href="http://blog.url.com/2015/03/20/add-readmore.html"/>
+    <id>http://blog.url.com/2015/03/20/add-readmore.html</id>
+    <published>2015-03-20T22:23:00+09:00</published>
+    <updated>2015-03-20T22:49:53+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。花金〜。ですが引きこもって残タスクをこなす。&lt;/p&gt;
+
+&lt;p&gt;さて、ずっとつけたかった長い記事を折り畳む「もっと読む」機能をリリースしました！&lt;/p&gt;
+
+&lt;p&gt;昨日ハマってたのはそのへんです。もう無理すぎて&lt;a href="https://github.com/kozyty"&gt;@kozyty&lt;/a&gt;先生に助けて頂きました。１時間悩んでもできなかった箇所をほんの10分程度教えて頂いたらできた。精進致します、、&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;参考にしたのはこのへん&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://middlemanapp.com/jp/basics/blogging/"&gt;Middleman ブログ機能&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://qiita.com/AknEp/items/c32f82622c7055817e3e"&gt;Middleman(middleman-blog)で続きがないときに「続きを読む(READMORE)」を表示しない&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Middlemanわからん＼(^o^)／</title>
     <link rel="alternate" href="http://blog.url.com/2015/03/19/not-work.html"/>
     <id>http://blog.url.com/2015/03/19/not-work.html</id>
     <published>2015-03-19T23:12:00+09:00</published>
-    <updated>2015-03-19T23:24:40+09:00</updated>
+    <updated>2015-03-20T09:54:32+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -32,7 +57,7 @@
     <link rel="alternate" href="http://blog.url.com/2015/03/18/spring-day.html"/>
     <id>http://blog.url.com/2015/03/18/spring-day.html</id>
     <published>2015-03-18T19:41:00+09:00</published>
-    <updated>2015-03-18T19:50:14+09:00</updated>
+    <updated>2015-03-20T22:23:16+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -99,25 +124,6 @@
     <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。今日は徹底的に何もしませんでした。来週がんばるから…&lt;/p&gt;
 
 &lt;p&gt;でもちょっとだけデザイン触ります。罪滅ぼし的に…。モバイル対応のときの見た目をもう少しちゃんとしようと思います。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>頭の働かない1日</title>
-    <link rel="alternate" href="http://blog.url.com/2015/03/14/not-know-slim.html"/>
-    <id>http://blog.url.com/2015/03/14/not-know-slim.html</id>
-    <published>2015-03-14T00:00:00+09:00</published>
-    <updated>2015-03-16T17:28:08+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;img alt="ショートケーキ" width="15%" style="display:inline;" src="/images/codecake.svg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;こんにちは！yunico.nagataです。&lt;/p&gt;
-
-&lt;p&gt;slim…というかRuby的なところで詰まって進まなくなってしまったむずいー。今日は全般的に全然頭の働かない1日だった。勉強もさぼってしまいだめだなー。&lt;/p&gt;
-
-&lt;p&gt;上のはフラットデザインふうケーキです。SVGで書き出してみるテスト。&lt;a href="http://orange.half-life2.com/portal.html"&gt;cake is a lie.&lt;/a&gt;&lt;/p&gt;
-
 </content>
   </entry>
 </feed>
