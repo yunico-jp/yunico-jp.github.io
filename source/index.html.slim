@@ -22,7 +22,9 @@ per_page: 7
       .article-body
         = article.summary
         - unless article.summary == article.body
-          = link_to 'もっと読む', article
+          = link_to  article, :class => 'readmore-btn'
+            span.fa.fa-hand-o-right
+            = '続きを読む'
 
       - if article.tags.size > 0
         ul.post-head__tag-labels
