@@ -57,4 +57,6 @@ fieldset.about-yunico.col-sm-12
     ul.year__list
       - blog.articles.group_by { |a| a.date.year }.each do |year, articles|
         li
-          = link_to "#{year} (#{articles.size})", blog_year_path(year)
+          = link_to  blog_year_path(year)
+            span.fa.fa-calendar
+            = "#{year} (#{articles.size})"

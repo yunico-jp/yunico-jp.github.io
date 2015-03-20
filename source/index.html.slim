@@ -20,7 +20,7 @@ per_page: 7
             = article.date.strftime('%Y.%m.%d')
 
       .article-body
-        = article.summary(500)
+        = article.summary
         - unless article.summary == article.body
           = link_to 'もっと読む', article
 
