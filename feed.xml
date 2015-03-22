@@ -5,10 +5,26 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-03-21T23:47:00+09:00</updated>
+  <updated>2015-03-23T00:34:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>ずっとプレゼン資料を作り続けている</title>
+    <link rel="alternate" href="http://blog.url.com/2015/03/23/sunday-night.html"/>
+    <id>http://blog.url.com/2015/03/23/sunday-night.html</id>
+    <published>2015-03-23T00:34:00+09:00</published>
+    <updated>2015-03-23T00:41:42+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。あー！12時過ぎちゃったので日付が23日になっちゃったよぉ…！&lt;/p&gt;
+
+&lt;p&gt;さて、火曜日のデザイナーTechLunchに向けてプレゼン資料を作っています。大したものではございませんが。プレゼンに合わせてこのブログを正式リリースとしたいのだけど、マークダウン記法あたりのデザインが間に合う気配がしない…&lt;/p&gt;
+
+&lt;p&gt;読んだ本の感想とかも置きたいけどまだkobitoに書き溜めたままや〜いそげ〜&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>プレゼン資料を作らNight</title>
     <link rel="alternate" href="http://blog.url.com/2015/03/21/ufo-catcher.html"/>
@@ -111,22 +127,6 @@
 
 &lt;p&gt;勉強会で話そうと思ってまとめた部分をひろぽ先輩に見てもらったりした。ソーシャルコーディング楽しいよ〜とか言いたいな。それにしても大したことでなくても毎日続けるということはそこそこ大変だ。ちょいちょいさぼったりもしてしまったけど、一ヶ月半ぐらいこの日記を続けられている。さすがにslim sassに関しては慣れてきましたぞ。&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>数カ所直したよ！どこでしょうか？</title>
-    <link rel="alternate" href="http://blog.url.com/2015/03/16/post-bug-fix.html"/>
-    <id>http://blog.url.com/2015/03/16/post-bug-fix.html</id>
-    <published>2015-03-16T17:32:00+09:00</published>
-    <updated>2015-03-16T21:59:34+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。月曜日です！&lt;/p&gt;
-
-&lt;p&gt;昨日1時間ぐらいハマってやめたところ、今日会社の人に聞いたら１分ぐらいで解決した。なんてことだ…&lt;/p&gt;
-
-&lt;p&gt;その他にも気になっていた点をいくつか教えて頂いて助かりました。感謝。わたしも自分ができることで恩返ししていくぞ！ありがとうございました＜(_ _)＞&lt;/p&gt;
 </content>
   </entry>
 </feed>
