@@ -5,10 +5,38 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-03-24T10:53:00+09:00</updated>
+  <updated>2015-03-24T22:04:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>社内のデザイナーTechLunchで発表しました</title>
+    <link rel="alternate" href="http://blog.url.com/2015/03/24/designer-tech-lunch.html"/>
+    <id>http://blog.url.com/2015/03/24/designer-tech-lunch.html</id>
+    <published>2015-03-24T22:04:00+09:00</published>
+    <updated>2015-03-24T23:49:13+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。今日は社内でデザイナーによるTechLunchがあり、このブログ（yuni.co）について発表しました。合わせて、いままで超絶適当にやってきたこのブログも本日で正式リリースとします。&lt;/p&gt;
+
+&lt;script async="" class="speakerdeck-embed" data-id="aae9362c91e047d2b1ee52289e40acd7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;難しいものを難しく説明することが大嫌いなので、基本体験談を話すときは「簡単だったよ〜」って言うようにしているのですが、資料の最後にも書いたけどMiddleman正直全然簡単じゃなかった。その昔、&lt;a href="http://www.slideshare.net/yunico/wordcamp-yokohama2010"&gt;MovableTypeがごはんならWordPressはパンだ！&lt;/a&gt;というプレゼンをしましたが、それで例えるとMiddlemanは蒙古タンメン中本の北極。初心者がいきなりパクパク食べられる代物ではないかもしれない、、それにしても何かを食べ物で例える手法は５年経っても変わっていない。今回はケーキです。以下裏話。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;そもそもは、会社の新年会でたまたま同じテーブルになった&lt;a href="http://hiropo.co.uk/"&gt;ひろぽ先輩@funnythingz&lt;/a&gt;に「なんか新しいことやりたいんですよね〜できればSlimとSassを使って」みたいなことをぽろっと話したのがキッカケだったと思います。&lt;/p&gt;
+
+&lt;p&gt;そのとき丁度周りの人が新しいことを始めたりしていて、ひろぽ先輩も今をときめくGolangで&lt;a href="http://plog.link/"&gt;plog&lt;/a&gt;ていう匿名掲示板っぽいものを作ってる最中で、わたしも何かやりたいよ〜でもやる気はあるけど何やっていいかわからん〜ていう相談をそこでして。それならMiddlemanていうのがありますよ、それならSlimとか使えますよ、というのを教えて頂き、まじすか！めちゃんこやりたいっす！！！ってなって次の日から早速作り始めました。&lt;/p&gt;
+
+&lt;p&gt;と言っても冒頭で述べたように、Rubyもわからないただのデザイナーがいきなり作り始められる訳がなく、ひろぽ先輩にはむちゃくちゃ助けて頂きました。エラーとかも全然わからないし何度も心が折れそうになったけど、なんとか完成させることができて、しかもそれをちゃんとまとめて発表することもできてよかった！最高の体験！最高のUX！（言いたい）&lt;/p&gt;
+
+&lt;p&gt;Githubもこんなに好きになるとは思わなかったな〜。これはもうずっと言ってるけど本当に&lt;a href="https://twitter.com/kozyty"&gt;こじてぃ先生@kozyty&lt;/a&gt;のおかげ。今年はこの「好き」を原動力に変えて、Gitを題材に何か一発やりたいと思っているのでそれもがんばるぞ。今回こうやって色んな人に教えてもらったから、わたしも誰かが困ってたらどんどん助けるぞ！ペイフォワード！&lt;/p&gt;
+
+&lt;p&gt;このブログはゆくゆくはポートフォリオ的なものにしていこうかなと思っています。まじめなことかくぞ！！１&lt;a href="http://yunico.hatenablog.com/"&gt;くだらないことはこちらに書いています。&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>デザイナーTechLunchでデモしてます</title>
     <link rel="alternate" href="http://blog.url.com/2015/03/24/hogehoge.html"/>
@@ -96,24 +124,6 @@
   &lt;li&gt;&lt;a href="https://middlemanapp.com/jp/basics/blogging/"&gt;Middleman ブログ機能&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://qiita.com/AknEp/items/c32f82622c7055817e3e"&gt;Middleman(middleman-blog)で続きがないときに「続きを読む(READMORE)」を表示しない&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Middlemanわからん＼(^o^)／</title>
-    <link rel="alternate" href="http://blog.url.com/2015/03/19/not-work.html"/>
-    <id>http://blog.url.com/2015/03/19/not-work.html</id>
-    <published>2015-03-19T23:12:00+09:00</published>
-    <updated>2015-03-23T22:28:32+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。Middlemanで盛大につまずいています⊂(^▽^,,⊂⌒｀つ≡≡≡&lt;/p&gt;
-
-&lt;p&gt;公式ドキュメントすごい用意されているのだけど、もっと初心者向けにたのむで…！&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href="https://middlemanapp.com/jp/basics/blogging/"&gt;ブログ機能&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
 </content>
   </entry>
 </feed>
