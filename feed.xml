@@ -5,16 +5,38 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-03-24T22:04:00+09:00</updated>
+  <updated>2015-03-25T22:18:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Yunicodeの由来とGitへの想いについて</title>
+    <link rel="alternate" href="http://blog.url.com/2015/03/25/june29-naming-yunicode.html"/>
+    <id>http://blog.url.com/2015/03/25/june29-naming-yunicode.html</id>
+    <published>2015-03-25T22:18:00+09:00</published>
+    <updated>2015-03-25T23:35:37+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。今日は@wadapにRSSfeedが抜けていることを指摘され、さっそく整備しました！RSS登録してね！&lt;/p&gt;
+
+&lt;p&gt;さて、yuni.coを正式に公開して、資料にまとめてみて、まだ抜けているところはあるものの、一旦落ち着いた感あります。そこでふと、まだ作りだしてすぐの奮闘している時期のことを思い出したので書いておこう。&lt;/p&gt;
+
+&lt;p&gt;その頃はようやくMiddlemanをGithubPagesに載せられたか載せられてないかぐらいのときで、まだ全然扱いにも慣れてないし本当に使いこなせるのかこれ？と、若干ひろぽ先輩を疑い始めていた時期だったのだけど、お友達の&lt;a href="https://twitter.com/mamipeko"&gt;まみぺこちゃん&lt;/a&gt;の作っているインターネットちゃんブログに出させてもらうことになって、まみぺこちゃんの家がある蒲田に生まれて初めて降り立った。&lt;/p&gt;
+
+&lt;p&gt;まみぺこちゃんの旦那さんである&lt;a href="https://twitter.com/june29"&gt;じゅんさん@june29&lt;/a&gt;に初めて会って、じゅんさんはめっちょRubyの人ぽかったので早速MiddlemanとGithubPagesの話をしたら、すごい盛り上がりそこからノンストップで4時間ぐらい話し込んで。MiddlemanBlogいいですね！って言ってもらえて諦めずにやるぞってやる気出た。そのときはまだブログ名が仮でyuni.coだったんだけど、じゅんさんが「そこは‘ゆにこーど’がいいんじゃない？」って言ってまみぺこちゃんもいいね〜って笑っていたから、帰って来てすぐブログ名をゆにこ〜どにした。いまはひらがなからローマ字でYunicodeになってますが原点はそこ。&lt;/p&gt;
+
+&lt;p&gt;まみぺこちゃんのブログ、インターネットちゃんブログでは&lt;a href="http://mamipeko.hatenablog.jp/entry/github"&gt;Githubがすきだ〜〜&lt;/a&gt;っていうのを載せてもらいました。本当は去年GitGitたくさん言ってイベントとかも出たし、今年はもうGitは置いておいて別のことを勉強しなきゃなって思ってたけど、Gitのツールとしてとてもまじめで優秀なところとか、Githubの人とやりとりする楽しさとか、Octcatのかわいみとか、「Gitなんてただのツールじゃん」っていう人もいるけれど、わたしはやっぱGitとGithubが大好き！！好きなことも続けつつ他のことやる！できるできないは置いといて好きなものは好きだといいたい！&lt;/p&gt;
+
+&lt;p&gt;そして、先日@kozytyせんせいがGitでおもしろいことしたいって言い出したのでお手伝いすることに決めました。しっかりやりたいと思います。もちろん、Gitばっかやってないで他のSlim,sass,UID,UXとかもやります。本当です。というわけで今年はいろいろいそがしい！でもどれも楽しみだ！いっぱいがんばるぞ！&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>社内のデザイナーTechLunchで発表しました</title>
     <link rel="alternate" href="http://blog.url.com/2015/03/24/designer-tech-lunch.html"/>
     <id>http://blog.url.com/2015/03/24/designer-tech-lunch.html</id>
     <published>2015-03-24T22:04:00+09:00</published>
-    <updated>2015-03-24T23:49:13+09:00</updated>
+    <updated>2015-03-25T23:37:10+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -28,13 +50,13 @@
 
 &lt;p&gt;そもそもは、会社の新年会でたまたま同じテーブルになった&lt;a href="http://hiropo.co.uk/"&gt;ひろぽ先輩@funnythingz&lt;/a&gt;に「なんか新しいことやりたいんですよね〜できればSlimとSassを使って」みたいなことをぽろっと話したのがキッカケだったと思います。&lt;/p&gt;
 
-&lt;p&gt;そのとき丁度周りの人が新しいことを始めたりしていて、ひろぽ先輩も今をときめくGolangで&lt;a href="http://plog.link/"&gt;plog&lt;/a&gt;ていう匿名掲示板っぽいものを作ってる最中で、わたしも何かやりたいよ〜でもやる気はあるけど何やっていいかわからん〜ていう相談をそこでして。それならMiddlemanていうのがありますよ、それならSlimとか使えますよ、というのを教えて頂き、まじすか！めちゃんこやりたいっす！！！ってなって次の日から早速作り始めました。&lt;/p&gt;
+&lt;p&gt;そのとき丁度周りの人が新しいことを始めたりしていて、ひろぽ先輩も今をときめくGolangで&lt;a href="http://plog.link/"&gt;plog&lt;/a&gt;ていう匿名掲示板っぽいものを作ってる最中で、わたしも何かやりたいよ〜でもやる気はあるけど何やっていいかわからん〜ていう相談をそこでして。それならMiddlemanていうのがありますよ、Slimとか使えますよ、というのを教えて頂き、まじすか！めちゃんこやりたいっす！！！ってなって次の日から早速作り始めました。&lt;/p&gt;
 
 &lt;p&gt;と言っても冒頭で述べたように、Rubyもわからないただのデザイナーがいきなり作り始められる訳がなく、ひろぽ先輩にはむちゃくちゃ助けて頂きました。エラーとかも全然わからないし何度も心が折れそうになったけど、なんとか完成させることができて、しかもそれをちゃんとまとめて発表することもできてよかった！最高の体験！最高のUX！（言いたい）&lt;/p&gt;
 
 &lt;p&gt;Githubもこんなに好きになるとは思わなかったな〜。これはもうずっと言ってるけど本当に&lt;a href="https://twitter.com/kozyty"&gt;こじてぃ先生@kozyty&lt;/a&gt;のおかげ。今年はこの「好き」を原動力に変えて、Gitを題材に何か一発やりたいと思っているのでそれもがんばるぞ。今回こうやって色んな人に教えてもらったから、わたしも誰かが困ってたらどんどん助けるぞ！ペイフォワード！&lt;/p&gt;
 
-&lt;p&gt;このブログはゆくゆくはポートフォリオ的なものにしていこうかなと思っています。まじめなことかくぞ！！１&lt;a href="http://yunico.hatenablog.com/"&gt;くだらないことはこちらに書いています。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;このブログはゆくゆくはポートフォリオ的なものにしていこうかなと思っています。まじめなことかく！！&lt;a href="http://yunico.hatenablog.com/"&gt;くだらないことはこちらに書いています。&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -99,31 +121,6 @@
 
 &lt;p&gt;やるっきゃNight!&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>「続きを読む」を追加しました</title>
-    <link rel="alternate" href="http://blog.url.com/2015/03/20/add-readmore.html"/>
-    <id>http://blog.url.com/2015/03/20/add-readmore.html</id>
-    <published>2015-03-20T22:23:00+09:00</published>
-    <updated>2015-03-23T22:28:32+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。花金〜。ですが引きこもって残タスクをこなす。&lt;/p&gt;
-
-&lt;p&gt;さて、ずっとつけたかった長い記事を折り畳む「続きを読む」機能をリリースしました！&lt;/p&gt;
-
-&lt;p&gt;昨日ハマってたのはそのへんです。もう無理すぎて&lt;a href="https://github.com/kozyty"&gt;@kozyty&lt;/a&gt;先生に助けて頂きました。１時間悩んでもできなかった箇所をほんの10分程度教えて頂いたらできた。精進致します、、&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;参考にしたのはこのへんでした。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://middlemanapp.com/jp/basics/blogging/"&gt;Middleman ブログ機能&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://qiita.com/AknEp/items/c32f82622c7055817e3e"&gt;Middleman(middleman-blog)で続きがないときに「続きを読む(READMORE)」を表示しない&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content>
   </entry>
 </feed>
