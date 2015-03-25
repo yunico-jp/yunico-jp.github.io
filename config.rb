@@ -6,7 +6,7 @@ Time.zone = "Tokyo"
 
 activate :blog do |blog|
 
-  blog.name = 'blog name'
+  blog.name = 'Yunicode'
 
   # This will add a prefix to all links, template references and source paths
   # blog.prefix = "blog"
