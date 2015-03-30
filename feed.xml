@@ -5,120 +5,2466 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-03-27T23:43:00+09:00</updated>
+  <updated>2015-03-30T15:57:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>リフレッシュ休暇をいただいておりました</title>
-    <link rel="alternate" href="http://blog.url.com/2015/03/27/refreshment-leave.html"/>
-    <id>http://blog.url.com/2015/03/27/refreshment-leave.html</id>
-    <published>2015-03-27T23:43:00+09:00</published>
-    <updated>2015-03-28T00:01:41+09:00</updated>
+    <title>【読書メモ】iPhoneアプリ設計の極意 ―思わずタップしたくなるアプリのデザイン</title>
+    <link rel="alternate" href="http://blog.url.com/2015/03/30/secret-design-of-iphone-app.html"/>
+    <id>http://blog.url.com/2015/03/30/secret-design-of-iphone-app.html</id>
+    <published>2015-03-30T15:57:00+09:00</published>
+    <updated>2015-03-30T23:30:36+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。今日はリフレッシュ休暇という、なんかリフレッシュしてね！っていうお休みをいただいたので池袋辺りをブラブラしてました。
-と、その前に今日から３連休だと言ってるのに会社に財布を忘れて、近所に住むひろぽ先輩に隣駅まで持って来ていただきました…本当にすみませんでした…&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;a href="http://www.amazon.co.jp/iPhone%E3%82%A2%E3%83%97%E3%83%AA%E8%A8%AD%E8%A8%88%E3%81%AE%E6%A5%B5%E6%84%8F-%E2%80%95%E6%80%9D%E3%82%8F%E3%81%9A%E3%82%BF%E3%83%83%E3%83%97%E3%81%97%E3%81%9F%E3%81%8F%E3%81%AA%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-Josh-Clark/dp/4873115027"&gt;iPhoneアプリ設計の極意 ―思わずタップしたくなるアプリのデザイン&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;３ヶ月で読もうと思っていた課題図書的な本を全部読み終えることができたので、随時まとめなどを上げてきたいと思います。&lt;/p&gt;
+&lt;h1 id="section"&gt;感想&lt;/h1&gt;
+&lt;p&gt;普段何気なく使っているiPhoneの所作について改めて丁寧に解説してある一冊。無意識のうちにすらすらと使っていた「使いやすさ」の裏には何があるの？どうして無意識に使いやすいと感じるの？がきちんと分かる。iPhoneアプリにこれから携わる、という人は必読かも。各章の終わりに、わかりやすい章の要約がまとめられているので、それを読み返すだけでもかなり参考になる。
+キャプやiOSの動作が少し古かったりするのだけれど、基本的に大事な部分はほぼ変わらず。iPhoneアプリを開発するなら、この一冊&amp;amp;Appleのガイドラインでちゃんと「お約束」を確認しておくべきであった。&lt;/p&gt;
+
+&lt;p&gt;以下、自分用要約まとめ。
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id="section-1"&gt;素早い操作&lt;/h1&gt;
+
+&lt;h3 id="section-2"&gt;まとめ&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;「５つのW」に焦点を合わせ、アプリがタップする価値のあるものとなる条件を明確にする&lt;/li&gt;
+  &lt;li&gt;机から離れた状況で使う為の機能に集中させる。&lt;/li&gt;
+  &lt;li&gt;「マイクロタスク」「ここでしかできないこと」「退屈だな〜」を念頭に置いて開発&lt;/li&gt;
+  &lt;li&gt;自分のアプリを類似アプリから差別かする内容を見極める&lt;/li&gt;
+  &lt;li&gt;「スキル」「カリスマ性」&lt;/li&gt;
+  &lt;li&gt;データを途中でほじゅうできるようにしたりコミュニティを形成できるようにしたりして長く使ってもらえるようにする&lt;/li&gt;
+  &lt;li&gt;構想は大きく、実装は小さく&lt;/li&gt;
+  &lt;li&gt;Webサイトのアプリ版を作るときはiPhoneで使うプラスαのメリットを生み出す方法を検討する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-3"&gt;小さなタッチスクリーン&lt;/h1&gt;
+
+&lt;h3 id="ui"&gt;カスタムUIパーツ作成のヒント&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;ページを開いたときにナビゲーションバーにアニメーションを使って、メニュー項目が画面左からスライドして入ってくる→右側にもメニューがあるよっていう覚えてもらい方&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-4"&gt;フラットページ　ページインジケーター&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;最初の画面から最後の画面に直接ジャンプはできない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-5"&gt;まとめ&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;人間工学的配慮が必要。手に持ったときのアプリの操作感を考える&lt;/li&gt;
+  &lt;li&gt;主要なUIパーツは親指の届く「ホットゾーン」に置く&lt;/li&gt;
+  &lt;li&gt;マジックナンバーは４４。タップ領域は少なくとも４４pxにし、４４pxのリズムでデザインをする&lt;/li&gt;
+  &lt;li&gt;空間には余裕を持ち、画面をスッキリさせる&lt;/li&gt;
+  &lt;li&gt;主要な情報は画面上部に。主要なUIパーツは画面下部に配置&lt;/li&gt;
+  &lt;li&gt;主要なUIパーツはタップしやすいところに固定。可能ならスクロールはしない&lt;/li&gt;
+  &lt;li&gt;飾りを減らし、高機能なツールは秘密のパネルや隠し扉を使って表示する補助画面に移動させる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-6"&gt;デザインを始める前に&lt;/h1&gt;
+
+&lt;h3 id="section-7"&gt;まとめ&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Appleのデザインセンスを生かそう&lt;/li&gt;
+  &lt;li&gt;Apple標準のナビゲーションモデルは、フラットページ・タブバー・ツリー構造の３種類。適切な物を選ぼう&lt;/li&gt;
+  &lt;li&gt;いきなりピクセルレベルの作業に飛び込んだりせず、加味の上で全体像を考える&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="ui-1"&gt;標準のUIパーツ&lt;/h1&gt;
+
+&lt;h3 id="section-8"&gt;ナビゲーションバー&lt;/h3&gt;
+&lt;p&gt;「戻る」ボタンの位置は絶対的なもの。ナビゲーションバーの左側がこのボタンの定位置。これ以外のUIパーツをここに置くことは避ける。&lt;/p&gt;
+
+&lt;h3 id="section-9"&gt;バーのアイコン&lt;/h3&gt;
+&lt;p&gt;標準のボタンを利用すれば無駄な労力をかけずに済み、ユーザーが意味のわからないアイコンを見つけて首を傾げることがなくなる。アイコンのカタチに別の意味があってもその意味で使ってはいけない。&lt;/p&gt;
+
+&lt;h3 id="section-10"&gt;テーブルビュー&lt;/h3&gt;
+&lt;p&gt;iPhoneで使われる標準尾テーブルビューはリストのことを差す&lt;/p&gt;
+
+&lt;h3 id="section-11"&gt;まとめ&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;標準のUIパーツを利用する。見慣れたものには権威がある&lt;/li&gt;
+  &lt;li&gt;画面内にバーは２種類まで。画面上部にはナビゲーションバー、下部にはタブバーかツールバーのどちらか。&lt;/li&gt;
+  &lt;li&gt;検索バーは画面上に固定するのではなく、スクロールする部分に入れてしまおう&lt;/li&gt;
+  &lt;li&gt;テキストフィールドではどのキーボードを使うかよく検討する&lt;/li&gt;
+  &lt;li&gt;設定の数は絞り込む。そして「設定」アプリに自分のアプリの設定をいれるのはやめる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-12"&gt;目立たせる&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;デザインを始める前にアプリの「個性」を決めよう&lt;/li&gt;
+  &lt;li&gt;色や画像をカスタマイズして標準UIパーツに個性を付加しよう。&lt;/li&gt;
+  &lt;li&gt;アイコンは個性を重視するよりも明確さを重視しよう。&lt;/li&gt;
+  &lt;li&gt;細部に凝るよりもシルエットをすっきりさせる&lt;/li&gt;
+  &lt;li&gt;インターフェースのメタファーを現実の世界から取り入れる&lt;/li&gt;
+  &lt;li&gt;リスクを恐れずにチャレンジする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-13"&gt;第一印象&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;アプリのアイコンは機能、インターフェース、名前、ブランドを表すものにしよう&lt;/li&gt;
+  &lt;li&gt;アイコンのデザインには力強く単純なシルエットを取り入れよう&lt;/li&gt;
+  &lt;li&gt;短い名前がベスト&lt;/li&gt;
+  &lt;li&gt;素早く起動するかのように見せるため、起動画像をアプリのバッググラウンドに見せてカモフラージュしよう&lt;/li&gt;
+  &lt;li&gt;「一時停止したアニメーション」による錯覚を利用する&lt;/li&gt;
+  &lt;li&gt;初めてのユーザーのために単純でわかりやすい「玄関マット」を用意する&lt;/li&gt;
+  &lt;li&gt;アプリの初期画面は特にスッキリとした物に&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-14"&gt;スワイプ、ピンチ、フリック&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;ジェスチャーの意味は経験から類推される&lt;/li&gt;
+  &lt;li&gt;ユーザーがアプリをどう使おうとするかを観察し、それをもとに採用するジェスチャーを決める&lt;/li&gt;
+  &lt;li&gt;ジェスチャーが見つけられないユーザーのために代替手段を用意する。すべての操作がジェスチャー以外の方法、表示されているUIパーツを使ってできなければならない&lt;/li&gt;
+  &lt;li&gt;シェイクは「取り消す」「やり直す」のダイアログボックスを表示するためか、何かおまけの機能のためだけにする&lt;/li&gt;
+  &lt;li&gt;全てのタッチや動作に対して視覚的なフィードバックを表示し、控えめな効果音を補助的につける&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-15"&gt;横向き画面の活用&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;まずはアプリを縦向きで最適化し、それから横向きに対応させよう&lt;/li&gt;
+  &lt;li&gt;横向き画面では、単にコンテンツを拡大するのではなく、別の方法で表示しよう&lt;/li&gt;
+  &lt;li&gt;入力の多いアプリなら縦横の向きのキーボードをサポートする&lt;/li&gt;
+  &lt;li&gt;横向き画面では縦向き画面で表示している内容をグラフィカルに表現してみよう&lt;/li&gt;
+  &lt;li&gt;重要なコンテンツや機能は回転しなくても表示されるようにしよう&lt;/li&gt;
+  &lt;li&gt;回転でレイアウトが変わってもユーザーが迷わないようにしよう&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-16"&gt;礼儀正しい会話&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;アラートは緊急のイベントの為だけに使う&lt;/li&gt;
+  &lt;li&gt;アプリがそこから先は使えなくなってしまいそうな場合や許可を必要とする場合&lt;/li&gt;
+  &lt;li&gt;アラーと画面では穏やかな説明口調を用いる&lt;/li&gt;
+  &lt;li&gt;アラート画面のデフォルトボタンには一番安全な選択肢を割り当てる&lt;/li&gt;
+  &lt;li&gt;ノーティフィケーションはユーザーが設定できるようにする&lt;/li&gt;
+  &lt;li&gt;スピナーやモーダルボタンを使ってアプリが全力で仕事をしていることを知らせる&lt;/li&gt;
+  &lt;li&gt;プログレスバーやゲームなどで実際より速く動作しているようにみせる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-17"&gt;こんにちは、お隣さん&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;自分のアプリだけの連絡先、イベント、画像を作らないようにする&lt;/li&gt;
+  &lt;li&gt;既存の連絡先やイベントの記録を対象にして追加や拡張をする&lt;/li&gt;
+  &lt;li&gt;副次的機能に関しては他のアプリとリンクし、自分のアプリでもリンクを受け入れる&lt;/li&gt;
+  &lt;li&gt;終了時点で他のアプリへリンクするようにする&lt;/li&gt;
+  &lt;li&gt;ウェブビューやマップビューに関しては「最低限」のアプローチをとり、より複雑な機能はsafariやマップアプリへジャンプするようにする&lt;/li&gt;
+&lt;/ul&gt;
+
 </content>
   </entry>
   <entry>
-    <title>Yunicodeの由来とGitへの想いについて</title>
-    <link rel="alternate" href="http://blog.url.com/2015/03/25/june29-naming-yunicode.html"/>
-    <id>http://blog.url.com/2015/03/25/june29-naming-yunicode.html</id>
-    <published>2015-03-25T22:18:00+09:00</published>
-    <updated>2015-03-25T23:35:37+09:00</updated>
+    <title>【読書メモ】インタフェースデザインの心理学 ―ウェブやアプリに新たな視点をもたらす100の指針</title>
+    <link rel="alternate" href="http://blog.url.com/2015/03/30/interface-design.html"/>
+    <id>http://blog.url.com/2015/03/30/interface-design.html</id>
+    <published>2015-03-30T15:54:00+09:00</published>
+    <updated>2015-03-30T23:25:37+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。今日は@wadapにRSSfeedが抜けていることを指摘され、さっそく整備しました！RSS登録してね！&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;a href="http://www.amazon.co.jp/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%AE%E5%BF%83%E7%90%86%E5%AD%A6-%E2%80%95%E3%82%A6%E3%82%A7%E3%83%96%E3%82%84%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AB%E6%96%B0%E3%81%9F%E3%81%AA%E8%A6%96%E7%82%B9%E3%82%92%E3%82%82%E3%81%9F%E3%82%89%E3%81%99100%E3%81%AE%E6%8C%87%E9%87%9D-Susan-Weinschenk/dp/4873115574"&gt;インタフェースデザインの心理学 ―ウェブやアプリに新たな視点をもたらす100の指針&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;さて、yuni.coを正式に公開して、資料にまとめてみて、まだ抜けているところはあるものの、一旦落ち着いた感あります。そこでふと、まだ作りだしてすぐの奮闘している時期のことを思い出したので書いておこう。&lt;/p&gt;
+&lt;h1 id="section"&gt;感想&lt;/h1&gt;
+&lt;p&gt;後半の「どう感じるか」「どう決断するのか」あたりはほとんど自分にも当てはまっている事柄で納得感が強い。普通に「人ってこういうもんなんだな」というのを再認識できたのと、自分の単純さ（セオリー通りの人間…）がわかり面白かったです。よくできているアプリが実際にここに書かれているようなポイントを織り込んだ作りになっているなあ。新しいプロダクトを作るときはもちろん、普通に心理学として読んでも新たな気づきと出会えて面白い。&lt;/p&gt;
 
-&lt;p&gt;その頃はようやくMiddlemanをGithubPagesに載せられたか載せられてないかぐらいのときで、まだ全然扱いにも慣れてないし本当に使いこなせるのかこれ？と、若干ひろぽ先輩を疑い始めていた時期だったのだけど、お友達の&lt;a href="https://twitter.com/mamipeko"&gt;まみぺこちゃん&lt;/a&gt;の作っているインターネットちゃんブログに出させてもらうことになって、まみぺこちゃんの家がある蒲田に生まれて初めて降り立った。&lt;/p&gt;
+&lt;p&gt;以下、自分用要約まとめ。
+&lt;/p&gt;
 
-&lt;p&gt;まみぺこちゃんの旦那さんである&lt;a href="https://twitter.com/june29"&gt;じゅんさん@june29&lt;/a&gt;に初めて会って、じゅんさんはめっちょRubyの人ぽかったので早速MiddlemanとGithubPagesの話をしたら、すごい盛り上がりそこからノンストップで4時間ぐらい話し込んで。MiddlemanBlogいいですね！って言ってもらえて諦めずにやるぞってやる気出た。そのときはまだブログ名が仮でyuni.coだったんだけど、じゅんさんが「そこは‘ゆにこーど’がいいんじゃない？」って言ってまみぺこちゃんもいいね〜って笑っていたから、帰って来てすぐブログ名をゆにこ〜どにした。いまはひらがなからローマ字でYunicodeになってますが原点はそこ。&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;まみぺこちゃんのブログ、インターネットちゃんブログでは&lt;a href="http://mamipeko.hatenablog.jp/entry/github"&gt;Githubがすきだ〜〜&lt;/a&gt;っていうのを載せてもらいました。本当は去年GitGitたくさん言ってイベントとかも出たし、今年はもうGitは置いておいて別のことを勉強しなきゃなって思ってたけど、Gitのツールとしてとてもまじめで優秀なところとか、Githubの人とやりとりする楽しさとか、Octcatのかわいみとか、「Gitなんてただのツールじゃん」っていう人もいるけれど、わたしはやっぱGitとGithubが大好き！！好きなことも続けつつ他のことやる！できるできないは置いといて好きなものは好きだといいたい！&lt;/p&gt;
+&lt;h1 id="section-1"&gt;人はどう見るのか&lt;/h1&gt;
 
-&lt;p&gt;そして、先日@kozytyせんせいがGitでおもしろいことしたいって言い出したのでお手伝いすることに決めました。しっかりやりたいと思います。もちろん、Gitばっかやってないで他のSlim,sass,UID,UXとかもやります。本当です。というわけで今年はいろいろいそがしい！でもどれも楽しみだ！いっぱいがんばるぞ！&lt;/p&gt;
+&lt;h2 id="section-2"&gt;目から受け取る情報と脳が私たちに伝える情報は微妙に違う&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ウェブページを閲覧する人は予想や期待とは違った見方をするかもしれない&lt;/li&gt;
+  &lt;li&gt;表現の仕方次第では自分が希望する通りの捉え方をしてもらえない恐れもある&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-3"&gt;対象の「あらまし」をつかむのは中心視野より周辺視野の役目&lt;/h2&gt;
+
+&lt;h3 id="section-4"&gt;２種類の視野&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;中心視野&lt;/li&gt;
+  &lt;li&gt;対象を直視して詳細に見るときに使う領域&lt;/li&gt;
+  &lt;li&gt;周辺視野&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;見えて入るものの直視しては居ない範囲&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ウェブページを閲覧する人たちの周辺視野に入るものも軽視してはいけない&lt;/li&gt;
+  &lt;li&gt;注目してもらいたいものがあるときは点滅するもの、動画などを周辺市屋に置かないようにする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-5"&gt;人はパターン認識でモノを識別する&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;できるだけパターンを使おう&lt;/li&gt;
+  &lt;li&gt;グループ化や空白によってのパターン&lt;/li&gt;
+  &lt;li&gt;アイコン等はシンプルな図形を組み合わせたものにしよう&lt;/li&gt;
+  &lt;li&gt;素早く容易に認識される&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-6"&gt;顔認識専門の脳領域がある&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;感情に訴える力がもっとも強いのは「こちらをまっすぐ見つめている顔」&lt;/li&gt;
+  &lt;li&gt;自閉症の人は例外とする&lt;/li&gt;
+  &lt;li&gt;画像の顔が見ているところを見る&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-7"&gt;物はやや上から斜めにみたカタチで思い浮かべる&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;標準的な視線から見て描かれた絵はモノは素早く認識でき、記憶もされやすい&lt;/li&gt;
+  &lt;li&gt;アイコンを使うなら標準的な視点で書いたものを使おう&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-8"&gt;人は過去の経験と要素に基づいて画面を見る&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;いちばん重要な情報・注目してほしい物事は画面の上から1/3までの場所か、画面中央に置く&lt;/li&gt;
+  &lt;li&gt;重要なことは端には置かない&lt;/li&gt;
+  &lt;li&gt;パターンで移動できるようにデザインする&lt;/li&gt;
+  &lt;li&gt;大幅な移動を繰り返さなければいけないものは避ける&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-9"&gt;人は手がかりを探す&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;その環境にあるものが見やすく、見つけやすい物である様、明確なアフォーダンスを発するよう配慮する&lt;/li&gt;
+  &lt;li&gt;選択時やアクティブ時には陰影を示す&lt;/li&gt;
+  &lt;li&gt;ポインタを対象の上にもっていったときのみ現れる手がかりは使わない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-10"&gt;人は視野の中の変化を見逃すことがある&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;画面上のものが必ずしも見てもらえるとは限らない&lt;/li&gt;
+  &lt;li&gt;確実に気づいてもらうには、視覚に訴える点滅等の合図や聴覚に訴えるビープ音などを追加する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-11"&gt;人は近くにあるものを同じグループだと思う&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ひとつのグループとして見てもらいたい要素はまとめて配置&lt;/li&gt;
+  &lt;li&gt;線や囲みを使う前に要素同士の感覚を調整してみよう&lt;/li&gt;
+  &lt;li&gt;関連ない要素は感覚を大きく取り、関連ある要素の感覚は詰める&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-12"&gt;赤と青を一緒に使うと目への刺激が強すぎる&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;青・緑を赤の近くに配置しない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-13"&gt;男性の9%女性の0.5%が色覚異常&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;色覚異常の人にどう見えるかを確認しておく&lt;/li&gt;
+  &lt;li&gt;特定の意味を色に持たせる場合、複数の体型を容易しましょう&lt;/li&gt;
+  &lt;li&gt;赤にすると同時に線で囲む、など&lt;/li&gt;
+  &lt;li&gt;色分けは、赤・緑・青は避ける&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-14"&gt;文化によって色の意味が変わる&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;見た人が思い浮かべる意味を配慮して選ぶ&lt;/li&gt;
+  &lt;li&gt;デザインの対象となる主な文化圏を選び、想定外の連想を招かないように確認しておく&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-15"&gt;人はどう読むのか&lt;/h1&gt;
+
+&lt;h2 id="section-16"&gt;大文字がもともと読みにくいというものであるという説は間違いである&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;英語の場合、大文字ばかりで書かれた文章は大声を出しているような印象を与える&lt;/li&gt;
+  &lt;li&gt;大文字だけによる表記やみだしは特別に注意を喚起する必要があるときだけ使う&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-17"&gt;読むことと理解することは同じではない&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;読む人がその中に記されている特定の情報を必ず記憶してくれると決めてはいけない&lt;/li&gt;
+  &lt;li&gt;意味のある表題や見出しを
+-文章の難易度を対象とする読者に合わせる&lt;/li&gt;
+  &lt;li&gt;幅広い読者に読んでもらうには短くて優しい単語を使う必要がある&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-18"&gt;パターン認識のおかげでフォントが異なっても同じ文字だと認識できる&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;フォントのセリフとサンセリフは読みやすさは変わらない&lt;/li&gt;
+  &lt;li&gt;珍しいフォントやカドの装飾的なフォントは読む速度が落ちる&lt;/li&gt;
+  &lt;li&gt;フォントが読みにくいと文章の内容が理解しにくい、実行しにくい、と判断される&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-19"&gt;文字の多い差は理解度を左右する&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;幅広い年齢層の人がラクに読めるよう十分な大きさの文字を選択する&lt;/li&gt;
+  &lt;li&gt;英語は活字が大きく見えるようにエックスハイトの大きなフォントを使用する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="pc"&gt;PC上のものは紙に書かれたものより読みにくい&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;PC上では大きな文字を&lt;/li&gt;
+  &lt;li&gt;文を短く、パラグラフも短くし、箇条書きや写真を活用する&lt;/li&gt;
+  &lt;li&gt;コントラストの出せるも辞職と背景色を&lt;/li&gt;
+  &lt;li&gt;最も読みやすいのは白い背景に黒い文字&lt;/li&gt;
+  &lt;li&gt;読む価値のある内容に&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-20"&gt;人はどう記憶するのか&lt;/h1&gt;
+
+&lt;h2 id="section-21"&gt;ワーキングメモリの限界&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;短期記憶　ワーキングメモリ&lt;/li&gt;
+  &lt;li&gt;１分足らずの間だけ覚えておくときに使う記憶&lt;/li&gt;
+  &lt;li&gt;集中していないと消えてしまう&lt;/li&gt;
+  &lt;li&gt;画面が変わってもユーザーが情報を覚えてるとは限らない&lt;/li&gt;
+  &lt;li&gt;前のページで読んだ情報を別のページで入力させたりしてはならない&lt;/li&gt;
+  &lt;li&gt;忘れてほしくないなら課題を完了するまで他のことをさせない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-22"&gt;一度に覚えられるのは４つだけ&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;提示する情報は４項目に限定したい&lt;/li&gt;
+  &lt;li&gt;無理ならチャンク（-）に分ければもっと多くても構わない&lt;/li&gt;
+  &lt;li&gt;ひとつのチャンクに入れる項目は４つまで&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-23"&gt;情報を覚えておくには使うことが大切&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;覚えてほしいことがあれば何度も繰り返す&lt;/li&gt;
+  &lt;li&gt;スキーマ（関係を表現する枠組みや図式）の力&lt;/li&gt;
+  &lt;li&gt;対象としている集団のもっているスキーマを見つけ出し理解すること&lt;/li&gt;
+  &lt;li&gt;既存のスキーマに情報を結びつけることができれば記憶することが容易に&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-24"&gt;情報は重出すより認識するほうが簡単&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;全部覚えるより、スキーマから連想して考えだす方が簡単&lt;/li&gt;
+  &lt;li&gt;関係ないものも入れてしまう「包含エラー」&lt;/li&gt;
+  &lt;li&gt;想起よりも認識の方がはるかに簡単&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-25"&gt;記憶は知的資源を大量に消費する&lt;/h2&gt;
+
+&lt;h3 id="section-26"&gt;記憶は混乱しやすい…&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;最後のほうのことのほうが思い出しやすい「親近性効果」&lt;/li&gt;
+  &lt;li&gt;最初のほうのことのほうが覚えている「接尾効果」&lt;/li&gt;
+  &lt;li&gt;具体的な言葉やアイコンの方が記憶に残る&lt;/li&gt;
+  &lt;li&gt;発表などの中間部で示された情報は記憶されている可能性が低くなる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-27"&gt;記憶は思い出すたびに再構築される&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;使う単語や言葉によって記憶は変化する&lt;/li&gt;
+  &lt;li&gt;過去の行動の自己申告を信用しない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-28"&gt;忘れるのはよいこと&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;何を忘れるかは無意識に決定&lt;/li&gt;
+  &lt;li&gt;ユーザーが忘れることを前提にデザインする&lt;/li&gt;
+  &lt;li&gt;大事な情報はデザインの中に含めるか、すぐ見つけられるように準備しておく&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-29"&gt;鮮明な記憶でも間違っていることもある&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;心的外傷やドラマチックな出来事を詳細に記憶していること「閃光記憶」&lt;/li&gt;
+  &lt;li&gt;記憶があまりに鮮明なので事実だと思ってしまう&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-30"&gt;人はどう考えるのか&lt;/h1&gt;
+
+&lt;h2 id="section-31"&gt;情報は少ない程きちんと処理される&lt;/h2&gt;
+
+&lt;h3 id="section-32"&gt;段階的開示&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;一度に少しずつ情報を提供することでユーザーが圧倒されてしまう自体を避け、さまざまなニーズに対応できる&lt;/li&gt;
+  &lt;li&gt;ユーザーは大まかな説明でいい人も、詳細をしりたい人もいる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-33"&gt;クリックの回数は重要じゃない？&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;クリックのたびに適度な情報を得ながら先へ進めるのであればクリックしていることを意識しない&lt;/li&gt;
+  &lt;li&gt;何回クリックするかより、段階的開示を行う&lt;/li&gt;
+  &lt;li&gt;逆にそうでないユーザーもいるので、求めているものは何かの調査は充分に行う&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-34"&gt;心的な処理には難しいものとやさしいものがある&lt;/h2&gt;
+
+&lt;h3 id="section-35"&gt;認知＞視覚＞運動&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;画面上のものを見る（視覚負荷）&lt;/li&gt;
+  &lt;li&gt;ボタンを押したりマウスを動かしたりする（運動負荷）&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;心的な処理（認知負荷）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;既存の製品の負荷を評価する&lt;/li&gt;
+  &lt;li&gt;視覚的負荷や運動的負荷は増えるが認知負荷を減らせるという場合はそのような手法の採用も検討する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-36"&gt;人は30%の時間はぼんやりしている&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;注意散漫のおかげでマルチタスク的な処理ができる&lt;/li&gt;
+  &lt;li&gt;リンクを使ってトピックからトピックへ素早く切り替えられるように&lt;/li&gt;
+  &lt;li&gt;ユーザーが注意散漫になったときでも「現在位置」がすぐにわかる仕組みを用意する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-37"&gt;自身が無い人ほど自分の考えを主張する&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;人が信じ込んでいる考えを変えさせようとしても無駄&lt;/li&gt;
+  &lt;li&gt;信念を変えさせる上で一番効果的な方法はちょっとしたことをやってみるようしむけること&lt;/li&gt;
+  &lt;li&gt;人の考えに対し、論理的でない、支持できない、よくない選択肢、ということを突きつけると逆効果で相手の主張はますます強くなる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-38"&gt;人はシステムを使う時メンタルモデルを作る&lt;/h2&gt;
+
+&lt;h3 id="section-39"&gt;メンタルモデルとは？&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;物事が機能している仕組みをその人がどう理解しているかを表現したもの&lt;/li&gt;
+  &lt;li&gt;iPadで本を読むってどういうこと？一度も経験したことがなくても「メンタルモデル」を持つ&lt;/li&gt;
+  &lt;li&gt;人は過去の経験に基づいてメンタルモデルを構築する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-40"&gt;人は概念モデルとやり取りをする&lt;/h2&gt;
+
+&lt;h3 id="section-41"&gt;概念モデルとは？&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;実際にシステムを利用するユーザーがUIに接することによって構築するモデル&lt;/li&gt;
+  &lt;li&gt;デザイナーはUIを設計し、そのUIを通じて製品の概念モデルをユーザーに伝える&lt;/li&gt;
+  &lt;li&gt;しっかり目標を設定してシステムの概念モデルを設計する&lt;/li&gt;
+  &lt;li&gt;技術的な観点からすぐにできるものを作るのは避ける&lt;/li&gt;
+  &lt;li&gt;直感的に使えるシステムを設計する秘訣はシステムの概念モデルをユーザーの概念モデルと一致させること&lt;/li&gt;
+  &lt;li&gt;一致しないと思われる場合はメンタルモデルの構築に役立つトレーニングが必要&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-42"&gt;人は物語を使って情報をうまく処理する&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;物語は人が情報を処理するのに適した自然な形式&lt;/li&gt;
+  &lt;li&gt;「因果関係の飛躍」を起こさせたければ物語を使う&lt;/li&gt;
+  &lt;li&gt;物語を使えばわかりやすく興味深く記憶しやすくなる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-43"&gt;人は例を使ってうまく学ぶ&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;何をすべきか、言葉で説明するだけでなく画像などをうまく利用する&lt;/li&gt;
+  &lt;li&gt;実例を示す為に写真やスクショを利用する&lt;/li&gt;
+  &lt;li&gt;短めのビデオを使い例をあげて説明すると更に効果的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-44"&gt;人は分類せずにはいられない&lt;/h2&gt;
+
+&lt;h3 id="section-45"&gt;ひとは分類を好む&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;カテゴリが与えられないと自分で作る&lt;/li&gt;
+  &lt;li&gt;誰が分類するかはそれほど重要ではない&lt;/li&gt;
+  &lt;li&gt;未分類の情報があると人は圧倒され、自分で整理しようとする&lt;/li&gt;
+  &lt;li&gt;ユーザーのためにわかりやすく情報を整理する　&lt;/li&gt;
+  &lt;li&gt;一度に覚えられるのは４つだけ、というルールを忘れずに&lt;/li&gt;
+  &lt;li&gt;各カテゴリの命名法（どう呼ぶか）もデータの整理方法に重要&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-46"&gt;時間は相対的である&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;時間に追われているときは立ち止まって他人を助けたりはしない&lt;/li&gt;
+  &lt;li&gt;進行状況をインジケータで表示してユーザーが作業にかかる時間を把握できるようにする&lt;/li&gt;
+  &lt;li&gt;作業に必要な時間を均一にして処理の所用時間を見積もれるように&lt;/li&gt;
+  &lt;li&gt;ステップをわけてユーザーが考える時間を短くする&lt;/li&gt;
+  &lt;li&gt;メンタルな処理は時間が長くかかるように感じてしまう&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-47"&gt;クリエイティブになるための４つの方法&lt;/h2&gt;
+
+&lt;h3 id="section-48"&gt;創造性を育むための経験が積みたいならどのタイプを目標にするか決める&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;熟考的で認知的&lt;/li&gt;
+  &lt;li&gt;高いレベルの知識と長い時間が必要&lt;/li&gt;
+  &lt;li&gt;熟考的で感情的&lt;/li&gt;
+  &lt;li&gt;静かな時間が必要&lt;/li&gt;
+  &lt;li&gt;自然発生的で認知的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-49"&gt;人は「フロー状態」に入る&lt;/h2&gt;
+
+&lt;h3 id="section-50"&gt;フロー状態とは&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;何もかも忘れて没頭すること&lt;/li&gt;
+  &lt;li&gt;ゲームの設計等で重要&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-51"&gt;フロー状態を生み出すには&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;作業中の行動を本人にコントロールさせる&lt;/li&gt;
+  &lt;li&gt;難しい作業は何段階に分ける&lt;/li&gt;
+  &lt;li&gt;絶えずフィードバックを&lt;/li&gt;
+  &lt;li&gt;気を散らす物は最小限に&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-52"&gt;文化は考え方に影響する&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;地域や文化的な背景が異なると異なった反応になる&lt;/li&gt;
+  &lt;li&gt;世界全域で使われる製品の場合、ユーザー調査は複数地域で&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-53"&gt;人はどう注目するのか&lt;/h1&gt;
+
+&lt;h2 id="section-54"&gt;注意力は選択的に働く&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;特定のことだけ注目し、ほかを無視するように指示するとそのとおりにできる&lt;/li&gt;
+  &lt;li&gt;無意識に特定の情報を選別しようとする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-55"&gt;情報は取捨選択される&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;情報を提供さえすれば注目してもらえるとは期待できない&lt;/li&gt;
+  &lt;li&gt;思い込みは禁物&lt;/li&gt;
+  &lt;li&gt;注目してもらいたい重要な部分に色・大きな文字・アニメ・動画・音声などを使用する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-56"&gt;熟練の技は無意識に駆使できる&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;一連の手順を繰り返していると自動的にできるようになる&lt;/li&gt;
+  &lt;li&gt;繰り返してもらいたい場合は簡単なものにする&lt;/li&gt;
+  &lt;li&gt;直前の操作や全操作も簡単にやり直しができるようにデザインする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-57"&gt;ある自体に対する注意力は頻発が予想されるか否かで決まる&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;どれぐらいの頻度で発生するか、人は無意識にメンタルモデルを構築している&lt;/li&gt;
+  &lt;li&gt;非常事態の発生を警告する機能をつける場合はすぐ気づくわかりやすい警告にする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-58"&gt;注意力の持続時間は10分が限界&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;長くても７〜１０分しか継続しないものと認識しておく&lt;/li&gt;
+  &lt;li&gt;それ以上集中しないといけないときは新しい情報に触れたり、休憩を入れてみたりする&lt;/li&gt;
+  &lt;li&gt;チュートリアルや動画は７分以内にする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-59"&gt;人は「顕著な手がかり」にしか注目しない&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;顕著な手がかり＝わかりやすい特徴&lt;/li&gt;
+  &lt;li&gt;顕著な手がかりが目立つデザインに&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-60"&gt;マルチタスクは事実上不可能&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;マルチタスク能力に老若は関係しない&lt;/li&gt;
+  &lt;li&gt;マルチタスクを人に強要しない&lt;/li&gt;
+  &lt;li&gt;やってもらう場合はミス多発を覚悟し、あとで修正する方法を組んでおく&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-61"&gt;危険・食べ物・セックス・動き・人の顔・物語、は注意を引きやすい&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;食べられる？セックスできる相手？殺しはしない？本能的な古い脳&lt;/li&gt;
+  &lt;li&gt;好む好まざるに関わらず目がいってしまう&lt;/li&gt;
+  &lt;li&gt;上記の事柄を扱えばかなり注目は集められる&lt;/li&gt;
+  &lt;li&gt;顔のアップは注目される&lt;/li&gt;
+  &lt;li&gt;できるかぎり物語したてにする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-62"&gt;大きな音には驚いて注目する&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;アプリの場合、ユーザーが間違いを犯す、目標を達成する、お金を寄付する、場面は音を鳴らしてもいい&lt;/li&gt;
+  &lt;li&gt;度合いに応じて適切に音を用いる&lt;/li&gt;
+  &lt;li&gt;ユーザーが慣れてくると気に留めなくなってしまうよう変化をつける&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-63"&gt;何かに注意を向けるにはまずそれを知覚する必要がある&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;何かを検出するシステムをデザインする場合、信号検出理論による分類を参考に&lt;/li&gt;
+  &lt;li&gt;「誤警報」と「ミス」はどちらのほうがユーザーに損害が大きいか？&lt;/li&gt;
+  &lt;li&gt;「誤警報」で起こりえる損害のほうが顕著であればシグナルを押さえ気味に、「ミス」で起こりえる損害のほうが顕著であればシグナルを強めに&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-64"&gt;人はどうすればやる気になるのか&lt;/h1&gt;
+
+&lt;h2 id="section-65"&gt;目標に近づく程「やる気」が出る&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;何が終わったかより何が残っているかに注目しがち&lt;/li&gt;
+  &lt;li&gt;前進の幻想を与えるだけで達成への動機付け効果が得られる&lt;/li&gt;
+  &lt;li&gt;ポイントを溜め始めるとそれを楽しむようになる&lt;/li&gt;
+  &lt;li&gt;達成されるとやる気や購入金額は急速に落ち込む&lt;/li&gt;
+  &lt;li&gt;報酬を獲得した直後が離れて行く危険性が最も高い&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-66"&gt;報酬に変化があるほうが強力&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;オペラント条件付けが機能する為には、強化刺激（報酬）として対象とする人がほしがる物を選ぶ&lt;/li&gt;
+  &lt;li&gt;本当に欲しい物かの見極め&lt;/li&gt;
+  &lt;li&gt;ユーザーの行動パターンに合わせて強化スケジュールを組み立てる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-67"&gt;ドーパミンが情報探索中毒を招く&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;人は情報を探索し続けようとする&lt;/li&gt;
+  &lt;li&gt;Twitter・メール・検索&lt;/li&gt;
+  &lt;li&gt;情報を見つけやすくすればするほど、ユーザーは情報探索にのめり込みやすくなる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-68"&gt;人は予測ができないと探索を続ける&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;予測ができない出来事もドーパミンシステムの刺激になる&lt;/li&gt;
+  &lt;li&gt;メールが届きましたの画面や、バッチの印など&lt;/li&gt;
+  &lt;li&gt;ドーパミンシステムが刺激され続けると疲れるので電源を落としたり、通知音を消したりする&lt;/li&gt;
+  &lt;li&gt;音の通知と情報の到着を結合させると探索欲求が増強される&lt;/li&gt;
+  &lt;li&gt;情報を少しだけ与え、更に情報を得る為の手段を提供すると情報探索行動が増加する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-69"&gt;「内的報酬」の方が「外的報酬」よりもやる気が出る&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;外的報酬（前もってきちんと説明されている特定の行動に対する報酬）では報酬が与えられないと行動が減少する&lt;/li&gt;
+  &lt;li&gt;お金でも何でも外的報酬が報酬として優れていると思っては行けない&lt;/li&gt;
+  &lt;li&gt;外的報酬ではなく、内的報酬がないか探す&lt;/li&gt;
+  &lt;li&gt;外的報酬を与える場合、予期しない物である方がやる気を起こさせる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-70"&gt;進歩や熟達によりやる気が出る&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;定着やリピーターが増えることを目指すなら、報酬が与えられるような仕組みではなく、本能的にやりたいと思わせる仕組みを用意する必要がある&lt;/li&gt;
+  &lt;li&gt;友達と繋がる、新しいことを習得する&lt;/li&gt;
+  &lt;li&gt;退屈な作業の場合、その作業が退屈であることを認め、好きなやり方で行うのをゆるすことでやる気をそぐのが防げる&lt;/li&gt;
+  &lt;li&gt;目標を設定し、達成の経過を追える仕組みを考える&lt;/li&gt;
+  &lt;li&gt;目標に向かって進んでいることを目に見えるカタチで提示する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-71"&gt;欲しいものが我慢できるかどうかは幼少期に決まる&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;欲しい物を我慢できる人とそうでない人がいる&lt;/li&gt;
+  &lt;li&gt;我慢できない人はモノの希少性を示す情報（残り３個！）などに触れるとすぐ手を出してしまいがち&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-72"&gt;人は本来怠慢な生き物である&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ユーザーはだいたいのWebサイトを「眺めているだけ」&lt;/li&gt;
+  &lt;li&gt;ほんの１〜２秒見たときに受ける印象だけで使いやすそうかの判断をしている&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-73"&gt;近道は簡単に見つかるときしかしない&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;覚えやすく、見つけやすく、使いやすいショートカットを設定する&lt;/li&gt;
+  &lt;li&gt;デフォルトを設定する&lt;/li&gt;
+  &lt;li&gt;ユーザーが一般に望んでいるデフォルトが何であるかがわかっている場合や、うっかりデフォルトを選択しても致命的なミスを犯さない場合のみ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-74"&gt;人の行動は「性格だ」と判断されがちである&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;人災の犠牲者より自然災害の犠牲者に対する寄付の方が積極的に行われる&lt;/li&gt;
+  &lt;li&gt;原因が人であることを強く意識する傾向&lt;/li&gt;
+  &lt;li&gt;ユーザーインタビューする場合、解答内容の処理や分析で「根本的な帰属の誤り」をしないように気をつける&lt;/li&gt;
+  &lt;li&gt;自分が先入観を抱いていないか別の観点から検証する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-75"&gt;習慣は長い時間をかけ徐々に形成される&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;習慣化するまでに平均66日かかる&lt;/li&gt;
+  &lt;li&gt;習慣化が早い行為もある（運動する＜食後にフルーツを食べる）&lt;/li&gt;
+  &lt;li&gt;１日さぼっても習慣化は遅れないけど２日以上さぼると遅れが生じる&lt;/li&gt;
+  &lt;li&gt;ためらわず自分を多めに見よう&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-76"&gt;競争意欲はライバルが少ないときに増す&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;競争でやる気は増すが過度の競争は避けた方がよい&lt;/li&gt;
+  &lt;li&gt;ライバルが10人以上居ることがわかると競争意欲が低下する可能性&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-77"&gt;人は自律性をモチベーションにして行動する&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;自律性がやる気の源となるのは自分がコントロールしている気になるため&lt;/li&gt;
+  &lt;li&gt;人は自分が主体となって何かをしたいという強い気持ちがある&lt;/li&gt;
+  &lt;li&gt;セルフサービス的な機能を拡張する場合、自分ひとりでできる範囲を広げる方向を目指す&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-78"&gt;人は社会的な動物である&lt;/h1&gt;
+
+&lt;h2 id="section-79"&gt;「強い絆」を有する集団の規模の上限は150人&lt;/h2&gt;
+
+&lt;h3 id="section-80"&gt;集団の上限＝ダンバー数＝約150人&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;安定した社会的関係には限界がある&lt;/li&gt;
+  &lt;li&gt;大事なのは弱い繫がり&lt;/li&gt;
+  &lt;li&gt;周囲に「仲間」がいないと疎外感・孤独感・ストレスを感じる可能性がある&lt;/li&gt;
+  &lt;li&gt;「強いつながり」を目指す場合は物理的な近さをひとつの要素として組込み、参加者がネットワーク内で相互にやりとりして理解し合えるようにする&lt;/li&gt;
+  &lt;li&gt;「弱いつながり」を目指す場合は人と人の直接的なコミュニケーションや物理的な近さに依存しないようにする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-81"&gt;人には生来模倣と共感の能力が備わっている&lt;/h2&gt;
+
+&lt;h3 id="section-82"&gt;共感能力をつかさどるミラーニューロン&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;他者の経験をそっくりそのまま経験することによって相手の気持ちを深く理解できる&lt;/li&gt;
+  &lt;li&gt;相手のジェスチャーを真似ると好感度アップ&lt;/li&gt;
+  &lt;li&gt;やらせたいことがあるのなら、それを直接的に見せると効果的（動画を見せる等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-83"&gt;「同じ釜の飯を食った仲間」の絆は強い&lt;/h2&gt;
+
+&lt;h3 id="section-84"&gt;幸せになるには動機的な活動が必要&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;同期活動（他人と一緒に同じ行動をとること）には結束を強める効果&lt;/li&gt;
+  &lt;li&gt;SNSの交流は非同期なので、同期活動への参加意欲を満たすことは出来ない&lt;/li&gt;
+  &lt;li&gt;ビデオやオーディオを利用して同期活動を取り組むという可能性も検討する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-85"&gt;オンラインでの交流においては社会的なルールの遵守を期待する&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ウェブサイトやアプリケーションをデザインするときはユーザーとのやり取りに配慮する必要がある&lt;/li&gt;
+  &lt;li&gt;人間同士の交流のルールに従っている？&lt;/li&gt;
+  &lt;li&gt;ユーザービリティデザインの基本原則を守ればそうした想定から大きく外れることは無い&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-86"&gt;嘘の度合いは伝達手段によって変わる&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;嘘をつくのがいちばん多いのは電話、最も少ないのはメール&lt;/li&gt;
+  &lt;li&gt;手書きよりメールの方が他者に否定的になる&lt;/li&gt;
+  &lt;li&gt;アンケートやフィードバックは電話だと正確な回答が得られないかも&lt;/li&gt;
+  &lt;li&gt;一番正確なのは対面&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-87"&gt;話し手の脳と聞き手の脳は同期する&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;人の話をきいているときはその話の理解を助けるような特有の脳の同期が起きている&lt;/li&gt;
+  &lt;li&gt;相手に情報を正確に理解してほしい場合は読んでもらうだけでんく、それを補強する方法も考慮する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-88"&gt;脳は親しい人には特別な反応を示す&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;SNSは親しい人との間をとりもつタイプのものと、未知の人との新しい関係を作り出すタイプのものなど、見分けることが大事&lt;/li&gt;
+  &lt;li&gt;親しい人との間をとりもつタイプのSNSのほうが頻繁に長く使うもの（Facebookとかまさにそうぽい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-89"&gt;笑いは絆を生む&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;インターネットのやりとりでも笑いを伝えられるようなものであれば今まで以上に絆を強めることができる&lt;/li&gt;
+  &lt;li&gt;相手に笑ってほしければ自分から笑うこと。笑いは伝染する。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-90"&gt;笑顔の真偽は動画の方が判別しやすい&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;動画の笑顔には注意。本物と偽物の区別がつきやすい。信頼度が下がる可能性も&lt;/li&gt;
+  &lt;li&gt;人は目だけでなく、顔の他の部分もいろいろ見て区別している&lt;/li&gt;
+  &lt;li&gt;笑顔がほんものだと思えるときは信頼関係が生じる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-91"&gt;人はどう感じるのか&lt;/h1&gt;
+
+&lt;h2 id="section-92"&gt;７つの基本的な感情は万国共通&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;喜び・悲しみ・軽蔑・恐れ・嫌悪・驚き・怒り&lt;/li&gt;
+  &lt;li&gt;サイトに人の写真を使う等する場合は基本感情のひとつを使い、誤解を生むこと無く明確に伝える&lt;/li&gt;
+  &lt;li&gt;真実みのあるしゃしんを&lt;/li&gt;
+  &lt;li&gt;心理的な切り口に基づいた特徴「サイコグラフィックス」&lt;/li&gt;
+  &lt;li&gt;職業など社会的経済的な切り口に基づいた特徴「デモグラフィックス」&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-93"&gt;感情と筋肉の動きは深く結びついている&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;製品や作品を見てもらう場合、相手が抱く感情を先に検討しておく&lt;/li&gt;
+  &lt;li&gt;次にとる行動に影響が及ぶかも？&lt;/li&gt;
+  &lt;li&gt;意図しない表情をさせてしまうことによって製品などに対して抱く感情が変わってしまう可能性&lt;/li&gt;
+  &lt;li&gt;そんなときはその後に幸せそうなビデオ等を見せるとミラーニューロンにより気分も次にとる行動も変わる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-94"&gt;データより物語の方が説得力がある&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;物語は感情的に訴える力が強い&lt;/li&gt;
+  &lt;li&gt;データの代わりに物語を加える方がいい場合も？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-95"&gt;匂いは感情や記憶を呼び起こす&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;将来的には「感情に影響を与える香りの設計」がUX担当デザイナーの必須技術のひとつになるかも！！&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-96"&gt;人は思いがけないことを楽しむようプログラムされている&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;今までになかったもの、新しいものは人の注意を引く&lt;/li&gt;
+  &lt;li&gt;予想外のものを提供すると、注意を引くだけでなく楽しい気持ちを引き起こせる&lt;/li&gt;
+  &lt;li&gt;何か新しいことに挑戦してもらいたい場合や、再訪してもらいたい場合は、新しく予想外のコンテンツやインタラクションを提供すると効果的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-97"&gt;人は忙しい方が満足感を感じる&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;人には口実が必要&lt;/li&gt;
+  &lt;li&gt;人は何もしないでいることを好まない&lt;/li&gt;
+  &lt;li&gt;「価値ある作業」とみなされるものであることが必要&lt;/li&gt;
+  &lt;li&gt;「時間つぶしの作業」だと見抜いたら何もしない方を選ぶ&lt;/li&gt;
+  &lt;li&gt;待ち時間が伴う場合、飽きずにやってもらえることを用意する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-98"&gt;牧歌的な風景を見ると幸せな気分になる&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;人は牧歌的な風景を好む&lt;/li&gt;
+  &lt;li&gt;ネットで見る場合と実際に眺めたりそういう場所を歩く場合とでは違った効果&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-99"&gt;人はまず「見た目」と「感じ」で信用するか否かを決める&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;人は「信用できない」という判断を素早く下す&lt;/li&gt;
+  &lt;li&gt;拒絶すべきものを排除してから残ったものについて信用すべきかどうかの検討に入る&lt;/li&gt;
+  &lt;li&gt;色やフォント、レイアウト、ナビゲーションなどのデザイン要素がきわめて重要&lt;/li&gt;
+  &lt;li&gt;次いでサイトの内容と信憑性&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-100"&gt;大好きな音楽でドーパミンが放出&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;音楽の好みは十人十色&lt;/li&gt;
+  &lt;li&gt;製品や活動にも音楽を使ったり追加したりすれば楽しめるばかりかハマってしまう人まで出るかもしれない -&amp;gt;ピタゴラスイッチとかそうかも？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-101"&gt;達成が難しいことほど愛着を感じる&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ことによっては、製品やアプリを使いにくくする。そうすればユーザーは苦心した分かえって愛着を感じてくれる&lt;/li&gt;
+  &lt;li&gt;コミュニティを大勢の人に利用してもらいたければ、加入手続きを複雑にしてみてもよいかも -&amp;gt;mixiの招待制とかそうだったかも？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-102"&gt;将来の出来事に対する自分の反応を大げさに予測する傾向&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ユーザーの「製品やデザインを変えてくれたらとてもうれしい！」とか「こんな風に変えたら二度と使わない！」を鵜呑みにしない&lt;/li&gt;
+  &lt;li&gt;ユーザーの反応は本人が思っている程強いものではない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-103"&gt;出来事の最中よりその前後の方が前向き&lt;/h2&gt;
+
+&lt;h3 id="section-104"&gt;素晴らしい休暇を過ごして楽しい思い出を作る方法&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;長い休暇を１回より、短い休暇を何回か取った方が楽しめる&lt;/li&gt;
+  &lt;li&gt;長期記憶に影響するのは、休暇の最初や半ばより締めくくり&lt;/li&gt;
+  &lt;li&gt;強烈な体験や至高体験をするとプラスのものでなくてもその旅行は楽しい思い出として記憶に残る可能性&lt;/li&gt;
+  &lt;li&gt;旅行に邪魔が入るとそれ以外の部分の印象がかえってよくなる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-105"&gt;ポイント&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;計画を練るのにかかる時間を長くすればするほどその時間をユーザーは楽しめる&lt;/li&gt;
+  &lt;li&gt;ユーザーがアプリ等を使用している最中より２〜３日後の方が好意的な評価が得られる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-106"&gt;悲しみや不安を感じているときはなじみものがありがたい&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ブランドは近道&lt;/li&gt;
+  &lt;li&gt;そのブランドに関して過去にプラスの経験をしていると「安全」の信号になる&lt;/li&gt;
+  &lt;li&gt;オンラインで買い物するときはブランドが大きな影響力を持つ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-107"&gt;間違えない人はいない&lt;/h1&gt;
+
+&lt;h2 id="section-108"&gt;人間にノーミスはあり得ないし問題ゼロの製品も存在しない&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;起こりえる誤りの種類や内容を事前に考えておく&lt;/li&gt;
+  &lt;li&gt;設計後にプロトタイプを作り人に使ってもらってどのような誤りが起こりえるか見る&lt;/li&gt;
+  &lt;li&gt;想定されるユーザーにやってもらう必要&lt;/li&gt;
+  &lt;li&gt;エラーメッセージは平易な言葉を使い、明快に書く&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-109"&gt;ストレスを感じているときには間違いを犯しやすい&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;退屈な作業をしているときは音や色・動きなどで覚醒レベルと上げるとよい&lt;/li&gt;
+  &lt;li&gt;難しい作業をしているときは音や色・動きなど気の散る要素をのぞいてストレスを下げる必要&lt;/li&gt;
+  &lt;li&gt;熟達した人でもストレスがかかると足を引っ張られてうまくいかかないこともある&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-110"&gt;エラーはすべて悪いとは限らない&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ユーザーテストの際におこったエラーを記録しておく&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-111"&gt;エラーのタイプは予測できる&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ユーザーテストやユーザー観察を行う前に危険度が最大と思われる間違いを見極めておく&lt;/li&gt;
+  &lt;li&gt;ユーザーがどのような種類の間違いを犯すか、に関するデータを集める&lt;/li&gt;
+  &lt;li&gt;自己や人名の損失につながりかねない分野ではHFACSのようなシステムを使ってエラーを解析し防止すべき&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-112"&gt;エラーの対処法は様々&lt;/h2&gt;
+
+&lt;h3 id="section-113"&gt;エラーを修正する為にとられる手法&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;系統計探索&lt;/li&gt;
+  &lt;li&gt;エラーを正すために計画的に手順を踏んで行くこと&lt;/li&gt;
+  &lt;li&gt;試行錯誤的探索&lt;/li&gt;
+  &lt;li&gt;やみくもにさまざまな選択肢をためす&lt;/li&gt;
+  &lt;li&gt;固定的探索&lt;/li&gt;
+  &lt;li&gt;エラーが修正できないにもかかわらず同じ動作を何度も繰り返す&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-114"&gt;ポイント&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;年配者は異なる方法をとったり、時間が余計にかかったりするかもしれないけど若者と同じ作業をこなせる場合もある&lt;/li&gt;
+  &lt;li&gt;初心者と熟練者の違いも考慮する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-115"&gt;人はどう決断するのか&lt;/h1&gt;
+
+&lt;h2 id="section-116"&gt;まず無意識が気づく&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;人は危険の兆候を無意識に察知反応する&lt;/li&gt;
+  &lt;li&gt;無意識は意識より早い&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-117"&gt;人は自分の処理能力を超えた数の選択肢や情報をほしがる&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;選択肢が多すぎると思考が麻痺してしまう&lt;/li&gt;
+  &lt;li&gt;選択肢を多くしたいという誘惑に負けてはいけない&lt;/li&gt;
+  &lt;li&gt;希望する選択肢の数を尋ねると「たくさん」「全部」といった答えが返ってくる&lt;/li&gt;
+  &lt;li&gt;選択肢の数は３〜４に絞る&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-118"&gt;選択肢が多いほうが思い通りになっていると感じる&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;人は「自分の行動には影響力があり、自分は決定権を握っている」と思いたがる&lt;/li&gt;
+  &lt;li&gt;一旦て移用した選択肢を取り上げると相手は不満を抱く。バージョンアップしても前の方法をいくつか残しておいたほうが無難。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-119"&gt;「お金」より「時間」&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;メッセージの内容が「時間」に関するものだと客もお金も多くなり、「お金」に関するものだと少なくなる&lt;/li&gt;
+  &lt;li&gt;親近感をもったときのほうが購買意欲が強くなり使う金額も多くなり満足度も高くなる&lt;/li&gt;
+  &lt;li&gt;お金のことを持ち出すのは極力避ける&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-120"&gt;意思決定には気分も影響&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;直感的に判断する人もいれば、論理的に考えた上で判断する人もいる&lt;/li&gt;
+  &lt;li&gt;短いビデオなどを利用すれば相手の気分を左右することが比較的簡単にできる&lt;/li&gt;
+  &lt;li&gt;楽しい気分の人には素早く直感で決断するようにもとめれば製品を高く評価してくれる&lt;/li&gt;
+  &lt;li&gt;悲しい気分の人にはじっくりかんがえて決断するように求めれば製品を高く評価してくれる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-121"&gt;グループによる意思決定は必ずしも的確ではない&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;他のメンバーの意見を知る前に関係する情報そのものについて各人がひとりで考える時間をとる　-&amp;gt;KPTのやつとかもそう？&lt;/li&gt;
+  &lt;li&gt;意見交換が始まったら相違点を議論する時間を充分に取る&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-122"&gt;人は支配的な人物に影響される&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;グループで話し合って何かを決めるときは再所為提案された解決法に飛びつくことのないように注意する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-123"&gt;確信が無いときは人任せにする&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;人は（特に確信がもてないとき）他の人の言動に影響されやすい&lt;/li&gt;
+  &lt;li&gt;ユーザーの行動に影響を与えたいときは推薦文や評価レビューを活用しましょう&lt;/li&gt;
+  &lt;li&gt;評価を書き込んだ人についての情報を多く添えれば添える程その評価の影響力は強くなる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-124"&gt;他人は自分より影響を受けやすいと考える&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;誰もが無意識のレベルで影響を受ける&lt;/li&gt;
+  &lt;li&gt;たいていは影響を受けていることを自覚していない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-125"&gt;目の前にある品物のほうが高値に&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;実際の店舗は品揃えがよければネットショップにたいして優位を保つことができる&lt;/li&gt;
+  &lt;li&gt;ガラスケースに入れられている等の障害があると進んで払おうと思う金額が下がってしまう恐れあり&lt;/li&gt;
+&lt;/ul&gt;
+
 </content>
   </entry>
   <entry>
-    <title>社内のデザイナーTechLunchで発表しました</title>
-    <link rel="alternate" href="http://blog.url.com/2015/03/24/designer-tech-lunch.html"/>
-    <id>http://blog.url.com/2015/03/24/designer-tech-lunch.html</id>
-    <published>2015-03-24T22:04:00+09:00</published>
-    <updated>2015-03-25T23:37:10+09:00</updated>
+    <title>【読書メモ】モバイル・ユーザビリティ 使いやすいUIデザインの秘訣</title>
+    <link rel="alternate" href="http://blog.url.com/2015/03/30/mobile-usability.html"/>
+    <id>http://blog.url.com/2015/03/30/mobile-usability.html</id>
+    <published>2015-03-30T15:48:00+09:00</published>
+    <updated>2015-03-30T23:31:21+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。今日は社内でデザイナーによるTechLunchがあり、このブログ（yuni.co）について発表しました。合わせて、いままで超絶適当にやってきたこのブログも本日で正式リリースとします。&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;a href="http://www.amazon.co.jp/%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%BB%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3-%E4%BD%BF%E3%81%84%E3%82%84%E3%81%99%E3%81%84UI%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%AE%E7%A7%98%E8%A8%A3-Jakob-Nielsen/dp/4798133450"&gt;モバイル・ユーザビリティ 使いやすいUIデザインの秘訣&lt;/a&gt;&lt;/p&gt;
 
-&lt;script async="" class="speakerdeck-embed" data-id="aae9362c91e047d2b1ee52289e40acd7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+&lt;h1 id="section"&gt;感想&lt;/h1&gt;
+&lt;p&gt;「なぜモバイル用に対応したものを作らないといけないの？」から始まり、モバイルユーザービリティについて徹底的に書かれている。アプリに限らず、今後ウェブサイトというものを作る人はモバイルデザインを避けては通れないので必ず一度は読んだ方がよい本です。お恥ずかしい話ですが「90:9:1の法則」を初めてきちんと知った。
+最近行われたQiitaのリニューアルでタグがまさにあいうえお順で並べられており「アルファベットは消え去るべき」に書かれていた内容を痛感した。あとKindle fireがとてもアレということはよくわかった。&lt;/p&gt;
 
-&lt;p&gt;難しいものを難しく説明することが大嫌いなので、基本体験談を話すときは「簡単だったよ〜」って言うようにしているのですが、資料の最後にも書いたけどMiddleman正直全然簡単じゃなかった。その昔、&lt;a href="http://www.slideshare.net/yunico/wordcamp-yokohama2010"&gt;MovableTypeがごはんならWordPressはパンだ！&lt;/a&gt;というプレゼンをしましたが、それで例えるとMiddlemanは蒙古タンメン中本の北極。初心者がいきなりパクパク食べられる代物ではないかもしれない、、それにしても何かを食べ物で例える手法は５年経っても変わっていない。今回はケーキです。以下裏話。&lt;/p&gt;
+&lt;p&gt;以下、自分用要約まとめ。
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id="section-1"&gt;ユーザービリティ調査の進め方&lt;/h1&gt;
+
+&lt;h2 id="section-2"&gt;定性的ユーザー調査&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;厳密に正確な統計が無くても、数少ないユーザー事例から問題の大きさを測定できる。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-3"&gt;モバイル戦略&lt;/h1&gt;
+
+&lt;h2 id="section-4"&gt;2009年に実施したユーザーテスト&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;悲惨なタスク達成率&lt;/li&gt;
+  &lt;li&gt;パソコンよりはるかにおそいダウンロード&lt;/li&gt;
+  &lt;li&gt;小さな画面の中でスクロールを繰り返し迷子に&lt;/li&gt;
+  &lt;li&gt;情報の肥大化&lt;/li&gt;
+  &lt;li&gt;不慣れなユーザー・インターフェース&lt;/li&gt;
+  &lt;li&gt;jsのクラッシュ&lt;/li&gt;
+  &lt;li&gt;操作への抵抗感&lt;/li&gt;
+  &lt;li&gt;モバイル機器のモデルとして従来メディアのデザインを使用&lt;/li&gt;
+  &lt;li&gt;自動的に画像を切り替えて表示するカルーセル形式はモバイル機器ではほとんど用をなさない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-5"&gt;2009年以降改善された点&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;タスク成功率の向上&lt;/li&gt;
+  &lt;li&gt;ユーザーインターフェースの慣れ&lt;/li&gt;
+  &lt;li&gt;jsの状況改善&lt;/li&gt;
+  &lt;li&gt;抵抗感の現象&lt;/li&gt;
+  &lt;li&gt;買い物や支払いにモバイル機器を使うことにたいして嫌悪感や抵抗感を抱く人は減っている&lt;/li&gt;
+  &lt;li&gt;ダウンロード時間に関する問題は解決していない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-6"&gt;モバイル機器の種類によって異なるユーザービリティ&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;小型画面（ガラケー）、中型画面（スマホ）、大型画面（スマホタッチ対応）の３種類に分けられる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-7"&gt;機器ごとにデザインするのがベスト&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;モバイル用にデザインしたサイトをひとつは用意する&lt;/li&gt;
+  &lt;li&gt;モバイル版には掲載しきれない機能を必要とするユーザーのために、簡単にパソコン版のサイトに切り替える機能をモバイル版につけるようにする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="vs-"&gt;モバイルサイト vs フルサイト&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;余裕があればモバイルに最適化したサイトを個別に構築する&lt;/li&gt;
+  &lt;li&gt;モバイルユーザーがフルサイトにたどり着いた場合、モバイルサイトの代用品としてフルサイトを見ていないか確認&lt;/li&gt;
+  &lt;li&gt;フルサイトからモバイルサイトに移動しようとするユーザーのために明確なリンクを用意&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-8"&gt;モバイルに最適化したサイト&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;モバイルを使う上で重要ではない機能を排除&lt;/li&gt;
+  &lt;li&gt;文字数を減らし、二次的な情報は次のページに先送り&lt;/li&gt;
+  &lt;li&gt;太い指でも操作上問題ないようにインターフェース要素を大きく&lt;/li&gt;
+  &lt;li&gt;ユーザーの要求に対する答えや情報が、プラットフォームによってばらつきがあってはいけない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-9"&gt;フルサイトがモバイルでの利用で適さない理由&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;大部分のタスクに対してフルサイトよりもデザインの良質なモバイルサイトから良質のユーザーエクスペリエンスを得ることが出来る&lt;/li&gt;
+  &lt;li&gt;フルサイトを訪問すると余計なクリックが必要になり遅くなる&lt;/li&gt;
+  &lt;li&gt;しかし、パソコンユーザーからのトラフィックはモバイルをはるかに上回っている&lt;/li&gt;
+  &lt;li&gt;お金を稼いでくれるパソコンユーザーを軽視はできない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-10"&gt;パソコンとモバイル機器で重要な違い&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;コンテンツは異なる&lt;/li&gt;
+  &lt;li&gt;より短く単純なライティング&lt;/li&gt;
+  &lt;li&gt;メディアに合わせてデザインし直す必要&lt;/li&gt;
+  &lt;li&gt;情報の断層構造の工夫&lt;/li&gt;
+  &lt;li&gt;指入力とマウス入力の違い&lt;/li&gt;
+  &lt;li&gt;複雑な操作を減らす&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-11"&gt;モバイル機器はパソコンに比べて与えられるものが限られる&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;パソコン用のコピーライティングは簡潔に&lt;/li&gt;
+  &lt;li&gt;モバイル用のコピーライティングはさらに簡潔に&lt;/li&gt;
+  &lt;li&gt;モバイルユーザーはせっかち&lt;/li&gt;
+  &lt;li&gt;できるだけ少ない機能を提供すべき&lt;/li&gt;
+  &lt;li&gt;シンプルなナビゲーションを心がける必要&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-12"&gt;レスポンシブデザイン&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;メンテナンスコストが低い&lt;/li&gt;
+  &lt;li&gt;モバイルだけというユーザーをサポート&lt;/li&gt;
+  &lt;li&gt;画面上でコンテンツを移動させたり、デザイン要素を拡大・縮小したりすることで画面の大きさに合わせるだけでは充分とは言えない&lt;/li&gt;
+  &lt;li&gt;プラットフォームごとの相違点に適用できていないのであればレスポンシブとは言えない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-13"&gt;ユーザービリティガイドラインが対立することはない&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;モバイルユーザビリティには通常のウェブサイトユーザビリティより厳密でより絞り込んだデザインが要求される&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="vs--1"&gt;モバイルサイト vs アプリ&lt;/h2&gt;
+
+&lt;h3 id="section-14"&gt;現在のモバイル戦略&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;アプリがベスト&lt;/li&gt;
+  &lt;li&gt;Webサイトのデザインでは最低か出来ることが限られているから&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-15"&gt;将来のモバイル戦略&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;サイトがベスト&lt;/li&gt;
+  &lt;li&gt;複数のアプリから深い断層になるコンテンツを検索できるアプリはまだない&lt;/li&gt;
+  &lt;li&gt;HTML5のような新しいWeb技術がモバイルサイトの機能を大幅に向上させている&lt;/li&gt;
+  &lt;li&gt;長期的に見ればモバイルアプリよりモバイルサイトが勝る&lt;/li&gt;
+  &lt;li&gt;しかしそれはいつ起こるか予測できないので現在最高のUXを実現するならアプリが優位&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-16"&gt;モバイルアプリ&lt;/h2&gt;
+
+&lt;h3 id="section-17"&gt;モバイルアプリは一時的な利用にとどまることが多い&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;ダウンロード回数だけを測定しても意味ない&lt;/li&gt;
+  &lt;li&gt;ユーザーはたくさんのアプリをインストールしているので埋もれてしまう可能性が高い&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-18"&gt;進みは遅いが希望はある&lt;/h2&gt;
+&lt;p&gt;2000年から2009年までの9年間の間に、パソコンでの4年間の進歩に相当するモバイルユーザーエクスペリエンスの進歩があった。インターネットユーザービリティのペースの半分で改良が進んでいる。&lt;/p&gt;
+
+&lt;h1 id="section-19"&gt;小さな画面のデザイン&lt;/h1&gt;
+
+&lt;h2 id="section-20"&gt;モバイルユーザービリティの４つのハードル&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;小さな画面&lt;/li&gt;
+  &lt;li&gt;ユーザーはオンライン情報を理解するために短期記憶に頼らなくてはならない&lt;/li&gt;
+  &lt;li&gt;やっかいな入力&lt;/li&gt;
+  &lt;li&gt;遅いダウンロード&lt;/li&gt;
+  &lt;li&gt;粗末なデザイン&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-21"&gt;モバイルスペースの浪費&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;モバイルサイトやアプリを成功させるガイドラインは小さな画面向けにデザインすること&lt;/li&gt;
+  &lt;li&gt;より高い情報密度＝動き回る必要性が減り、望む情報が手に入る可能性が高まる&lt;/li&gt;
+  &lt;li&gt;多くの情報や圧倒されるような情報を画面に詰め込んではいけない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="chrome"&gt;Chrome&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;コンテンツを操作するコマンドを提供するビジュアルデザイン要素&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="chrome-1"&gt;Chromeいくつかの例&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Windows&lt;/li&gt;
+  &lt;li&gt;ガジェットエリアなど&lt;/li&gt;
+  &lt;li&gt;アプリケーションソフト&lt;/li&gt;
+  &lt;li&gt;メニューバー・ツールバー・ルーラーなど&lt;/li&gt;
+  &lt;li&gt;Webブラウザ&lt;/li&gt;
+  &lt;li&gt;URLフィールド・ブラウザツールバー・ブラウザボタンなど&lt;/li&gt;
+  &lt;li&gt;モバイルアプリ&lt;/li&gt;
+  &lt;li&gt;アイコン付きタブ・ナビゲーションバーなど&lt;/li&gt;
+  &lt;li&gt;ウェブサイト&lt;/li&gt;
+  &lt;li&gt;ナビゲーションバー・ロゴ・ブランド表示・検索ボックスなど&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-22"&gt;ガイドラインは、肥大化に用心すること！&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;一時的に隠し、必要なときにだけ表示する方法を考える&lt;/li&gt;
+  &lt;li&gt;うっかり起動させないよう、難解なジェスチャは避ける&lt;/li&gt;
+  &lt;li&gt;何度も繰り返すことによって隠れていても存在することを記憶してもらえるよう、一貫性を貫く&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="chrome-2"&gt;Chromeに代わるジェスチャ？&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;代替となるジェスチャに正しいアフォーダンスがあり数が多すぎなければうまく機能する&lt;/li&gt;
+  &lt;li&gt;ページをめくるスワイプジェスチャなど&lt;/li&gt;
+  &lt;li&gt;人々が過去に行ったジェスチャをまねているので習得しやすく思い出しやすい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="chrome-3"&gt;Chromeのメリット&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;コマンドやオプションを安定して提供&lt;/li&gt;
+  &lt;li&gt;常に同じ機能が表示されるので習得が難しくない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="vs--2"&gt;オーバーロードコマンド vs 汎用コマンド&lt;/h3&gt;
+&lt;p&gt;画面スペースを有効に使うには２つのコマンドを使う必要がある&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;汎用コマンド&lt;/li&gt;
+  &lt;li&gt;ピンチ・ズーム、など&lt;/li&gt;
+  &lt;li&gt;オーバーロードコマンド&lt;/li&gt;
+  &lt;li&gt;同じコマンドを異なる結果を得る為に使う&lt;/li&gt;
+  &lt;li&gt;コンテキストによって結果が変わることもある&lt;/li&gt;
+  &lt;li&gt;オーバーロードコマンドはたいてい紛らわしい&lt;/li&gt;
+  &lt;li&gt;BACKには「取り消し」と「前のページへ戻る」が混在&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-23"&gt;画面をモバイル機器に最適化する&lt;/h2&gt;
+&lt;p&gt;ここでは韓流ポップスターを多くカバーするAllKpop.comのリデザインについて。デザインの制約がきついほど、最適なユーザビリティを供給するためにUIを磨かなければいけない。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;機能の削減&lt;/li&gt;
+  &lt;li&gt;記事を選ぶ為に署名は必要ない&lt;/li&gt;
+  &lt;li&gt;タッチする目標を広く&lt;/li&gt;
+  &lt;li&gt;見出しを全文表示に&lt;/li&gt;
+  &lt;li&gt;流し読みしやすく&lt;/li&gt;
+  &lt;li&gt;情報の香りをもっと強く&lt;/li&gt;
+  &lt;li&gt;写真の使用&lt;/li&gt;
+  &lt;li&gt;写真の方が認識が素早い&lt;/li&gt;
+  &lt;li&gt;タイル感の余白を少し狭く&lt;/li&gt;
+  &lt;li&gt;ファースとビューで４番目の記事をスクロールなしで読めるように&lt;/li&gt;
+  &lt;li&gt;ディバイダーとして発行日を表示&lt;/li&gt;
+  &lt;li&gt;オプション間のスペースを空ける&lt;/li&gt;
+  &lt;li&gt;ドロップダウン・メニューにラベルをつける&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-24"&gt;反復デザイン&lt;/h3&gt;
+&lt;p&gt;完璧なUIを一発でデザインはできない。反復デザインという手法を使って再デザイン。反復デザイン・反復ユーザーテストを何回か継続してより多くの利益を上げるサイトデザインを。&lt;/p&gt;
+
+&lt;h2 id="section-25"&gt;モバイル機器上でタイプすること&lt;/h2&gt;
+&lt;p&gt;モバイル入力はユーザーにとって面倒。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;書き込めるよう支援&lt;/li&gt;
+  &lt;li&gt;デフォルト値や略語&lt;/li&gt;
+  &lt;li&gt;コンピュータ処理&lt;/li&gt;
+  &lt;li&gt;コピペ&lt;/li&gt;
+  &lt;li&gt;既知値は自動入力&lt;/li&gt;
+  &lt;li&gt;フォームは短く&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-26"&gt;ダウンロード時間&lt;/h2&gt;
+
+&lt;h3 id="section-27"&gt;インタラクションコスト&lt;/h3&gt;
+&lt;p&gt;機器上でタスクを完了するために必要なごく小さなアクション数。アクションが追加されることはユーザーにとって苦痛である。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ダウンロードをできるだけ減らす。&lt;/li&gt;
+  &lt;li&gt;必要な情報だけ&lt;/li&gt;
+  &lt;li&gt;画像を使いすぎない&lt;/li&gt;
+  &lt;li&gt;プログレスバーでフィードバック&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-28"&gt;最初の段階でユーザー登録させない&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;マニュアルを読んでくれるように依頼することからスタートすべきではない&lt;/li&gt;
+  &lt;li&gt;最初のエクスペリエンスはユーザーに強制するものではなく、魅了し引きつけるものであるべき&lt;/li&gt;
+  &lt;li&gt;起動画面で同意を求めない&lt;/li&gt;
+  &lt;li&gt;求めるのであればなぜいまその同意が必要なのかを事前に説明&lt;/li&gt;
+  &lt;li&gt;長い説明書やマニュアルは読ませない&lt;/li&gt;
+  &lt;li&gt;UIの中ではユーザーの言葉で話す&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-29"&gt;90:9:1の法則&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;90%はROMユーザー&lt;/li&gt;
+  &lt;li&gt;9%は時々寄与するユーザー&lt;/li&gt;
+  &lt;li&gt;1%は非常に積極的に参加するユーザー&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-30"&gt;モバイルに適したライティング&lt;/h1&gt;
+
+&lt;h2 id="section-31"&gt;モバイルで読むのは何故困難なのか？&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;一度に見られるものが少なくなる&lt;/li&gt;
+  &lt;li&gt;理解しづらい&lt;/li&gt;
+  &lt;li&gt;文章を目で追うことができず多くのスクロールをしなければならない&lt;/li&gt;
+  &lt;li&gt;読みやすく、目を通しやすくすべき&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-32"&gt;疑問に思うなら取り去ってみよう&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;時間を潰したいのに冗長だと起こるのはなぜ？&lt;/li&gt;
+  &lt;li&gt;時間つぶしのアプリこそキラーアプリである&lt;/li&gt;
+  &lt;li&gt;時間を浪費する冗長な表現は嫌われる&lt;/li&gt;
+  &lt;li&gt;解決方法&lt;/li&gt;
+  &lt;li&gt;余分な情報をカット&lt;/li&gt;
+  &lt;li&gt;背景となる情報は次ページに&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-33"&gt;モバイルコンテンツ用の署名&lt;/h2&gt;
+
+&lt;h3 id="section-34"&gt;署名欄に対する原則は排除すること&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;誰が書いたか知りたい？120語しか読まないのに署名で無駄遣いすべき？&lt;/li&gt;
+  &lt;li&gt;モバイルの文章はパソコンより短くすべき&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-35"&gt;署名欄が合った方がいい場合&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;著名人の場合&lt;/li&gt;
+  &lt;li&gt;特定の資格や記事の信頼性を高める場合&lt;/li&gt;
+  &lt;li&gt;信憑性を高める場合&lt;/li&gt;
+  &lt;li&gt;その手の記事をよく書いている場合&lt;/li&gt;
+  &lt;li&gt;意見記事・レビュー記事・政治的解釈など&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-36"&gt;二次的コンテンツはリンク先へ&lt;/h2&gt;
+
+&lt;h3 id="section-37"&gt;モバイルクーポンの例&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;モバイルユーザーは必要な情報を探すことにとてもせっかち&lt;/li&gt;
+  &lt;li&gt;「Buy Now!」ボタンがいつも押しやすい場所にあり、大きく明確で他のボタンと間違えて押す可能性が低くあるべき&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="wikipedia"&gt;Wikipediaの例&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;概要をつかむために記事の見出しを見て、読みたいものがあればそこへ行けば良い&lt;/li&gt;
+  &lt;li&gt;最初の情報がよく読まれる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="ia"&gt;ミニIA　コンテンツの構造化&lt;/h2&gt;
+&lt;p&gt;mini-information architecture：小規模な情報の構造化
+「トピックごとの情報をどう組み立てるか？」&lt;/p&gt;
+
+&lt;h3 id="section-38"&gt;長々と続くページは一般的に見づらい&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;使い勝手の悪いmini-IAは例外無く取り除いて行く&lt;/li&gt;
+  &lt;li&gt;iPadや電子書籍リーダーのようなタブレットの場合は別&lt;/li&gt;
+  &lt;li&gt;スクロールさせるよりもページを区切っておいた方が使いやすい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-39"&gt;アルファベット順は消え去るべし&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;ユーザーが探しているものの名前を知らない場合は使えない&lt;/li&gt;
+  &lt;li&gt;項目によっては並べる順序にロジックがあり、かえって探しづらくなってしまう&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-40"&gt;使い方を変える構造&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;長い１ページにする&lt;/li&gt;
+  &lt;li&gt;二次的なトピックスを探すのが難しくなる可能性&lt;/li&gt;
+  &lt;li&gt;mini IAを行う&lt;/li&gt;
+  &lt;li&gt;情報を適当なまとまりに分類&lt;/li&gt;
+  &lt;li&gt;分散型情報にする&lt;/li&gt;
+  &lt;li&gt;たくさんのトピックスの中から選んだ情報を組み合わせて二次的なトピックスを作る&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-41"&gt;タブレットと電子書籍リーダー&lt;/h1&gt;
+
+&lt;h2 id="ipad"&gt;iPadのユーザービリティ&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;iPadで重要なことは、画面が広いだけでなく、利用する状況が違うこと&lt;/li&gt;
+  &lt;li&gt;iPadがiPhoneと大きく異なる点の１つはタブレットの大きな画面では通常のウェブサイトが充分に機能する&lt;/li&gt;
+  &lt;li&gt;小さいターゲットを正確にタッチするには指が太すぎるという共通の問題も残る&lt;/li&gt;
+  &lt;li&gt;iPadの「美しい」特性を生かすなら画像は大きくわかりやすいほうがいい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-42"&gt;タブレットはシェアされる機器&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;ユーザーが利用したいアプリをすぐに判別できるようにアプリのアイコンを特徴的に&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="ipad-1"&gt;iPadは何の為に使われる？&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;ノートPCでやっていた複雑な情報検索をiPadでやる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="ipad-2"&gt;iPadデザインに潜む３つの脅威&lt;/h3&gt;
+&lt;p&gt;iPadのUIでユーザーに重大な混乱を引き起こす３つ&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;目に見えない&lt;/li&gt;
+  &lt;li&gt;かくれてしまってアフォーダンスを与えてくれない&lt;/li&gt;
+  &lt;li&gt;思い出せない&lt;/li&gt;
+  &lt;li&gt;業界標準コマンドに広く準拠&lt;/li&gt;
+  &lt;li&gt;iPad上でほとんどのユーザが自然にできるジェスチャはタップとドラッグ&lt;/li&gt;
+  &lt;li&gt;一本指でダブるタップや長押しはすぐに慣れない&lt;/li&gt;
+  &lt;li&gt;指を吹く数本使ったジェスチャは間違う可能性が高い&lt;/li&gt;
+  &lt;li&gt;予想外の反応&lt;/li&gt;
+  &lt;li&gt;ユーザービリティについてユーザーに聞くよりユーザーの様子を見た方がいい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="vs--3"&gt;カードの達人 vs スクロール信者&lt;/h3&gt;
+&lt;p&gt;忠実にひとつのナビゲーションの方法だけを採用し同じページ内や画像の向きによって複数のナビゲーション方法を混在させない&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;カード&lt;/li&gt;
+  &lt;li&gt;固定した大きさのキャンバスの中に美しいレイアウトを配置が可能&lt;/li&gt;
+  &lt;li&gt;情報を得るには別カードにジャンプしなくてはならない&lt;/li&gt;
+  &lt;li&gt;スクロール&lt;/li&gt;
+  &lt;li&gt;好きなだけ情報を入れられる&lt;/li&gt;
+  &lt;li&gt;室の高いレイアウトができない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-43"&gt;スプラッシュ画面と起動ノイズ&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;最初は楽しませてくれてもすぐに歓迎されなくなってしまう長い導入部&lt;/li&gt;
+  &lt;li&gt;起動音は使わない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-44"&gt;画面の向き&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;iPadでは横向きを好むユーザーの方が多い&lt;/li&gt;
+  &lt;li&gt;すべての向きで機能がアクセスできることを推奨&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="ipadux"&gt;よりよいiPadUXのために&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;インタラクティブな領域を大きくよりわかりやすく&lt;/li&gt;
+  &lt;li&gt;繊細なGUIでインタラクティブの葬祭性を向上&lt;/li&gt;
+  &lt;li&gt;妙な付加価値をつけようとしないこと&lt;/li&gt;
+  &lt;li&gt;戻る・検索・ヘッドラインなどほとんどのアプリで使われている標準的なナビゲーションをサポートする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-45"&gt;未来への展望&lt;/h1&gt;
+&lt;p&gt;将来のユーザーインターフェースについての考察&lt;/p&gt;
+
+&lt;h2 id="section-46"&gt;モバイルは「より小さく」「より安く」「様々な用途に応じて」進化&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;パソコンは重要なまま存続する&lt;/li&gt;
+  &lt;li&gt;仕事で価値を生み出す割合はデスクトップPC、時間を使う割合はタブレットやモバイルへ&lt;/li&gt;
+  &lt;li&gt;第３の画面：テレビ&lt;/li&gt;
+  &lt;li&gt;テレビにはモバイル・デスクトップとは異なる３番目のUIが必要になる&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>【読書メモ】マイクロインタラクション ―UI/UXデザインの神が宿る細部</title>
+    <link rel="alternate" href="http://blog.url.com/2015/03/30/micro-interaction.html"/>
+    <id>http://blog.url.com/2015/03/30/micro-interaction.html</id>
+    <published>2015-03-30T15:44:00+09:00</published>
+    <updated>2015-03-30T23:32:02+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href="http://www.amazon.co.jp/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-%E2%80%95UI-UX%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%AE%E7%A5%9E%E3%81%8C%E5%AE%BF%E3%82%8B%E7%B4%B0%E9%83%A8-Dan-Saffer/dp/4873116597"&gt;マイクロインタラクション ―UI/UXデザインの神が宿る細部&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id="section"&gt;感想&lt;/h1&gt;
+&lt;p&gt;端的に言えばマイクロインタラクションとは「トリガー・ルール・フィードバック・ループとモード」なのだけれども、それぞれの説明とたくさんの実例が挙げられているお陰で特に難しいものではなく身近で且つ重要なものと認識できた。かなり各論寄り。
+各章の頭に入る実例がどれも興味深い話で、その後の話にも入りやすく、読み物としても普通に面白かった。スロットマシンと惑星探査車スピリットの話が特に好き。スピリットの話はでかすぎるが、スロットマシンのマイクロインタラクションが重要な話は非常に納得できる。&lt;/p&gt;
+
+&lt;p&gt;以下、自分用要約まとめ。
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id="section-1"&gt;マイクロインタラクションのデザイン&lt;/h1&gt;
+&lt;p&gt;オーケストラの演奏中にiPhoneの音が鳴ってしまったが、所持者は「消音モード」でも音が出るということを知らず。こういうことをほんの小さな「マイクロインタラクション」で解決できないか？&lt;/p&gt;
+
+&lt;h2 id="section-2"&gt;機能ではないが侮れない存在&lt;/h2&gt;
+
+&lt;h3 id="section-3"&gt;マイクロインタラクションが最適な用途&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;単一タスクの処理&lt;/li&gt;
+  &lt;li&gt;機器同士の接続&lt;/li&gt;
+  &lt;li&gt;株価や気温など単一データの取得&lt;/li&gt;
+  &lt;li&gt;チャンネルの切り替えなど現在進行中のプロセス制御&lt;/li&gt;
+  &lt;li&gt;特定の設定の変更&lt;/li&gt;
+  &lt;li&gt;ステータスメッセージ・小さなコンテンツの表示&lt;/li&gt;
+  &lt;li&gt;特定の昨日のオンオフ切り替え&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-4"&gt;大規模なマイクロインタラクション&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;主な機能の仕上がりがどれほどよくても全体のデザインの質が最初の要素の質を越えることはない&lt;/li&gt;
+  &lt;li&gt;逆に飛び抜けて便利であるがために質が問われないマイクロインタラクションもある（ex:医療器機&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-5"&gt;例&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Twitterのパスワード入力フォーム。１文字入力するたびに適切かどうかのメッセージが出る&lt;/li&gt;
+  &lt;li&gt;Facebookでデフォルト外の言語のコメントには「翻訳を見る」&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-6"&gt;マイクロインタラクションの歴史&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;コピー&amp;amp;ペーストの発明&lt;/li&gt;
+  &lt;li&gt;メタファーによる直接的な操作が可能に&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-7"&gt;マイクロインタラクションの構造&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;トリガー&lt;/li&gt;
+  &lt;li&gt;ルール&lt;/li&gt;
+  &lt;li&gt;フィードバック&lt;/li&gt;
+  &lt;li&gt;ループとモード&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-8"&gt;トリガー&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;手動トリガー&lt;/li&gt;
+  &lt;li&gt;画面に表示されるボタンやスライダーなど実際に手動でマイクロインタラクションを開始させる能力を持つもの&lt;/li&gt;
+  &lt;li&gt;iPhoneの消音スイッチ&lt;/li&gt;
+  &lt;li&gt;システムトリガー&lt;/li&gt;
+  &lt;li&gt;システムが起動するもの&lt;/li&gt;
+  &lt;li&gt;メールの到着、時刻、株価etc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-9"&gt;ルール&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;何をどうすると一連の動作が発動するのか&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-10"&gt;フィードバック&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;視覚的なもの・聴覚的なもの・触覚的なもの&lt;/li&gt;
+  &lt;li&gt;その動作に合ったフィードバックを選ぶこと&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-11"&gt;ループとモード&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;しばらくしたら終了するのか、中断している間はどうするか、条件が変わったらどうするか&lt;/li&gt;
+  &lt;li&gt;過去に購入したことのある商品を表示すると「購入する」から「もうひとつ購入する」に変更されるetc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-12"&gt;手法&lt;/h2&gt;
+
+&lt;h3 id="section-13"&gt;個々を磨く&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;比類のない記憶に残る瞬間を生み出せる可能性も&lt;/li&gt;
+  &lt;li&gt;初代iPodのスクロールホイール&lt;/li&gt;
+  &lt;li&gt;Facebookのいいね！ボタン&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-14"&gt;ひとつのマイクロインタラクション＝製品&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;あらゆる無駄を削ぎ落とし本質・真髄だけを残す&lt;/li&gt;
+  &lt;li&gt;Instagram&lt;/li&gt;
+  &lt;li&gt;evernote&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-15"&gt;多数をまとめ上げる&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;ひとつの機能や製品全体をマイクロインタラクションの集合&lt;/li&gt;
+  &lt;li&gt;マイクロインタラクションに目を奪われていて全体像を見失う恐れも&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-16"&gt;トリガー&lt;/h1&gt;
+&lt;p&gt;ニューヨークの地下鉄運賃支払い方式の変更例。トークンからメトロカードへ。メトロカードの自販をデザインし全域に設置は困難な作業であった。タッチスクリーンに無縁の人もいる中で、新しい機械を何百万人の利用者が使えるようにするには？&lt;/p&gt;
+
+&lt;h3 id="section-17"&gt;解決策&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;タッチスクリーン全体を大きなトリガーにしてしまう&lt;/li&gt;
+  &lt;li&gt;画面のどこに触れても販売機は反応&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-18"&gt;手動トリガー&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ユーザー自ら起動させるトリガー&lt;/li&gt;
+  &lt;li&gt;ターゲットとなるユーザーがコンテキストからトリガーであると認識できるものをトリガーとする&lt;/li&gt;
+  &lt;li&gt;「いつ　どこで」というユーザーの要求にトリガーを一致させること&lt;/li&gt;
+  &lt;li&gt;トリガーにより常に同じことが始まるようにする&lt;/li&gt;
+  &lt;li&gt;見えないトリガー「不可視トリガー」はデザイン上の難問に成り得る&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-19"&gt;データを前面に&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;処理を開始するボタンに処理が終わるまでの時間を表示することなど&lt;/li&gt;
+  &lt;li&gt;アイコンにダウンロード中のファイル数と進捗状況を表示など&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-20"&gt;手動トリガーの構成要素&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;コントロールそのもの&lt;/li&gt;
+  &lt;li&gt;コントロールの状態&lt;/li&gt;
+  &lt;li&gt;文字あるいはアイコン化されたラベル&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-21"&gt;コントロール&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;視覚的なシグにファイアを破壊しないこと&lt;/li&gt;
+  &lt;li&gt;ボタンならボタンらしく&lt;/li&gt;
+  &lt;li&gt;手動トリガーを見つけられるようにする&lt;/li&gt;
+  &lt;li&gt;使用頻度が高ければ高い程見つけやすく&lt;/li&gt;
+  &lt;li&gt;偽のシグニファイアが生成されないようにする&lt;/li&gt;
+  &lt;li&gt;不可視トリガー&lt;/li&gt;
+  &lt;li&gt;要素を隠すことにより機能を削除しなくても&lt;/li&gt;
+  &lt;li&gt;見えるものとの断層化が可能に&lt;/li&gt;
+  &lt;li&gt;見えなくすることが目的ではない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-22"&gt;コントロールの状況&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;デフォルト&lt;/li&gt;
+  &lt;li&gt;ホバー&lt;/li&gt;
+  &lt;li&gt;クリック可能を表示&lt;/li&gt;
+  &lt;li&gt;ロールオーバー&lt;/li&gt;
+  &lt;li&gt;トリガーがあることを表示&lt;/li&gt;
+  &lt;li&gt;起動中&lt;/li&gt;
+  &lt;li&gt;アクティブ&lt;/li&gt;
+  &lt;li&gt;処理進行中&lt;/li&gt;
+  &lt;li&gt;トグル&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-23"&gt;ラベル&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;トリガー全体では表せない情報を提供する時に限ってラベルを付与する&lt;/li&gt;
+  &lt;li&gt;短い言葉でしっかりした説明になっていて明快な言葉遣い&lt;/li&gt;
+  &lt;li&gt;首尾一貫&lt;/li&gt;
+  &lt;li&gt;呼び名の統一&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-24"&gt;システムトリガー&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;実はユーザーが起動するものよりもシステムトリガーの方が起動回数は多い&lt;/li&gt;
+  &lt;li&gt;エラー&lt;/li&gt;
+  &lt;li&gt;位置情報&lt;/li&gt;
+  &lt;li&gt;データの到着&lt;/li&gt;
+  &lt;li&gt;内部データ&lt;/li&gt;
+  &lt;li&gt;他人&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-25"&gt;システムトリガーにはルールが必要&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;起動する頻度&lt;/li&gt;
+  &lt;li&gt;何が既知であるか&lt;/li&gt;
+  &lt;li&gt;示す必要はあるか&lt;/li&gt;
+  &lt;li&gt;エラーが起きるとどうなるか&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-26"&gt;ルール&lt;/h1&gt;
+&lt;p&gt;Appleで別名で保存がなくなった問題。単純でわかりやすかったマイクロインタラクションが複数でわかりにくいマイクロインタラクションに置き換えられフィードバックもない。&lt;/p&gt;
+
+&lt;h2 id="section-27"&gt;ルールのデザイン&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;最も重要な要素は目的&lt;/li&gt;
+  &lt;li&gt;なぜそれを行っているか　最終的な状態&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-28"&gt;ルールで決定する必要のあるもの&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;起動されたときどう応えるか&lt;/li&gt;
+  &lt;li&gt;何が起こるの？&lt;/li&gt;
+  &lt;li&gt;ユーザーが進行中のマイクロインタラクションをどう制御できるか&lt;/li&gt;
+  &lt;li&gt;音量&lt;/li&gt;
+  &lt;li&gt;中止&lt;/li&gt;
+  &lt;li&gt;操作の順番とタイミング&lt;/li&gt;
+  &lt;li&gt;どこから取得するとどのようなデータが使われるのか&lt;/li&gt;
+  &lt;li&gt;アルゴリズムとパラメーター&lt;/li&gt;
+  &lt;li&gt;どのようなフィードバックが返されるか&lt;/li&gt;
+  &lt;li&gt;どのモードにあるか&lt;/li&gt;
+  &lt;li&gt;繰り返されるのか？頻度は？&lt;/li&gt;
+  &lt;li&gt;終わると何が起こるか&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-29"&gt;ルールを作る&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;フローチャートなどを用いて整理&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-30"&gt;動詞と名詞&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;最小限のオブジェクトに対して幅広い操作を可能にできる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-31"&gt;画面と状態&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;待ち状態（デフォルト&lt;/li&gt;
+  &lt;li&gt;アクティブになった状態&lt;/li&gt;
+  &lt;li&gt;更新された状態&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-32"&gt;制約&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;エラーを未然に防ぐ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-33"&gt;ゼロからはじめない&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;ユーザーの何を知っているか？&lt;/li&gt;
+  &lt;li&gt;既に知っていることを利用して改善する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-34"&gt;複雑さを軽減する&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;中心となる複雑さはどこ？&lt;/li&gt;
+  &lt;li&gt;提示する選択肢の選び方やデフォルト値の決め方も大切&lt;/li&gt;
+  &lt;li&gt;ユーザーによる制御は最小限に&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-35"&gt;選択肢の制限と賢いデフォルト&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ユーザーが次にとりそうな行動を目立つように表示する&lt;/li&gt;
+  &lt;li&gt;ルールを最小限にとどめるには選択肢を絞るのがいちばん&lt;/li&gt;
+  &lt;li&gt;賢いデフォルトがあるのみ&lt;/li&gt;
+  &lt;li&gt;もっとも目立つデフォルトは大半の人がほとんどの場合に取る行動に一致しているべき&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-36"&gt;コントロールとユーザー入力&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;繰り返し行われるマイクロインタラクションの場合、できるだけ単純に認識できるコントロールを用いる&lt;/li&gt;
+  &lt;li&gt;入力バーにコピペした場合に必要な部分だけを抜き出してくれるなど&lt;/li&gt;
+  &lt;li&gt;ドロップダウンメニューのリストを作るときは順番もよく考える&lt;/li&gt;
+  &lt;li&gt;USAがUだけどアルファベット順で本当に良いか？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-37"&gt;エラーの防止&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;ポカよけ&lt;/li&gt;
+  &lt;li&gt;ヒューマンエラーが起こりえないようにする&lt;/li&gt;
+  &lt;li&gt;間違えようとしても間違えられない&lt;/li&gt;
+  &lt;li&gt;ライトニングケーブル（どちら向きでもOk&lt;/li&gt;
+  &lt;li&gt;Gmailの添付という文字が入ってるけど添付されていない警告&lt;/li&gt;
+  &lt;li&gt;システム自体が適切な反応を返さない場合のみエラーを表示&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-38"&gt;マイクロコピー&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ラベル、指示などごく短いテキスト　言葉は簡潔に&lt;/li&gt;
+  &lt;li&gt;ラベルで充分なら粗さを指示する言葉は決して使わない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-39"&gt;アルゴリズム&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;処理順序&lt;/li&gt;
+  &lt;li&gt;どのようなステップがあるのか？&lt;/li&gt;
+  &lt;li&gt;特定の状況に左右されることはあるのか？&lt;/li&gt;
+  &lt;li&gt;分岐&lt;/li&gt;
+  &lt;li&gt;もし〜なら&lt;/li&gt;
+  &lt;li&gt;繰り返し&lt;/li&gt;
+  &lt;li&gt;変数&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-40"&gt;フィードバック&lt;/h1&gt;
+&lt;p&gt;スロットマシンにはまる訳とは？出来る限り長時間遊んでもらえるようにデザインされているのがスロットマシン。レバーを引くだけの退屈な作業を視覚効果とサウンドの組み合わせで魅力的な時間に変えることができる。&lt;/p&gt;
+
+&lt;h2 id="section-41"&gt;ルールの理解を助けるフィードバック&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;「何が行われたか」「その結果として何が起きたか」を知らせる&lt;/li&gt;
+  &lt;li&gt;マイクロインタラクションが実際にどう機能するかではなく、どのような感じで処理されるのか、があればよい&lt;/li&gt;
+  &lt;li&gt;フィードバックでユーザーに負担をかけない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-42"&gt;フィードバックを提供しなければならない場面&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;手動トリガーの直後、あるいはルールを手動で調整している最中やそのあと&lt;/li&gt;
+  &lt;li&gt;ボタンが押されたら&lt;/li&gt;
+  &lt;li&gt;システムトリガーによって、マイクロインタラクションの状態に著しい変化がもたらされた場合&lt;/li&gt;
+  &lt;li&gt;新着メールが届いたら&lt;/li&gt;
+  &lt;li&gt;ユーザーがもう少しでルールを破りそうな場合は例外なく&lt;/li&gt;
+  &lt;li&gt;間違った値を入力した&lt;/li&gt;
+  &lt;li&gt;システムがコマンドを実行できない場合&lt;/li&gt;
+  &lt;li&gt;オフラインなど&lt;/li&gt;
+  &lt;li&gt;重要な処理なら必ず進捗状態を表示する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-43"&gt;フィードバックを出してもよい画面&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;処理の開始時もしくは終了時&lt;/li&gt;
+  &lt;li&gt;特別なモードに入る、or 別のモードに&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-44"&gt;フィードバックの対象は人間&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;かなりの人が字が読めないことを忘れない&lt;/li&gt;
+  &lt;li&gt;ユーザーが意図されていない行動をとった場合でも「罰則」を与えてはならない&lt;/li&gt;
+  &lt;li&gt;運転中に食洗機を開けても熱湯を浴びるなどはあってはいけない&lt;/li&gt;
+  &lt;li&gt;フィードバックは的外れなものであってはいけない&lt;/li&gt;
+  &lt;li&gt;場面にあったものを&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-45"&gt;省略の美&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;最小のフィードバックで最大限のメッセージを伝える&lt;/li&gt;
+  &lt;li&gt;見落とされがちなものを使ってメッセージを伝える&lt;/li&gt;
+  &lt;li&gt;スクロールバー、カーソル、プログレスバー、ツールチップ、ホバーなどをうまく利用する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-46"&gt;個性を表現する手段としてのフィードバック&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;マイクロインタラクションにちょっとした魅力や軽いユーモアを吹き込む&lt;/li&gt;
+  &lt;li&gt;待っている間に表示されるメッセージ「待ってる間にチョコでもたべたら？」&lt;/li&gt;
+  &lt;li&gt;入力が長くなると「本気？」&lt;/li&gt;
+  &lt;li&gt;フィードバックが人間を対象にしたものだから&lt;/li&gt;
+  &lt;li&gt;ユーザーがイライラする瞬間こそが、個性を発揮するのにもってこいなタイミング&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-47"&gt;フィードバックの方法&lt;/h2&gt;
+
+&lt;h3 id="section-48"&gt;視覚&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;大半は視覚的&lt;/li&gt;
+  &lt;li&gt;重複は避ける&lt;/li&gt;
+  &lt;li&gt;ボタンがあるのにツールチップもある&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="section-49"&gt;アニメーション&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;最良のアニメーションとはユーザーに何かを伝えるもの&lt;/li&gt;
+  &lt;li&gt;アニメーションの特性&lt;/li&gt;
+  &lt;li&gt;高速&lt;/li&gt;
+  &lt;li&gt;滑らか&lt;/li&gt;
+  &lt;li&gt;自然&lt;/li&gt;
+  &lt;li&gt;シンプル&lt;/li&gt;
+  &lt;li&gt;目的がある&lt;/li&gt;
+  &lt;li&gt;アニメーションを使う理由&lt;/li&gt;
+  &lt;li&gt;コンテキストを保つ&lt;/li&gt;
+  &lt;li&gt;いま起きたことを説明する&lt;/li&gt;
+  &lt;li&gt;オブジェクト感の関係を示す&lt;/li&gt;
+  &lt;li&gt;焦点を鮮明にする&lt;/li&gt;
+  &lt;li&gt;パフォーマンスが上がったように感じさせる&lt;/li&gt;
+  &lt;li&gt;バーチャルスペースという錯覚を生み出す&lt;/li&gt;
+  &lt;li&gt;「もっと使って」と働きかける&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="section-50"&gt;メッセージ&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;正確&lt;/li&gt;
+  &lt;li&gt;エラー時のフィードバックならその文章に内容だけでなく修正方法も入れるべき&lt;/li&gt;
+  &lt;li&gt;「あなた」など人称代名詞は避けた方が無難&lt;/li&gt;
+  &lt;li&gt;避難めいていて不快感を招く&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="section-51"&gt;サウンド&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;一般的に「強調」「警告」に使われる&lt;/li&gt;
+  &lt;li&gt;視覚的フィードバックと組み合わせて使うことが多くその方が単独で使うより効果的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="section-52"&gt;イヤコン&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;特徴のある短い音&lt;/li&gt;
+  &lt;li&gt;言葉よりも早く&lt;/li&gt;
+  &lt;li&gt;最良のイヤコンは１秒未満で一瞬&lt;/li&gt;
+  &lt;li&gt;１音を１回だけが理想&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="section-53"&gt;音声&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;簡潔で明確なメッセージ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="section-54"&gt;ハプティクス&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;触覚を通じて情報を伝達する技術&lt;/li&gt;
+  &lt;li&gt;振動&lt;/li&gt;
+  &lt;li&gt;複雑なメッセージをハプティクスで簡単に伝えることはできない&lt;/li&gt;
+  &lt;li&gt;音声が利用できない、音声が望ましくないときの「知らせ」&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-55"&gt;フィードバックのルール&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;コンテキストによる変化&lt;/li&gt;
+  &lt;li&gt;夜になると音量を上げる・下げる、など&lt;/li&gt;
+  &lt;li&gt;継続時間&lt;/li&gt;
+  &lt;li&gt;程度&lt;/li&gt;
+  &lt;li&gt;繰り返し&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-56"&gt;ループとモード&lt;/h1&gt;
+&lt;p&gt;惑星探査車スピリットからの交信が途絶えてしまった。エラーにより再起動を繰り返す無限ループに陥り、電力を消費し続けてしまう。ループやモードは扱いが難しい自体を招く場合がある。&lt;/p&gt;
+
+&lt;h2 id="section-57"&gt;モード&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;モードとはルールが二股以上になったもの&lt;/li&gt;
+  &lt;li&gt;マイクロインタラクションの場合はモードを設けるのは極力避けるべき&lt;/li&gt;
+  &lt;li&gt;モードの数が少ない程ユーザーが混乱する危険が減る&lt;/li&gt;
+  &lt;li&gt;設けなければならない場合はモード専用の画面を用意すること&lt;/li&gt;
+  &lt;li&gt;これから普段とは違った作業をするということを示す合図に&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-58"&gt;バネ仕掛けのモードと一回完結のモード&lt;/h3&gt;
+
+&lt;h4 id="section-59"&gt;バネ仕掛けのモード&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;疑似モード&lt;/li&gt;
+  &lt;li&gt;押したままにしたりなど物理的操作をしたときにだけアクティブになるもの&lt;/li&gt;
+  &lt;li&gt;操作をやめるとモードも終了する&lt;/li&gt;
+  &lt;li&gt;キーボードのシフトキーやオルト、コマンドキー&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-60"&gt;ループ&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;直接的または間接的にルールでしめされるもの&lt;/li&gt;
+  &lt;li&gt;「30秒ごとにデータを取得する」「10日後にお知らせを送る」など&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-61"&gt;ループの形式&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;回数制御ループ&lt;/li&gt;
+  &lt;li&gt;あらかじめ設定された回数だけ繰り返す&lt;/li&gt;
+  &lt;li&gt;条件制御ループ&lt;/li&gt;
+  &lt;li&gt;何らかの条件が成立している間繰り返します&lt;/li&gt;
+  &lt;li&gt;コレクション制御ループ&lt;/li&gt;
+  &lt;li&gt;未読のメール一件ごとに未読数を１増やす&lt;/li&gt;
+  &lt;li&gt;無限ループ&lt;/li&gt;
+  &lt;li&gt;開始するとエラーが発生するか強制的に止めるかしないと終了しないループ&lt;/li&gt;
+  &lt;li&gt;開ループ&lt;/li&gt;
+  &lt;li&gt;何かを実行して終わるループ&lt;/li&gt;
+  &lt;li&gt;閉ループ&lt;/li&gt;
+  &lt;li&gt;自己調整を行うループ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-62"&gt;ロングループ&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;時とともに価値を増して行くもの&lt;/li&gt;
+  &lt;li&gt;最近使われた検索語が紫で表示される（YouTube&lt;/li&gt;
+  &lt;li&gt;カートの中身がもうすぐ売り切れになりそう！&lt;/li&gt;
+  &lt;li&gt;自分用にカスタマイズされている、新しくなっている、を感じてもらう&lt;/li&gt;
+  &lt;li&gt;欲しいものリストに入れた商品に関するお知らせを毎週送る&lt;/li&gt;
+  &lt;li&gt;サインインしたままにする&lt;/li&gt;
+  &lt;li&gt;自分の人とは違う設定を覚えていてくれるとうれしい助かる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-63"&gt;段階的な開示や省略&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;長い期間を通じて段階的に機能やデータを開示していく&lt;/li&gt;
+  &lt;li&gt;ユーザーが慣れてくるとラベルがなくなり控えめなボタンになる、など&lt;/li&gt;
+  &lt;li&gt;マイクロインタラクションを徐々に簡素化していく&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-64"&gt;マイクロインタラクションの実践例&lt;/h1&gt;
+&lt;p&gt;TaskRabbit　マッチングプラットフォーム仕事内容を依頼するために細かく仕事の内容を描き込まなくてはいけない。そこで「賢いデフォルト」「データを前面に」「タスクを複数の部分に分割する」という原則に沿って改良。ユーザーは仕事の中から該当するカテゴリを選ぶだけでよくなった。&lt;/p&gt;
+
+&lt;h2 id="section-65"&gt;モバイル機器用のアプリ&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;iPhone用のアラームアプリ&lt;/li&gt;
+  &lt;li&gt;時間が来たらアラームが鳴る&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-66"&gt;目的とルール&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;鳴らしたい時刻を指定するためのルール&lt;/li&gt;
+  &lt;li&gt;アラームを鳴らすためのルール&lt;/li&gt;
+  &lt;li&gt;アラームを止めるためのルール&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-67"&gt;データを前面に出す&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;既にアラームがセットされているか？されていたら何時か？&lt;/li&gt;
+  &lt;li&gt;前面に出すデータは既にセットされ今も秒読みで続いているアラームの件数だけにすべき&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-68"&gt;トリガー&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;iPhoneのアプリのトリガーは画面に置くアイコン&lt;/li&gt;
+  &lt;li&gt;トリガーにはラベルが必要&lt;/li&gt;
+  &lt;li&gt;アプリ名&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-69"&gt;コントロール&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;ボタンのタップ&lt;/li&gt;
+  &lt;li&gt;最も複雑なのは時間をセットすること、あとはボタンのみ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-70"&gt;記憶に残る瞬間&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;独創的で気の利いたものを作りたいのであればまさにこだわるべき部分&lt;/li&gt;
+  &lt;li&gt;「大多数の人がたいてい希望すると思われる行動に合わせて作る」&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-71"&gt;モード&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;初期リリース段階ではスキップしてもよい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-72"&gt;ループ&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;アラームが鳴り始めてから10分間誰も止めなかったら自分で止まる、というタイマーを組込み「電池が切れる」を防ぐ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-73"&gt;プロトタイプとドキュメント&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;目的のプラットフォームでプロトタイプを作成&lt;/li&gt;
+  &lt;li&gt;動画を作成&lt;/li&gt;
+  &lt;li&gt;フレーム単位dの絵コンテの作成&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-74"&gt;複数のマイクロインタラクションの調整&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;目指すべきは迅速さと安易さ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-75"&gt;マイクロインタラクションの協調&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;マイクロインタラクションのトリガーを数珠つなぎにすることも可能&lt;/li&gt;
+  &lt;li&gt;「つなぎ目」はユーザーの目や耳には触れないように&lt;/li&gt;
+  &lt;li&gt;全体が調和のとれた形でひとつにしっかりまとまっているという印象を与える&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-76"&gt;冴えないマイクロインタラクションを改善する方法&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;「記憶に残る瞬間」にする必要はあるか？&lt;/li&gt;
+  &lt;li&gt;ゼロから始めようとしているのか？&lt;/li&gt;
+  &lt;li&gt;一番重要なものはなにか？それは前面に出せるか？&lt;/li&gt;
+  &lt;li&gt;カスタムコントロールが適しているか？&lt;/li&gt;
+  &lt;li&gt;ヒューマンエラーを予防できるか？&lt;/li&gt;
+  &lt;li&gt;見落とされがちなものを活用しているか？&lt;/li&gt;
+  &lt;li&gt;上級ユーザー向けに不可視トリガーを作れないか？&lt;/li&gt;
+  &lt;li&gt;テキストやアイコンは自然か？&lt;/li&gt;
+  &lt;li&gt;アニメーションを加えればもっと表情や動きが出せるだろうか？&lt;/li&gt;
+  &lt;li&gt;他に加えるべきフィードバックの手段はないか？&lt;/li&gt;
+  &lt;li&gt;ユーザーが二回目に接した時何が起こるか？100回目には？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-77"&gt;小さな視野で考えよう&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;大規模なシステムを人間味あふれるものにすることができるマイクロインタラクション&lt;/li&gt;
+  &lt;li&gt;作り手のユーザーに対する気配り、心遣い、思いやり、おもてなしの心&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>【読書メモ】問題解決のセオリー—論理的思考・分析からシナリオプランニングまで</title>
+    <link rel="alternate" href="http://blog.url.com/2015/03/30/theory-of-problem-solving.html"/>
+    <id>http://blog.url.com/2015/03/30/theory-of-problem-solving.html</id>
+    <published>2015-03-30T15:33:00+09:00</published>
+    <updated>2015-03-30T23:29:18+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href="http://www.amazon.co.jp/%E5%95%8F%E9%A1%8C%E8%A7%A3%E6%B1%BA%E3%81%AE%E3%82%BB%E3%82%AA%E3%83%AA%E3%83%BC%E2%80%94%E8%AB%96%E7%90%86%E7%9A%84%E6%80%9D%E8%80%83%E3%83%BB%E5%88%86%E6%9E%90%E3%81%8B%E3%82%89%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E3%83%97%E3%83%A9%E3%83%B3%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%BE%E3%81%A7-%E9%AB%98%E6%9D%89-%E5%B0%9A%E5%AD%9D/dp/4532312892"&gt;問題解決のセオリー—論理的思考・分析からシナリオプランニングまで&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id="section"&gt;感想&lt;/h1&gt;
+&lt;p&gt;問題発見から問題解決まで一連の処理の仕方について詳しく書いてある。実際に読了後は問題になり得そうなものへの見方が変わったと感じます。使えそうな既成のフレームワークの紹介も多数あり、今すぐ必要としなくてもインデックスとして覚えておくと良さそう。
+全体的に難易度が低くはない内容になっているものの、問題解決の方法を具体的な日常生活で起こりうる問題（今日は傘を持って行った方がいい？）に例えられているのでわかりやすい。生活の中でも問題は常に起こると想定し、どのような問題に遭遇したときでも思考停止せず、きちんとフレームワークを使い考える癖をつけたい。問題解決はスキルや癖。&lt;/p&gt;
+
+&lt;p&gt;以下、自分用要約まとめ。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
 
-&lt;p&gt;そもそもは、会社の新年会でたまたま同じテーブルになった&lt;a href="http://hiropo.co.uk/"&gt;ひろぽ先輩@funnythingz&lt;/a&gt;に「なんか新しいことやりたいんですよね〜できればSlimとSassを使って」みたいなことをぽろっと話したのがキッカケだったと思います。&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;そのとき丁度周りの人が新しいことを始めたりしていて、ひろぽ先輩も今をときめくGolangで&lt;a href="http://plog.link/"&gt;plog&lt;/a&gt;ていう匿名掲示板っぽいものを作ってる最中で、わたしも何かやりたいよ〜でもやる気はあるけど何やっていいかわからん〜ていう相談をそこでして。それならMiddlemanていうのがありますよ、Slimとか使えますよ、というのを教えて頂き、まじすか！めちゃんこやりたいっす！！！ってなって次の日から早速作り始めました。&lt;/p&gt;
+&lt;h1 id="section-1"&gt;問題解決をいかに捉えるか&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Problem（問題）とIssue（課題）がある&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;と言っても冒頭で述べたように、Rubyもわからないただのデザイナーがいきなり作り始められる訳がなく、ひろぽ先輩にはむちゃくちゃ助けて頂きました。エラーとかも全然わからないし何度も心が折れそうになったけど、なんとか完成させることができて、しかもそれをちゃんとまとめて発表することもできてよかった！最高の体験！最高のUX！（言いたい）&lt;/p&gt;
+&lt;h2 id="section-2"&gt;本質は3タイプ&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;原状回復型&lt;/li&gt;
+  &lt;li&gt;解決は現状の回復&lt;/li&gt;
+  &lt;li&gt;潜在型&lt;/li&gt;
+  &lt;li&gt;解決は現状の維持&lt;/li&gt;
+  &lt;li&gt;理想追求型&lt;/li&gt;
+  &lt;li&gt;解決は理想の達成&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Githubもこんなに好きになるとは思わなかったな〜。これはもうずっと言ってるけど本当に&lt;a href="https://twitter.com/kozyty"&gt;こじてぃ先生@kozyty&lt;/a&gt;のおかげ。今年はこの「好き」を原動力に変えて、Gitを題材に何か一発やりたいと思っているのでそれもがんばるぞ。今回こうやって色んな人に教えてもらったから、わたしも誰かが困ってたらどんどん助けるぞ！ペイフォワード！&lt;/p&gt;
+&lt;h2 id="section-3"&gt;ふたつの基準で問題に優先順位をつける&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;「緊急性」と「重大さ」から問題の優先順位をつける&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;このブログはゆくゆくはポートフォリオ的なものにしていこうかなと思っています。まじめなことかく！！&lt;a href="http://yunico.hatenablog.com/"&gt;くだらないことはこちらに書いています。&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="section-4"&gt;原状回復型をどう解決するか&lt;/h1&gt;
+
+&lt;h2 id="section-5"&gt;問題解決は分析力にある&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;パーツに分解して考える&lt;/li&gt;
+  &lt;li&gt;「結果としての現象」と「原因」を混在しないように注意&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="wh"&gt;６W３H　原因究明に役立つフレームワーク&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;What：何に不具合が生じたのか&lt;/li&gt;
+  &lt;li&gt;Where：不具合の生じた場所はどこか&lt;/li&gt;
+  &lt;li&gt;Whech：どの対象に不具合が生じたのか&lt;/li&gt;
+  &lt;li&gt;When：いつ不具合が生じたのか&lt;/li&gt;
+  &lt;li&gt;Who：誰が不具合を発見したのか&lt;/li&gt;
+  &lt;li&gt;Why：なぜ不具合が発生したのか&lt;/li&gt;
+  &lt;li&gt;How：どうしたときに発生したのか&lt;/li&gt;
+  &lt;li&gt;How much：どれぐらいの不都合なのか&lt;/li&gt;
+  &lt;li&gt;How many：どれぐらいの量なのか&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-6"&gt;潜在型問題をどう解決するか&lt;/h1&gt;
+
+&lt;h2 id="section-7"&gt;ボトムアップ法とトップダウン法&lt;/h2&gt;
+
+&lt;h3 id="section-8"&gt;ボトムアップ法&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;現状から想定される不具合&lt;/li&gt;
+  &lt;li&gt;〜だけどもしかしたらやばいかな？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-9"&gt;トップダウン法&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;起きてほしくない不具合への対応策&lt;/li&gt;
+  &lt;li&gt;〜になってほしくないから○○しておこう&lt;/li&gt;
+  &lt;li&gt;原状回復型問題での再発防止策は、トップダウン的アプローチと同じ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-10"&gt;リスク分析に基づく予防策と発生時対応策&lt;/h2&gt;
+
+&lt;h1 id="section-11"&gt;理想追求型問題をどう解決するか&lt;/h1&gt;
+
+&lt;h2 id="section-12"&gt;理想をどこに捉えるか&lt;/h2&gt;
+
+&lt;h3 id="section-13"&gt;運営的な課題解決&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;期限を決める&lt;/li&gt;
+  &lt;li&gt;できるだけ現実的な期限を設定する&lt;/li&gt;
+  &lt;li&gt;必要条件を特定する&lt;/li&gt;
+  &lt;li&gt;必要となる条件の洗い出し&lt;/li&gt;
+  &lt;li&gt;スキルや知識の習得&lt;/li&gt;
+  &lt;li&gt;すべての準備を自前でやる必要はなし&lt;/li&gt;
+  &lt;li&gt;実施計画の策定&lt;/li&gt;
+  &lt;li&gt;ガントチャート等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="pertcpm"&gt;PERT/CPMの考え方が有効&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;どの作業をいつから開始していつまでに完了するかなどを効率的に求める手法&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-14"&gt;問題にどう接近するか？&lt;/h1&gt;
+
+&lt;h2 id="section-15"&gt;問題解決の原点は問題の存在に気づくこと&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;問題は自分で探すもの&lt;/li&gt;
+  &lt;li&gt;自分の守備範囲において地に足の着いた問題解決を実行して行く姿勢を持つ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="scqa"&gt;問題を発見し課題を特定するSCQA分析&lt;/h2&gt;
+
+&lt;h3 id="s"&gt;S&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Situation：安定した状況&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="c"&gt;C&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Compication：安定を覆す不具合&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="q"&gt;Q&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Question：疑問&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="a"&gt;A&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Answer：解答&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-16"&gt;本質的な課題に迫ることが大切&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;最終的に大事な疑問を課題として考えると良い&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-17"&gt;代替え案の策定と評価の仕方&lt;/h1&gt;
+
+&lt;h2 id="section-18"&gt;解決策のポイント&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;適切な課題設定&lt;/li&gt;
+  &lt;li&gt;代替案の策定と評価&lt;/li&gt;
+  &lt;li&gt;目指す歯本質的な課題設定&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-19"&gt;代替案の評価&lt;/h2&gt;
+
+&lt;h3 id="section-20"&gt;評価せずにまずはすべての解決策を並べてみる&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;ブレーン・ストーミング&lt;/li&gt;
+  &lt;li&gt;他人のアイディアを批判しない&lt;/li&gt;
+  &lt;li&gt;とにかく多くのアイディアを出す&lt;/li&gt;
+  &lt;li&gt;自由奔放な発言も歓迎&lt;/li&gt;
+  &lt;li&gt;他人のアイディアを発展させる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-21"&gt;代替案の評価基準を策定する&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;どうしても譲れない「必須項目」&lt;/li&gt;
+  &lt;li&gt;無くても何とかなる「優先項目」&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-22"&gt;希望項目をウェイトづけした上で代替案を評価する&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;マイナス面の評価も忘れずに&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-23"&gt;実行の為の行動計画&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;解決策の現実的な行動計画を持つ&lt;/li&gt;
+  &lt;li&gt;コミュニケーションの善し悪しで差が出る&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-24"&gt;シナリオ分析で不確実性を取り込む&lt;/h1&gt;
+
+&lt;h2 id="section-25"&gt;環境シナリオを考える大切さ&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;シナリオ分析は問題解決のための代替案を環境の変化という視点からシステマチックに評価することを可能に&lt;/li&gt;
+  &lt;li&gt;潜在型・理想追求型問題のアクション実施は将来の場合も&lt;/li&gt;
+  &lt;li&gt;問題解決／意思決定の効果が出るのは相当先の場合も多い&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-26"&gt;シナリオ分析とは&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;まだ起きていない将来を物語として垣間みる&lt;/li&gt;
+  &lt;li&gt;従来型の分析は、予測可能を前提にしている&lt;/li&gt;
+  &lt;li&gt;シナリオ分析のそれとの違いを明確にしてみるのが有益&lt;/li&gt;
+  &lt;li&gt;予測するのは専門家、意思決定者はそれを使うだけ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-27"&gt;シナリオ作成の手順&lt;/h1&gt;
+
+&lt;h2 id="section-28"&gt;シナリオ作成を３つのステップで捉える&lt;/h2&gt;
+
+&lt;h3 id="section-29"&gt;環境要因の構造的把握&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;環境を構成するリスク要員を一連の関連した事象として構造化する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-30"&gt;リスク要因別重要度の把握&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;当事者への「影響度」「不確実性」を軸に。リスク要因別の重要度を把握する&lt;/li&gt;
+  &lt;li&gt;リスク要因をマッピングするときのキーワードは網羅性&lt;/li&gt;
+  &lt;li&gt;お互いの関係を考えながらリスク要因を絞り込む&lt;/li&gt;
+  &lt;li&gt;因果関係で絞り込む&lt;/li&gt;
+  &lt;li&gt;相関関係で絞り込む&lt;/li&gt;
+  &lt;li&gt;因数分解することで絞り込む&lt;/li&gt;
+  &lt;li&gt;右上にあるリスク要因に注目するのが基本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-31"&gt;環境シナリオの作成&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;影響が大きくかつ不確実なリスク要因を軸に、質的に異なるシナリオを作成する&lt;/li&gt;
+  &lt;li&gt;環境シナリオ自体は、基本的に中立&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-32"&gt;シナリオと代替案を合体する&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;シナリオ／アクション・マトリックスで全体像をつかむ&lt;/li&gt;
+  &lt;li&gt;環境シナリオが３つ、そしてアクションの選択肢が３つあるとすれば、３×３＝９つのケースが出現&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-33"&gt;解決策の選択手順&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;アクション、すなわち代替案の中から最善の解決策を選ぶ作業&lt;/li&gt;
+  &lt;li&gt;とれないリスクも発生確率が低ければとれるリスクに&lt;/li&gt;
+  &lt;li&gt;希望的観測を排除する努力を&lt;/li&gt;
+  &lt;li&gt;こうなって欲しい、いう分析者の願望をできるだけ排除すること&lt;/li&gt;
+  &lt;li&gt;解決策ごとにその特徴をつかむ&lt;/li&gt;
+  &lt;li&gt;最終的な解決策を選定する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-34"&gt;問題解決に役立つフレームワーク&lt;/h1&gt;
+
+&lt;h2 id="section-35"&gt;論理的な思考をするために&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;問題解決と分析力の基盤には理論的な思考がある&lt;/li&gt;
+  &lt;li&gt;主張したら論拠を述べるのが論理的であることの基本&lt;/li&gt;
+  &lt;li&gt;主張も論拠も具体的であるとよい&lt;/li&gt;
+  &lt;li&gt;飛躍感は「暗黙の前提」にあることが多い&lt;/li&gt;
+  &lt;li&gt;己のロジックを「メタ認知」することが大切&lt;/li&gt;
+  &lt;li&gt;自分の思考を高いところから見下ろすことを「メタ認知」と呼ぶ&lt;/li&gt;
+  &lt;li&gt;論理性の追求には終わりがない&lt;/li&gt;
+  &lt;li&gt;１：主張をしたら論拠を述べる&lt;/li&gt;
+  &lt;li&gt;２：主張と論拠が正しく繋がっているかを検証する&lt;/li&gt;
+  &lt;li&gt;３：粘り強く仮説の検証を繰り返す&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-36"&gt;分析の本質に迫る&lt;/h1&gt;
+
+&lt;h2 id="mece"&gt;MECE的発想&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;ダブっていないことを加え、全体をもれなくカバーしている状態&lt;/li&gt;
+  &lt;li&gt;物事を「ダブりなく、かつ漏れなく」捉える&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-37"&gt;既成のフレームワークを分析に活用する&lt;/h1&gt;
+&lt;p&gt;フレームワークはあくまでも手段。目的を忘れずに
+何の為にこれらのツールを使うのか、目的を確認した上で作業にあたる&lt;/p&gt;
+
+&lt;h2 id="mece-1"&gt;構造的理解に有益なMECE的なフレームワーク&lt;/h2&gt;
+
+&lt;h3 id="c-1"&gt;事業戦略を考える上での「３つのC」&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Company（自社分析）&lt;/li&gt;
+  &lt;li&gt;Competitor（競合分析）&lt;/li&gt;
+  &lt;li&gt;Customer（顧客＝市場分析）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-38"&gt;業界分析に適した「５つの力」&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;業界内の競争&lt;/li&gt;
+  &lt;li&gt;新規参入の脅威&lt;/li&gt;
+  &lt;li&gt;代替品の脅威&lt;/li&gt;
+  &lt;li&gt;サプライヤーとの力関係&lt;/li&gt;
+  &lt;li&gt;ユーザーとの力関係&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="s-1"&gt;組織戦略を吟味する「７つのS」&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Strategy（経営戦略）&lt;/li&gt;
+  &lt;li&gt;System（運営システム）&lt;/li&gt;
+  &lt;li&gt;Style（経営スタイル）&lt;/li&gt;
+  &lt;li&gt;Staff（スタッフ）&lt;/li&gt;
+  &lt;li&gt;Skill（組織スキル）&lt;/li&gt;
+  &lt;li&gt;Shared Value（共有価値観）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="p"&gt;マーケティング戦略を練るうえでの「４つのP」&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Product（製品戦略）&lt;/li&gt;
+  &lt;li&gt;Pricing（価格戦略）&lt;/li&gt;
+  &lt;li&gt;Place（訴求戦略）&lt;/li&gt;
+  &lt;li&gt;Place（流通戦略）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="mece-2"&gt;プロモーションを更にMECE的に分解した「プロモーション・ミックス」&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;宣伝広告&lt;/li&gt;
+  &lt;li&gt;広告活動&lt;/li&gt;
+  &lt;li&gt;販売促進&lt;/li&gt;
+  &lt;li&gt;人的販売&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="mece-3"&gt;流れのあるMECE的なフレームワーク&lt;/h2&gt;
+
+&lt;h3 id="section-39"&gt;企業の機能別の流れを表す「ビジネス・システム」&lt;/h3&gt;
+&lt;p&gt;例&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;１：起きてほしくない不具合を想定する&lt;/li&gt;
+  &lt;li&gt;２：不具合を発生させる誘因を特定する&lt;/li&gt;
+  &lt;li&gt;３：排除できる誘因を排除しておく&lt;/li&gt;
+  &lt;li&gt;４：不具合が発生した際の対応策を用意しておく&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="aidma"&gt;購買決定プロセスを整理した「AIDMA」モデル&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;A：Attention（注意）&lt;/li&gt;
+  &lt;li&gt;I：Interest（興味・感心）&lt;/li&gt;
+  &lt;li&gt;D：Desire（欲求）&lt;/li&gt;
+  &lt;li&gt;M：Memory/Motivate（記憶・動機付け）&lt;/li&gt;
+  &lt;li&gt;A：Action（行動）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-40"&gt;ブランド保全に適した「お詫びとお知らせ」フレーム&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;謝罪の表明&lt;/li&gt;
+  &lt;li&gt;現状の説明&lt;/li&gt;
+  &lt;li&gt;原因の究明&lt;/li&gt;
+  &lt;li&gt;対策の説明&lt;/li&gt;
+  &lt;li&gt;再発防止策の提示&lt;/li&gt;
+  &lt;li&gt;責任の表明&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="mece-4"&gt;MECE的独立変数を軸とした「マトリックス」&lt;/h2&gt;
+
+&lt;h3 id="ppm"&gt;事業の組み合わせを考える「PPMマトリックス」&lt;/h3&gt;
+&lt;p&gt;プロダクト・ポートフォリオ・マネジメント&lt;/p&gt;
+
+&lt;h3 id="section-41"&gt;成長戦略を考える為の「製品・市場マトリックス」&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;市場浸透戦略&lt;/li&gt;
+  &lt;li&gt;市場開発戦略&lt;/li&gt;
+  &lt;li&gt;製品開発戦略&lt;/li&gt;
+  &lt;li&gt;多角化戦略&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-42"&gt;企業買収を検討する際の「企業価値創造のマトリックス」&lt;/h3&gt;
+
+&lt;h3 id="section-43"&gt;キャリアデザインに役立つ「キャリア・マトリックス」&lt;/h3&gt;
+
+&lt;h1 id="section-44"&gt;問題解決には平常心で臨む&lt;/h1&gt;
+
+&lt;h2 id="section-45"&gt;プレッシャー管理能力が大切&lt;/h2&gt;
+
+&lt;h3 id="section-46"&gt;状況の否定&lt;/h3&gt;
+&lt;p&gt;状況否定は問題解決の遅れに繋がる&lt;/p&gt;
+
+&lt;h3 id="section-47"&gt;タイミングの悪い責任追及&lt;/h3&gt;
+&lt;p&gt;状況を考えない責任の追及は、対策の遅れに繋がる&lt;/p&gt;
+
+&lt;h3 id="section-48"&gt;状況の非現実的な評価&lt;/h3&gt;
+&lt;p&gt;「もうだめだ」と状況の改善をもたらす行動を端から諦めてしまうことになりがち&lt;/p&gt;
+
+&lt;h2 id="section-49"&gt;「ねばならぬ」をやめ、努めて「望ましい」と考える&lt;/h2&gt;
+
+&lt;h3 id="section-50"&gt;よい思考の４要素&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;１：価値を相対的願望として肯定する&lt;/li&gt;
+  &lt;li&gt;望ましい、そうしたい、そうありたい&lt;/li&gt;
+  &lt;li&gt;２：絶対的要求を否定する&lt;/li&gt;
+  &lt;li&gt;ねばならない理由や決まりはない&lt;/li&gt;
+  &lt;li&gt;３：願望未達の過旺盛を認知する&lt;/li&gt;
+  &lt;li&gt;ある得ることだ&lt;/li&gt;
+  &lt;li&gt;４：願望未達の現実的な評価をする&lt;/li&gt;
+  &lt;li&gt;陽はまた昇る、なんとかなる、耐えられる&lt;/li&gt;
+&lt;/ul&gt;
+
 </content>
   </entry>
   <entry>
-    <title>デザイナーTechLunchでデモしてます</title>
-    <link rel="alternate" href="http://blog.url.com/2015/03/24/hogehoge.html"/>
-    <id>http://blog.url.com/2015/03/24/hogehoge.html</id>
-    <published>2015-03-24T10:53:00+09:00</published>
-    <updated>2015-03-24T12:26:25+09:00</updated>
+    <title>【読書メモ】世界一やさしい問題解決の授業―自分で考え、行動する力が身につく</title>
+    <link rel="alternate" href="http://blog.url.com/2015/03/30/problem-solving.html"/>
+    <id>http://blog.url.com/2015/03/30/problem-solving.html</id>
+    <published>2015-03-30T15:13:00+09:00</published>
+    <updated>2015-03-30T23:30:57+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。これはデザイナーTechLunchで発表する際のデモ投稿です。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>まだ資料作ってる…</title>
-    <link rel="alternate" href="http://blog.url.com/2015/03/23/keynote-work.html"/>
-    <id>http://blog.url.com/2015/03/23/keynote-work.html</id>
-    <published>2015-03-23T23:43:00+09:00</published>
-    <updated>2015-03-24T01:21:47+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。明日の資料がまだ終わらない…がんばって作っている！&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;a href="http://www.amazon.co.jp/%E4%B8%96%E7%95%8C%E4%B8%80%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E5%95%8F%E9%A1%8C%E8%A7%A3%E6%B1%BA%E3%81%AE%E6%8E%88%E6%A5%AD%E2%80%95%E8%87%AA%E5%88%86%E3%81%A7%E8%80%83%E3%81%88%E3%80%81%E8%A1%8C%E5%8B%95%E3%81%99%E3%82%8B%E5%8A%9B%E3%81%8C%E8%BA%AB%E3%81%AB%E3%81%A4%E3%81%8F-%E6%B8%A1%E8%BE%BA-%E5%81%A5%E4%BB%8B/dp/4478000492"&gt;世界一やさしい問題解決の授業―自分で考え、行動する力が身につく&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;というわけで、明日社内でmiddleman使ってブログつくった〜っていうプレゼンをするので、それを持ってこのブログの正式リリースとしたいと思う。&lt;/p&gt;
+&lt;h1 id="section"&gt;感想&lt;/h1&gt;
+&lt;p&gt;問題発見から問題解決までを、なぜこの行程が必要なのかを説きながら実際の手法を紹介しながら優しくわかりやすく解説してある。学生向けではあるが初めて問題解決を学ぶ人の入り口としても良さそう。ロジカルシンキングを学ぼうとするなら一番最初に読みたい本だけど、非常に問題解決の真意を突いてるので、逆に少し専門的な他の問題解決を読んだあとにまとめとして読むと頭がさっぱりする。&lt;/p&gt;
 
-&lt;p&gt;１月からずっとやってたyunicodeだけどようやくカタチになったかな〜。最後にいい機会があってよかった。非常に学ぶことの多いチャレンジでした。何から何まで教えてくれたひろぽ先輩のおかげすなあ・・&lt;/p&gt;
+&lt;p&gt;「目標を設定し達成する」という例が具体的でわかりやすい。これまでの自分のやり方では「目標と現状のギャップを明確にする」と「仮説が正しいかチェックする」の部分がかなり甘かった。問題解決を考える場合はやっぱり現状分析を侮ってはいけない。&lt;/p&gt;
 
-&lt;p&gt;あとは読書感想文とかも載せないとね。&lt;/p&gt;
+&lt;p&gt;以下、自分用要約まとめ。&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>ずっとプレゼン資料を作り続けている</title>
-    <link rel="alternate" href="http://blog.url.com/2015/03/23/sunday-night.html"/>
-    <id>http://blog.url.com/2015/03/23/sunday-night.html</id>
-    <published>2015-03-23T00:34:00+09:00</published>
-    <updated>2015-03-23T22:28:32+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。あー！12時過ぎちゃったので日付が23日になっちゃったよぉ…！&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
 
-&lt;p&gt;さて、火曜日のデザイナーTechLunchに向けてプレゼン資料を作っています。大したものではございませんが。プレゼンに合わせてこのブログを正式リリースとしたいのだけど、マークダウン記法あたりのデザインが間に合う気配がしない…&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;読んだ本の感想とかも置きたいけどまだkobitoに書き溜めたままや〜いそげ〜&lt;/p&gt;
+&lt;h1 id="section-1"&gt;問題解決能力を身につけよう&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;問題解決は才能ではなく「癖」である&lt;/li&gt;
+  &lt;li&gt;成功からも失敗からも何かを学び取る&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-2"&gt;そもそも問題解決って？&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;現状を正確に理解&lt;/li&gt;
+  &lt;li&gt;問題の原因を見極め&lt;/li&gt;
+  &lt;li&gt;効果的なうち手まで考え抜き&lt;/li&gt;
+  &lt;li&gt;実行する&lt;/li&gt;
+  &lt;li&gt;なぜ、を繰り返し問いかけていくことで原因が具体的に見えてくる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="section-3"&gt;【ツール】分解の木&lt;/h2&gt;
+&lt;p&gt;原因を探したり、アイディアを広げたりするのに便利&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;アイディアをリストアップし、似た者同士をグルーピング&lt;/li&gt;
+  &lt;li&gt;絵を描いてみても&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-4"&gt;問題の原因を見極め、打ち手を考える&lt;/h1&gt;
+
+&lt;h2 id="section-5"&gt;一旦冷静になって問題の元は何か考える&lt;/h2&gt;
+
+&lt;h3 id="section-6"&gt;原因を見極める&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;原因としてありえるものを洗い出す&lt;/li&gt;
+  &lt;li&gt;原因の仮説を立てる&lt;/li&gt;
+  &lt;li&gt;どんな分析をするか考え、情報を集める&lt;/li&gt;
+  &lt;li&gt;分析する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-7"&gt;打ち手を考える&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;打ち手のアイディアを幅広く洗い出す&lt;/li&gt;
+  &lt;li&gt;最適な打ち手を選択する&lt;/li&gt;
+  &lt;li&gt;実行プランを作成する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="section-8"&gt;目標を設定し、達成する方法を決める&lt;/h1&gt;
+
+&lt;h2 id="section-9"&gt;いくつかの小さな目標に置き換える&lt;/h2&gt;
+
+&lt;h3 id="section-10"&gt;目標を設定する&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;何をすべきか、どこから始めるべきか&lt;/li&gt;
+  &lt;li&gt;目標が具体的であればあるほど解決策も効果的&lt;/li&gt;
+  &lt;li&gt;どのような&lt;/li&gt;
+  &lt;li&gt;いつまでに&lt;/li&gt;
+  &lt;li&gt;どうやって&lt;/li&gt;
+  &lt;li&gt;何の為に&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-11"&gt;目標と現状のギャップを明確にする&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;現状のギャップがどれだけ大きいかチェック&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-12"&gt;仮説を立てる&lt;/h3&gt;
+
+&lt;h4 id="section-13"&gt;選択肢を幅広く洗い出す&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;たくさんのアイディアを書き出しあとで削って行く&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="section-14"&gt;選択肢を絞り込んで仮説を立てる&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;実現できなそうなもの、時間がかかりすぎてしまうもの、効果が期待できないものは消す&lt;/li&gt;
+  &lt;li&gt;価値観に合わないもの、自分らしくないものも消す&lt;/li&gt;
+  &lt;li&gt;絞り込んだものを元に仮説を立てる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="section-15"&gt;仮説が正しいかチェックする&lt;/h3&gt;
+
+&lt;h4 id="section-16"&gt;仮説に沿って情報を集める&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;仮説を検証するときは事実に基づいた数字やデータを使ってチェック&lt;/li&gt;
+  &lt;li&gt;感覚やなんとなく、はNG&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="section-17"&gt;データを分析し、チェックする&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;縦横２軸のマトリックスを使って優先度を整理&lt;/li&gt;
+&lt;/ul&gt;
+
 </content>
   </entry>
 </feed>
