@@ -3,7 +3,7 @@ title: 知りたいことは大概Helperに書いてあるのだ
 date: 2015-03-03
 tags:
   - slim
-  - reading
+  - ReadingNotes
 ---
 
 こんにちは！yunico.nagataです。middlemanのクソどうでもいいところで１日ぐらいハマってました。教えてもらったら普通にHelperに書いてあってしにたくなった。今後は詰まったらまず公式を見るのを忘れないようにします。
