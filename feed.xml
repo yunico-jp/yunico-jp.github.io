@@ -5,10 +5,46 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-03-30T15:57:00+09:00</updated>
+  <updated>2015-04-05T00:43:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>前期の反省・感想と今期の抱負</title>
+    <link rel="alternate" href="http://blog.url.com/2015/04/05/restart.html"/>
+    <id>http://blog.url.com/2015/04/05/restart.html</id>
+    <published>2015-04-05T00:43:00+09:00</published>
+    <updated>2015-04-05T00:54:39+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。日記を一週間ぐらいさぼってました。というか、一段落ついたので休憩してた。気が抜けたのかすごい風邪ひきました。まだ直っていない。&lt;/p&gt;
+
+&lt;h2 id="section"&gt;前期の反省・感想&lt;/h2&gt;
+&lt;p&gt;さて、期が新しくなりましたので目標も新たに再設定です。ちなみに、全期では、&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;slim&amp;amp;sassを使った何かを作る（このブログ作った）&lt;/li&gt;
+  &lt;li&gt;ロジカルシンキング（問題解決）について読書・要約まとめ&lt;/li&gt;
+  &lt;li&gt;UIデザインについての読書・要約まとめ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;などを行いました。結構がんばった！てかまあ、普通にとても勉強になりましたね。やっぱりわたしは机上の空論より実際に手を動かす方が好きです。アウトプットしてなんぼ！&lt;/p&gt;
+
+&lt;h2 id="section-1"&gt;今期の抱負&lt;/h2&gt;
+&lt;p&gt;今期は主に二つ、&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;@kozytyとGitについてのプロジェクト&lt;/li&gt;
+  &lt;li&gt;@funnythingzとAndroidアプリ作成プロジェクト&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;の２つをがんばってやっていきたいと思います。ディレクション・デザイン全般を担当。&lt;/p&gt;
+
+&lt;p&gt;まだ設計段階なのだけど内容がクソおもしろそうなので、どちらもフルコミットしてやりきりたい！前期はひとり目標だったので人と一緒にやれるの楽しみだ！がんばるぞ！&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>【読書メモ】iPhoneアプリ設計の極意 ―思わずタップしたくなるアプリのデザイン</title>
     <link rel="alternate" href="http://blog.url.com/2015/03/30/secret-design-of-iphone-app.html"/>
@@ -2351,118 +2387,6 @@
   &lt;li&gt;ある得ることだ&lt;/li&gt;
   &lt;li&gt;４：願望未達の現実的な評価をする&lt;/li&gt;
   &lt;li&gt;陽はまた昇る、なんとかなる、耐えられる&lt;/li&gt;
-&lt;/ul&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>【読書メモ】世界一やさしい問題解決の授業―自分で考え、行動する力が身につく</title>
-    <link rel="alternate" href="http://blog.url.com/2015/03/30/problem-solving.html"/>
-    <id>http://blog.url.com/2015/03/30/problem-solving.html</id>
-    <published>2015-03-30T15:13:00+09:00</published>
-    <updated>2015-03-30T23:30:57+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;a href="http://www.amazon.co.jp/%E4%B8%96%E7%95%8C%E4%B8%80%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E5%95%8F%E9%A1%8C%E8%A7%A3%E6%B1%BA%E3%81%AE%E6%8E%88%E6%A5%AD%E2%80%95%E8%87%AA%E5%88%86%E3%81%A7%E8%80%83%E3%81%88%E3%80%81%E8%A1%8C%E5%8B%95%E3%81%99%E3%82%8B%E5%8A%9B%E3%81%8C%E8%BA%AB%E3%81%AB%E3%81%A4%E3%81%8F-%E6%B8%A1%E8%BE%BA-%E5%81%A5%E4%BB%8B/dp/4478000492"&gt;世界一やさしい問題解決の授業―自分で考え、行動する力が身につく&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id="section"&gt;感想&lt;/h1&gt;
-&lt;p&gt;問題発見から問題解決までを、なぜこの行程が必要なのかを説きながら実際の手法を紹介しながら優しくわかりやすく解説してある。学生向けではあるが初めて問題解決を学ぶ人の入り口としても良さそう。ロジカルシンキングを学ぼうとするなら一番最初に読みたい本だけど、非常に問題解決の真意を突いてるので、逆に少し専門的な他の問題解決を読んだあとにまとめとして読むと頭がさっぱりする。&lt;/p&gt;
-
-&lt;p&gt;「目標を設定し達成する」という例が具体的でわかりやすい。これまでの自分のやり方では「目標と現状のギャップを明確にする」と「仮説が正しいかチェックする」の部分がかなり甘かった。問題解決を考える場合はやっぱり現状分析を侮ってはいけない。&lt;/p&gt;
-
-&lt;p&gt;以下、自分用要約まとめ。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id="section-1"&gt;問題解決能力を身につけよう&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;問題解決は才能ではなく「癖」である&lt;/li&gt;
-  &lt;li&gt;成功からも失敗からも何かを学び取る&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-2"&gt;そもそも問題解決って？&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;現状を正確に理解&lt;/li&gt;
-  &lt;li&gt;問題の原因を見極め&lt;/li&gt;
-  &lt;li&gt;効果的なうち手まで考え抜き&lt;/li&gt;
-  &lt;li&gt;実行する&lt;/li&gt;
-  &lt;li&gt;なぜ、を繰り返し問いかけていくことで原因が具体的に見えてくる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-3"&gt;【ツール】分解の木&lt;/h2&gt;
-&lt;p&gt;原因を探したり、アイディアを広げたりするのに便利&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;アイディアをリストアップし、似た者同士をグルーピング&lt;/li&gt;
-  &lt;li&gt;絵を描いてみても&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-4"&gt;問題の原因を見極め、打ち手を考える&lt;/h1&gt;
-
-&lt;h2 id="section-5"&gt;一旦冷静になって問題の元は何か考える&lt;/h2&gt;
-
-&lt;h3 id="section-6"&gt;原因を見極める&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;原因としてありえるものを洗い出す&lt;/li&gt;
-  &lt;li&gt;原因の仮説を立てる&lt;/li&gt;
-  &lt;li&gt;どんな分析をするか考え、情報を集める&lt;/li&gt;
-  &lt;li&gt;分析する&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-7"&gt;打ち手を考える&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;打ち手のアイディアを幅広く洗い出す&lt;/li&gt;
-  &lt;li&gt;最適な打ち手を選択する&lt;/li&gt;
-  &lt;li&gt;実行プランを作成する&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-8"&gt;目標を設定し、達成する方法を決める&lt;/h1&gt;
-
-&lt;h2 id="section-9"&gt;いくつかの小さな目標に置き換える&lt;/h2&gt;
-
-&lt;h3 id="section-10"&gt;目標を設定する&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;何をすべきか、どこから始めるべきか&lt;/li&gt;
-  &lt;li&gt;目標が具体的であればあるほど解決策も効果的&lt;/li&gt;
-  &lt;li&gt;どのような&lt;/li&gt;
-  &lt;li&gt;いつまでに&lt;/li&gt;
-  &lt;li&gt;どうやって&lt;/li&gt;
-  &lt;li&gt;何の為に&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-11"&gt;目標と現状のギャップを明確にする&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;現状のギャップがどれだけ大きいかチェック&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-12"&gt;仮説を立てる&lt;/h3&gt;
-
-&lt;h4 id="section-13"&gt;選択肢を幅広く洗い出す&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;たくさんのアイディアを書き出しあとで削って行く&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id="section-14"&gt;選択肢を絞り込んで仮説を立てる&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;実現できなそうなもの、時間がかかりすぎてしまうもの、効果が期待できないものは消す&lt;/li&gt;
-  &lt;li&gt;価値観に合わないもの、自分らしくないものも消す&lt;/li&gt;
-  &lt;li&gt;絞り込んだものを元に仮説を立てる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-15"&gt;仮説が正しいかチェックする&lt;/h3&gt;
-
-&lt;h4 id="section-16"&gt;仮説に沿って情報を集める&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;仮説を検証するときは事実に基づいた数字やデータを使ってチェック&lt;/li&gt;
-  &lt;li&gt;感覚やなんとなく、はNG&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id="section-17"&gt;データを分析し、チェックする&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;縦横２軸のマトリックスを使って優先度を整理&lt;/li&gt;
 &lt;/ul&gt;
 
 </content>
