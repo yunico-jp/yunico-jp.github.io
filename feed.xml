@@ -5,10 +5,36 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-04-05T00:43:00+09:00</updated>
+  <updated>2015-04-10T00:09:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>モチベーションを保ち続ける方法</title>
+    <link rel="alternate" href="http://blog.url.com/2015/04/10/motivation.html"/>
+    <id>http://blog.url.com/2015/04/10/motivation.html</id>
+    <published>2015-04-10T00:09:00+09:00</published>
+    <updated>2015-04-10T00:26:28+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。昨日今日寒すぎないですか？4月ですよ？&lt;/p&gt;
+
+&lt;p&gt;期が新しくなったので、新しいことに取り組んでいます。結構やる気満々だよ！&lt;/p&gt;
+
+&lt;p&gt;前期からずっとモチベーションが続いているのだけど理由は自分でもよくわかりません。たぶん、&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;人と一緒にやってる&lt;/li&gt;
+  &lt;li&gt;好きなことをやってる&lt;/li&gt;
+  &lt;li&gt;おもしろがってやってる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;あたりが良いんじゃないかな〜と思ってます。何ごともおもしろがってやるというのは大事すねえ。&lt;/p&gt;
+
+&lt;p&gt;なんかもっと書こうと思ったけどこんな感じっす。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>前期の反省・感想と今期の抱負</title>
     <link rel="alternate" href="http://blog.url.com/2015/04/05/restart.html"/>
@@ -2005,388 +2031,6 @@
 &lt;ul&gt;
   &lt;li&gt;大規模なシステムを人間味あふれるものにすることができるマイクロインタラクション&lt;/li&gt;
   &lt;li&gt;作り手のユーザーに対する気配り、心遣い、思いやり、おもてなしの心&lt;/li&gt;
-&lt;/ul&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>【読書メモ】問題解決のセオリー—論理的思考・分析からシナリオプランニングまで</title>
-    <link rel="alternate" href="http://blog.url.com/2015/03/30/theory-of-problem-solving.html"/>
-    <id>http://blog.url.com/2015/03/30/theory-of-problem-solving.html</id>
-    <published>2015-03-30T15:33:00+09:00</published>
-    <updated>2015-03-30T23:29:18+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;a href="http://www.amazon.co.jp/%E5%95%8F%E9%A1%8C%E8%A7%A3%E6%B1%BA%E3%81%AE%E3%82%BB%E3%82%AA%E3%83%AA%E3%83%BC%E2%80%94%E8%AB%96%E7%90%86%E7%9A%84%E6%80%9D%E8%80%83%E3%83%BB%E5%88%86%E6%9E%90%E3%81%8B%E3%82%89%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E3%83%97%E3%83%A9%E3%83%B3%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%BE%E3%81%A7-%E9%AB%98%E6%9D%89-%E5%B0%9A%E5%AD%9D/dp/4532312892"&gt;問題解決のセオリー—論理的思考・分析からシナリオプランニングまで&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id="section"&gt;感想&lt;/h1&gt;
-&lt;p&gt;問題発見から問題解決まで一連の処理の仕方について詳しく書いてある。実際に読了後は問題になり得そうなものへの見方が変わったと感じます。使えそうな既成のフレームワークの紹介も多数あり、今すぐ必要としなくてもインデックスとして覚えておくと良さそう。
-全体的に難易度が低くはない内容になっているものの、問題解決の方法を具体的な日常生活で起こりうる問題（今日は傘を持って行った方がいい？）に例えられているのでわかりやすい。生活の中でも問題は常に起こると想定し、どのような問題に遭遇したときでも思考停止せず、きちんとフレームワークを使い考える癖をつけたい。問題解決はスキルや癖。&lt;/p&gt;
-
-&lt;p&gt;以下、自分用要約まとめ。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id="section-1"&gt;問題解決をいかに捉えるか&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;Problem（問題）とIssue（課題）がある&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-2"&gt;本質は3タイプ&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;原状回復型&lt;/li&gt;
-  &lt;li&gt;解決は現状の回復&lt;/li&gt;
-  &lt;li&gt;潜在型&lt;/li&gt;
-  &lt;li&gt;解決は現状の維持&lt;/li&gt;
-  &lt;li&gt;理想追求型&lt;/li&gt;
-  &lt;li&gt;解決は理想の達成&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-3"&gt;ふたつの基準で問題に優先順位をつける&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;「緊急性」と「重大さ」から問題の優先順位をつける&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-4"&gt;原状回復型をどう解決するか&lt;/h1&gt;
-
-&lt;h2 id="section-5"&gt;問題解決は分析力にある&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;パーツに分解して考える&lt;/li&gt;
-  &lt;li&gt;「結果としての現象」と「原因」を混在しないように注意&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="wh"&gt;６W３H　原因究明に役立つフレームワーク&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;What：何に不具合が生じたのか&lt;/li&gt;
-  &lt;li&gt;Where：不具合の生じた場所はどこか&lt;/li&gt;
-  &lt;li&gt;Whech：どの対象に不具合が生じたのか&lt;/li&gt;
-  &lt;li&gt;When：いつ不具合が生じたのか&lt;/li&gt;
-  &lt;li&gt;Who：誰が不具合を発見したのか&lt;/li&gt;
-  &lt;li&gt;Why：なぜ不具合が発生したのか&lt;/li&gt;
-  &lt;li&gt;How：どうしたときに発生したのか&lt;/li&gt;
-  &lt;li&gt;How much：どれぐらいの不都合なのか&lt;/li&gt;
-  &lt;li&gt;How many：どれぐらいの量なのか&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-6"&gt;潜在型問題をどう解決するか&lt;/h1&gt;
-
-&lt;h2 id="section-7"&gt;ボトムアップ法とトップダウン法&lt;/h2&gt;
-
-&lt;h3 id="section-8"&gt;ボトムアップ法&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;現状から想定される不具合&lt;/li&gt;
-  &lt;li&gt;〜だけどもしかしたらやばいかな？&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-9"&gt;トップダウン法&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;起きてほしくない不具合への対応策&lt;/li&gt;
-  &lt;li&gt;〜になってほしくないから○○しておこう&lt;/li&gt;
-  &lt;li&gt;原状回復型問題での再発防止策は、トップダウン的アプローチと同じ&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-10"&gt;リスク分析に基づく予防策と発生時対応策&lt;/h2&gt;
-
-&lt;h1 id="section-11"&gt;理想追求型問題をどう解決するか&lt;/h1&gt;
-
-&lt;h2 id="section-12"&gt;理想をどこに捉えるか&lt;/h2&gt;
-
-&lt;h3 id="section-13"&gt;運営的な課題解決&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;期限を決める&lt;/li&gt;
-  &lt;li&gt;できるだけ現実的な期限を設定する&lt;/li&gt;
-  &lt;li&gt;必要条件を特定する&lt;/li&gt;
-  &lt;li&gt;必要となる条件の洗い出し&lt;/li&gt;
-  &lt;li&gt;スキルや知識の習得&lt;/li&gt;
-  &lt;li&gt;すべての準備を自前でやる必要はなし&lt;/li&gt;
-  &lt;li&gt;実施計画の策定&lt;/li&gt;
-  &lt;li&gt;ガントチャート等&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="pertcpm"&gt;PERT/CPMの考え方が有効&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;どの作業をいつから開始していつまでに完了するかなどを効率的に求める手法&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-14"&gt;問題にどう接近するか？&lt;/h1&gt;
-
-&lt;h2 id="section-15"&gt;問題解決の原点は問題の存在に気づくこと&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;問題は自分で探すもの&lt;/li&gt;
-  &lt;li&gt;自分の守備範囲において地に足の着いた問題解決を実行して行く姿勢を持つ&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="scqa"&gt;問題を発見し課題を特定するSCQA分析&lt;/h2&gt;
-
-&lt;h3 id="s"&gt;S&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Situation：安定した状況&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="c"&gt;C&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Compication：安定を覆す不具合&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="q"&gt;Q&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Question：疑問&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="a"&gt;A&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Answer：解答&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-16"&gt;本質的な課題に迫ることが大切&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;最終的に大事な疑問を課題として考えると良い&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-17"&gt;代替え案の策定と評価の仕方&lt;/h1&gt;
-
-&lt;h2 id="section-18"&gt;解決策のポイント&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;適切な課題設定&lt;/li&gt;
-  &lt;li&gt;代替案の策定と評価&lt;/li&gt;
-  &lt;li&gt;目指す歯本質的な課題設定&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-19"&gt;代替案の評価&lt;/h2&gt;
-
-&lt;h3 id="section-20"&gt;評価せずにまずはすべての解決策を並べてみる&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;ブレーン・ストーミング&lt;/li&gt;
-  &lt;li&gt;他人のアイディアを批判しない&lt;/li&gt;
-  &lt;li&gt;とにかく多くのアイディアを出す&lt;/li&gt;
-  &lt;li&gt;自由奔放な発言も歓迎&lt;/li&gt;
-  &lt;li&gt;他人のアイディアを発展させる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-21"&gt;代替案の評価基準を策定する&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;どうしても譲れない「必須項目」&lt;/li&gt;
-  &lt;li&gt;無くても何とかなる「優先項目」&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-22"&gt;希望項目をウェイトづけした上で代替案を評価する&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;マイナス面の評価も忘れずに&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-23"&gt;実行の為の行動計画&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;解決策の現実的な行動計画を持つ&lt;/li&gt;
-  &lt;li&gt;コミュニケーションの善し悪しで差が出る&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-24"&gt;シナリオ分析で不確実性を取り込む&lt;/h1&gt;
-
-&lt;h2 id="section-25"&gt;環境シナリオを考える大切さ&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;シナリオ分析は問題解決のための代替案を環境の変化という視点からシステマチックに評価することを可能に&lt;/li&gt;
-  &lt;li&gt;潜在型・理想追求型問題のアクション実施は将来の場合も&lt;/li&gt;
-  &lt;li&gt;問題解決／意思決定の効果が出るのは相当先の場合も多い&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-26"&gt;シナリオ分析とは&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;まだ起きていない将来を物語として垣間みる&lt;/li&gt;
-  &lt;li&gt;従来型の分析は、予測可能を前提にしている&lt;/li&gt;
-  &lt;li&gt;シナリオ分析のそれとの違いを明確にしてみるのが有益&lt;/li&gt;
-  &lt;li&gt;予測するのは専門家、意思決定者はそれを使うだけ&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-27"&gt;シナリオ作成の手順&lt;/h1&gt;
-
-&lt;h2 id="section-28"&gt;シナリオ作成を３つのステップで捉える&lt;/h2&gt;
-
-&lt;h3 id="section-29"&gt;環境要因の構造的把握&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;環境を構成するリスク要員を一連の関連した事象として構造化する&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-30"&gt;リスク要因別重要度の把握&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;当事者への「影響度」「不確実性」を軸に。リスク要因別の重要度を把握する&lt;/li&gt;
-  &lt;li&gt;リスク要因をマッピングするときのキーワードは網羅性&lt;/li&gt;
-  &lt;li&gt;お互いの関係を考えながらリスク要因を絞り込む&lt;/li&gt;
-  &lt;li&gt;因果関係で絞り込む&lt;/li&gt;
-  &lt;li&gt;相関関係で絞り込む&lt;/li&gt;
-  &lt;li&gt;因数分解することで絞り込む&lt;/li&gt;
-  &lt;li&gt;右上にあるリスク要因に注目するのが基本&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-31"&gt;環境シナリオの作成&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;影響が大きくかつ不確実なリスク要因を軸に、質的に異なるシナリオを作成する&lt;/li&gt;
-  &lt;li&gt;環境シナリオ自体は、基本的に中立&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-32"&gt;シナリオと代替案を合体する&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;シナリオ／アクション・マトリックスで全体像をつかむ&lt;/li&gt;
-  &lt;li&gt;環境シナリオが３つ、そしてアクションの選択肢が３つあるとすれば、３×３＝９つのケースが出現&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-33"&gt;解決策の選択手順&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;アクション、すなわち代替案の中から最善の解決策を選ぶ作業&lt;/li&gt;
-  &lt;li&gt;とれないリスクも発生確率が低ければとれるリスクに&lt;/li&gt;
-  &lt;li&gt;希望的観測を排除する努力を&lt;/li&gt;
-  &lt;li&gt;こうなって欲しい、いう分析者の願望をできるだけ排除すること&lt;/li&gt;
-  &lt;li&gt;解決策ごとにその特徴をつかむ&lt;/li&gt;
-  &lt;li&gt;最終的な解決策を選定する&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-34"&gt;問題解決に役立つフレームワーク&lt;/h1&gt;
-
-&lt;h2 id="section-35"&gt;論理的な思考をするために&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;問題解決と分析力の基盤には理論的な思考がある&lt;/li&gt;
-  &lt;li&gt;主張したら論拠を述べるのが論理的であることの基本&lt;/li&gt;
-  &lt;li&gt;主張も論拠も具体的であるとよい&lt;/li&gt;
-  &lt;li&gt;飛躍感は「暗黙の前提」にあることが多い&lt;/li&gt;
-  &lt;li&gt;己のロジックを「メタ認知」することが大切&lt;/li&gt;
-  &lt;li&gt;自分の思考を高いところから見下ろすことを「メタ認知」と呼ぶ&lt;/li&gt;
-  &lt;li&gt;論理性の追求には終わりがない&lt;/li&gt;
-  &lt;li&gt;１：主張をしたら論拠を述べる&lt;/li&gt;
-  &lt;li&gt;２：主張と論拠が正しく繋がっているかを検証する&lt;/li&gt;
-  &lt;li&gt;３：粘り強く仮説の検証を繰り返す&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-36"&gt;分析の本質に迫る&lt;/h1&gt;
-
-&lt;h2 id="mece"&gt;MECE的発想&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;ダブっていないことを加え、全体をもれなくカバーしている状態&lt;/li&gt;
-  &lt;li&gt;物事を「ダブりなく、かつ漏れなく」捉える&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-37"&gt;既成のフレームワークを分析に活用する&lt;/h1&gt;
-&lt;p&gt;フレームワークはあくまでも手段。目的を忘れずに
-何の為にこれらのツールを使うのか、目的を確認した上で作業にあたる&lt;/p&gt;
-
-&lt;h2 id="mece-1"&gt;構造的理解に有益なMECE的なフレームワーク&lt;/h2&gt;
-
-&lt;h3 id="c-1"&gt;事業戦略を考える上での「３つのC」&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Company（自社分析）&lt;/li&gt;
-  &lt;li&gt;Competitor（競合分析）&lt;/li&gt;
-  &lt;li&gt;Customer（顧客＝市場分析）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-38"&gt;業界分析に適した「５つの力」&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;業界内の競争&lt;/li&gt;
-  &lt;li&gt;新規参入の脅威&lt;/li&gt;
-  &lt;li&gt;代替品の脅威&lt;/li&gt;
-  &lt;li&gt;サプライヤーとの力関係&lt;/li&gt;
-  &lt;li&gt;ユーザーとの力関係&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="s-1"&gt;組織戦略を吟味する「７つのS」&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Strategy（経営戦略）&lt;/li&gt;
-  &lt;li&gt;System（運営システム）&lt;/li&gt;
-  &lt;li&gt;Style（経営スタイル）&lt;/li&gt;
-  &lt;li&gt;Staff（スタッフ）&lt;/li&gt;
-  &lt;li&gt;Skill（組織スキル）&lt;/li&gt;
-  &lt;li&gt;Shared Value（共有価値観）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="p"&gt;マーケティング戦略を練るうえでの「４つのP」&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Product（製品戦略）&lt;/li&gt;
-  &lt;li&gt;Pricing（価格戦略）&lt;/li&gt;
-  &lt;li&gt;Place（訴求戦略）&lt;/li&gt;
-  &lt;li&gt;Place（流通戦略）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="mece-2"&gt;プロモーションを更にMECE的に分解した「プロモーション・ミックス」&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;宣伝広告&lt;/li&gt;
-  &lt;li&gt;広告活動&lt;/li&gt;
-  &lt;li&gt;販売促進&lt;/li&gt;
-  &lt;li&gt;人的販売&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="mece-3"&gt;流れのあるMECE的なフレームワーク&lt;/h2&gt;
-
-&lt;h3 id="section-39"&gt;企業の機能別の流れを表す「ビジネス・システム」&lt;/h3&gt;
-&lt;p&gt;例&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;１：起きてほしくない不具合を想定する&lt;/li&gt;
-  &lt;li&gt;２：不具合を発生させる誘因を特定する&lt;/li&gt;
-  &lt;li&gt;３：排除できる誘因を排除しておく&lt;/li&gt;
-  &lt;li&gt;４：不具合が発生した際の対応策を用意しておく&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="aidma"&gt;購買決定プロセスを整理した「AIDMA」モデル&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;A：Attention（注意）&lt;/li&gt;
-  &lt;li&gt;I：Interest（興味・感心）&lt;/li&gt;
-  &lt;li&gt;D：Desire（欲求）&lt;/li&gt;
-  &lt;li&gt;M：Memory/Motivate（記憶・動機付け）&lt;/li&gt;
-  &lt;li&gt;A：Action（行動）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-40"&gt;ブランド保全に適した「お詫びとお知らせ」フレーム&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;謝罪の表明&lt;/li&gt;
-  &lt;li&gt;現状の説明&lt;/li&gt;
-  &lt;li&gt;原因の究明&lt;/li&gt;
-  &lt;li&gt;対策の説明&lt;/li&gt;
-  &lt;li&gt;再発防止策の提示&lt;/li&gt;
-  &lt;li&gt;責任の表明&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="mece-4"&gt;MECE的独立変数を軸とした「マトリックス」&lt;/h2&gt;
-
-&lt;h3 id="ppm"&gt;事業の組み合わせを考える「PPMマトリックス」&lt;/h3&gt;
-&lt;p&gt;プロダクト・ポートフォリオ・マネジメント&lt;/p&gt;
-
-&lt;h3 id="section-41"&gt;成長戦略を考える為の「製品・市場マトリックス」&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;市場浸透戦略&lt;/li&gt;
-  &lt;li&gt;市場開発戦略&lt;/li&gt;
-  &lt;li&gt;製品開発戦略&lt;/li&gt;
-  &lt;li&gt;多角化戦略&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-42"&gt;企業買収を検討する際の「企業価値創造のマトリックス」&lt;/h3&gt;
-
-&lt;h3 id="section-43"&gt;キャリアデザインに役立つ「キャリア・マトリックス」&lt;/h3&gt;
-
-&lt;h1 id="section-44"&gt;問題解決には平常心で臨む&lt;/h1&gt;
-
-&lt;h2 id="section-45"&gt;プレッシャー管理能力が大切&lt;/h2&gt;
-
-&lt;h3 id="section-46"&gt;状況の否定&lt;/h3&gt;
-&lt;p&gt;状況否定は問題解決の遅れに繋がる&lt;/p&gt;
-
-&lt;h3 id="section-47"&gt;タイミングの悪い責任追及&lt;/h3&gt;
-&lt;p&gt;状況を考えない責任の追及は、対策の遅れに繋がる&lt;/p&gt;
-
-&lt;h3 id="section-48"&gt;状況の非現実的な評価&lt;/h3&gt;
-&lt;p&gt;「もうだめだ」と状況の改善をもたらす行動を端から諦めてしまうことになりがち&lt;/p&gt;
-
-&lt;h2 id="section-49"&gt;「ねばならぬ」をやめ、努めて「望ましい」と考える&lt;/h2&gt;
-
-&lt;h3 id="section-50"&gt;よい思考の４要素&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;１：価値を相対的願望として肯定する&lt;/li&gt;
-  &lt;li&gt;望ましい、そうしたい、そうありたい&lt;/li&gt;
-  &lt;li&gt;２：絶対的要求を否定する&lt;/li&gt;
-  &lt;li&gt;ねばならない理由や決まりはない&lt;/li&gt;
-  &lt;li&gt;３：願望未達の過旺盛を認知する&lt;/li&gt;
-  &lt;li&gt;ある得ることだ&lt;/li&gt;
-  &lt;li&gt;４：願望未達の現実的な評価をする&lt;/li&gt;
-  &lt;li&gt;陽はまた昇る、なんとかなる、耐えられる&lt;/li&gt;
 &lt;/ul&gt;
 
 </content>
