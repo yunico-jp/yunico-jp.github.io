@@ -5,10 +5,53 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-05-31T15:54:00+09:00</updated>
+  <updated>2015-09-12T22:27:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>本の読み方を変える</title>
+    <link rel="alternate" href="http://blog.url.com/2015/09/12/reading.html"/>
+    <id>http://blog.url.com/2015/09/12/reading.html</id>
+    <published>2015-09-12T22:27:00+09:00</published>
+    <updated>2015-09-12T22:46:59+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。結構ひさしぶりになってしまった。最近はまた少し別のことを勉強してます。&lt;/p&gt;
+
+&lt;p&gt;よって、いろんな本を読むわけですが、小説のようにじっくりと一行ずつ読むので非常に進みが遅く、そして内容がなかなか頭に入ってこない。&lt;/p&gt;
+
+&lt;p&gt;そんなに頭が良くないので勉強しようと本を読むけど本もうまく読めないとか悲しすぎる。という訳で変えてみることにしました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://blog.livedoor.jp/kensuu/archives/50875771.html"&gt;けんすうさんのブログ&lt;/a&gt;を参考にしました。2009年の記事なんですが、いま読んでも非常に役立つノウハウです。&lt;/p&gt;
+
+&lt;p&gt;そんなに頭が良くない人はそれなりに適切なやり方を意識的に選択していかないとやばい。頭が良くないということを自覚するのも大事です。&lt;/p&gt;
+
+&lt;p&gt;具体的なやり方はブログに書かれているものが全てなのですが、少し引用をさせていただくとこんな感じ。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;１：もくじを熟読
+２：著者欄を熟読
+３：ネットとかでその本について調べてレビューを読む
+４：どんないいことが書かれているか仮説を立ててどっかに書いておく
+５：１時間で読み切るぞと時間を計って読む（電車を降りるまで、とか決めてもOK）
+６：ぐわって仮説で立てた個所がないか探しながらざっと全体を「眺める」
+７：関係ありそうなところがあれば本のはしを追っておく
+８：関係ありそうなところは熟読
+９：読み終わったらもうその本は捨てちゃう。
+１０：その本から何を得たかどっかに書いておく。書かなくても頭の中で考えておく&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;要は、必要なエッセンスだけ取り出せられればOK、ぐらいの気持ちで読む。欲張りすぎないことです。&lt;/p&gt;
+
+&lt;p&gt;実際に仮説を立ててから、時間を決めて、眺めながら関係ありそうなところを探して必要な部分のみを取り出していく、という読み方に変えてみたところ、非常に効率よく内容を理解することができました。&lt;/p&gt;
+
+&lt;p&gt;という訳で、時間がなくてなかなか本が読めない〜とか、本を読むのが苦手だ〜、という人におすすめしたいと思います。&lt;/p&gt;
+
+&lt;p&gt;おわり&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Git初心者にはGUIとCUIどちらを勧めるべきか</title>
     <link rel="alternate" href="http://blog.url.com/2015/05/31/git-cui-or-gui.html"/>
@@ -56,7 +99,7 @@ CUIシンプルでいい。どのPCでもどんな環境でもすぐ使えるし
     <link rel="alternate" href="http://blog.url.com/2015/04/10/motivation.html"/>
     <id>http://blog.url.com/2015/04/10/motivation.html</id>
     <published>2015-04-10T00:09:00+09:00</published>
-    <updated>2015-04-10T00:26:28+09:00</updated>
+    <updated>2015-06-25T13:31:25+09:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -1058,443 +1101,6 @@ CUIシンプルでいい。どのPCでもどんな環境でもすぐ使えるし
 &lt;ul&gt;
   &lt;li&gt;実際の店舗は品揃えがよければネットショップにたいして優位を保つことができる&lt;/li&gt;
   &lt;li&gt;ガラスケースに入れられている等の障害があると進んで払おうと思う金額が下がってしまう恐れあり&lt;/li&gt;
-&lt;/ul&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>【読書メモ】モバイル・ユーザビリティ 使いやすいUIデザインの秘訣</title>
-    <link rel="alternate" href="http://blog.url.com/2015/03/30/mobile-usability.html"/>
-    <id>http://blog.url.com/2015/03/30/mobile-usability.html</id>
-    <published>2015-03-30T15:48:00+09:00</published>
-    <updated>2015-03-30T23:31:21+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;a href="http://www.amazon.co.jp/%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%BB%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3-%E4%BD%BF%E3%81%84%E3%82%84%E3%81%99%E3%81%84UI%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%AE%E7%A7%98%E8%A8%A3-Jakob-Nielsen/dp/4798133450"&gt;モバイル・ユーザビリティ 使いやすいUIデザインの秘訣&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id="section"&gt;感想&lt;/h1&gt;
-&lt;p&gt;「なぜモバイル用に対応したものを作らないといけないの？」から始まり、モバイルユーザービリティについて徹底的に書かれている。アプリに限らず、今後ウェブサイトというものを作る人はモバイルデザインを避けては通れないので必ず一度は読んだ方がよい本です。お恥ずかしい話ですが「90:9:1の法則」を初めてきちんと知った。
-最近行われたQiitaのリニューアルでタグがまさにあいうえお順で並べられており「アルファベットは消え去るべき」に書かれていた内容を痛感した。あとKindle fireがとてもアレということはよくわかった。&lt;/p&gt;
-
-&lt;p&gt;以下、自分用要約まとめ。
-&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id="section-1"&gt;ユーザービリティ調査の進め方&lt;/h1&gt;
-
-&lt;h2 id="section-2"&gt;定性的ユーザー調査&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;厳密に正確な統計が無くても、数少ないユーザー事例から問題の大きさを測定できる。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-3"&gt;モバイル戦略&lt;/h1&gt;
-
-&lt;h2 id="section-4"&gt;2009年に実施したユーザーテスト&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;悲惨なタスク達成率&lt;/li&gt;
-  &lt;li&gt;パソコンよりはるかにおそいダウンロード&lt;/li&gt;
-  &lt;li&gt;小さな画面の中でスクロールを繰り返し迷子に&lt;/li&gt;
-  &lt;li&gt;情報の肥大化&lt;/li&gt;
-  &lt;li&gt;不慣れなユーザー・インターフェース&lt;/li&gt;
-  &lt;li&gt;jsのクラッシュ&lt;/li&gt;
-  &lt;li&gt;操作への抵抗感&lt;/li&gt;
-  &lt;li&gt;モバイル機器のモデルとして従来メディアのデザインを使用&lt;/li&gt;
-  &lt;li&gt;自動的に画像を切り替えて表示するカルーセル形式はモバイル機器ではほとんど用をなさない&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-5"&gt;2009年以降改善された点&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;タスク成功率の向上&lt;/li&gt;
-  &lt;li&gt;ユーザーインターフェースの慣れ&lt;/li&gt;
-  &lt;li&gt;jsの状況改善&lt;/li&gt;
-  &lt;li&gt;抵抗感の現象&lt;/li&gt;
-  &lt;li&gt;買い物や支払いにモバイル機器を使うことにたいして嫌悪感や抵抗感を抱く人は減っている&lt;/li&gt;
-  &lt;li&gt;ダウンロード時間に関する問題は解決していない&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-6"&gt;モバイル機器の種類によって異なるユーザービリティ&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;小型画面（ガラケー）、中型画面（スマホ）、大型画面（スマホタッチ対応）の３種類に分けられる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-7"&gt;機器ごとにデザインするのがベスト&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;モバイル用にデザインしたサイトをひとつは用意する&lt;/li&gt;
-  &lt;li&gt;モバイル版には掲載しきれない機能を必要とするユーザーのために、簡単にパソコン版のサイトに切り替える機能をモバイル版につけるようにする&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="vs-"&gt;モバイルサイト vs フルサイト&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;余裕があればモバイルに最適化したサイトを個別に構築する&lt;/li&gt;
-  &lt;li&gt;モバイルユーザーがフルサイトにたどり着いた場合、モバイルサイトの代用品としてフルサイトを見ていないか確認&lt;/li&gt;
-  &lt;li&gt;フルサイトからモバイルサイトに移動しようとするユーザーのために明確なリンクを用意&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-8"&gt;モバイルに最適化したサイト&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;モバイルを使う上で重要ではない機能を排除&lt;/li&gt;
-  &lt;li&gt;文字数を減らし、二次的な情報は次のページに先送り&lt;/li&gt;
-  &lt;li&gt;太い指でも操作上問題ないようにインターフェース要素を大きく&lt;/li&gt;
-  &lt;li&gt;ユーザーの要求に対する答えや情報が、プラットフォームによってばらつきがあってはいけない&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-9"&gt;フルサイトがモバイルでの利用で適さない理由&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;大部分のタスクに対してフルサイトよりもデザインの良質なモバイルサイトから良質のユーザーエクスペリエンスを得ることが出来る&lt;/li&gt;
-  &lt;li&gt;フルサイトを訪問すると余計なクリックが必要になり遅くなる&lt;/li&gt;
-  &lt;li&gt;しかし、パソコンユーザーからのトラフィックはモバイルをはるかに上回っている&lt;/li&gt;
-  &lt;li&gt;お金を稼いでくれるパソコンユーザーを軽視はできない&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-10"&gt;パソコンとモバイル機器で重要な違い&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;コンテンツは異なる&lt;/li&gt;
-  &lt;li&gt;より短く単純なライティング&lt;/li&gt;
-  &lt;li&gt;メディアに合わせてデザインし直す必要&lt;/li&gt;
-  &lt;li&gt;情報の断層構造の工夫&lt;/li&gt;
-  &lt;li&gt;指入力とマウス入力の違い&lt;/li&gt;
-  &lt;li&gt;複雑な操作を減らす&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-11"&gt;モバイル機器はパソコンに比べて与えられるものが限られる&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;パソコン用のコピーライティングは簡潔に&lt;/li&gt;
-  &lt;li&gt;モバイル用のコピーライティングはさらに簡潔に&lt;/li&gt;
-  &lt;li&gt;モバイルユーザーはせっかち&lt;/li&gt;
-  &lt;li&gt;できるだけ少ない機能を提供すべき&lt;/li&gt;
-  &lt;li&gt;シンプルなナビゲーションを心がける必要&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-12"&gt;レスポンシブデザイン&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;メンテナンスコストが低い&lt;/li&gt;
-  &lt;li&gt;モバイルだけというユーザーをサポート&lt;/li&gt;
-  &lt;li&gt;画面上でコンテンツを移動させたり、デザイン要素を拡大・縮小したりすることで画面の大きさに合わせるだけでは充分とは言えない&lt;/li&gt;
-  &lt;li&gt;プラットフォームごとの相違点に適用できていないのであればレスポンシブとは言えない&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-13"&gt;ユーザービリティガイドラインが対立することはない&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;モバイルユーザビリティには通常のウェブサイトユーザビリティより厳密でより絞り込んだデザインが要求される&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="vs--1"&gt;モバイルサイト vs アプリ&lt;/h2&gt;
-
-&lt;h3 id="section-14"&gt;現在のモバイル戦略&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;アプリがベスト&lt;/li&gt;
-  &lt;li&gt;Webサイトのデザインでは最低か出来ることが限られているから&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-15"&gt;将来のモバイル戦略&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;サイトがベスト&lt;/li&gt;
-  &lt;li&gt;複数のアプリから深い断層になるコンテンツを検索できるアプリはまだない&lt;/li&gt;
-  &lt;li&gt;HTML5のような新しいWeb技術がモバイルサイトの機能を大幅に向上させている&lt;/li&gt;
-  &lt;li&gt;長期的に見ればモバイルアプリよりモバイルサイトが勝る&lt;/li&gt;
-  &lt;li&gt;しかしそれはいつ起こるか予測できないので現在最高のUXを実現するならアプリが優位&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-16"&gt;モバイルアプリ&lt;/h2&gt;
-
-&lt;h3 id="section-17"&gt;モバイルアプリは一時的な利用にとどまることが多い&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;ダウンロード回数だけを測定しても意味ない&lt;/li&gt;
-  &lt;li&gt;ユーザーはたくさんのアプリをインストールしているので埋もれてしまう可能性が高い&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-18"&gt;進みは遅いが希望はある&lt;/h2&gt;
-&lt;p&gt;2000年から2009年までの9年間の間に、パソコンでの4年間の進歩に相当するモバイルユーザーエクスペリエンスの進歩があった。インターネットユーザービリティのペースの半分で改良が進んでいる。&lt;/p&gt;
-
-&lt;h1 id="section-19"&gt;小さな画面のデザイン&lt;/h1&gt;
-
-&lt;h2 id="section-20"&gt;モバイルユーザービリティの４つのハードル&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;小さな画面&lt;/li&gt;
-  &lt;li&gt;ユーザーはオンライン情報を理解するために短期記憶に頼らなくてはならない&lt;/li&gt;
-  &lt;li&gt;やっかいな入力&lt;/li&gt;
-  &lt;li&gt;遅いダウンロード&lt;/li&gt;
-  &lt;li&gt;粗末なデザイン&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-21"&gt;モバイルスペースの浪費&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;モバイルサイトやアプリを成功させるガイドラインは小さな画面向けにデザインすること&lt;/li&gt;
-  &lt;li&gt;より高い情報密度＝動き回る必要性が減り、望む情報が手に入る可能性が高まる&lt;/li&gt;
-  &lt;li&gt;多くの情報や圧倒されるような情報を画面に詰め込んではいけない&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="chrome"&gt;Chrome&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;コンテンツを操作するコマンドを提供するビジュアルデザイン要素&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="chrome-1"&gt;Chromeいくつかの例&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Windows&lt;/li&gt;
-  &lt;li&gt;ガジェットエリアなど&lt;/li&gt;
-  &lt;li&gt;アプリケーションソフト&lt;/li&gt;
-  &lt;li&gt;メニューバー・ツールバー・ルーラーなど&lt;/li&gt;
-  &lt;li&gt;Webブラウザ&lt;/li&gt;
-  &lt;li&gt;URLフィールド・ブラウザツールバー・ブラウザボタンなど&lt;/li&gt;
-  &lt;li&gt;モバイルアプリ&lt;/li&gt;
-  &lt;li&gt;アイコン付きタブ・ナビゲーションバーなど&lt;/li&gt;
-  &lt;li&gt;ウェブサイト&lt;/li&gt;
-  &lt;li&gt;ナビゲーションバー・ロゴ・ブランド表示・検索ボックスなど&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-22"&gt;ガイドラインは、肥大化に用心すること！&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;一時的に隠し、必要なときにだけ表示する方法を考える&lt;/li&gt;
-  &lt;li&gt;うっかり起動させないよう、難解なジェスチャは避ける&lt;/li&gt;
-  &lt;li&gt;何度も繰り返すことによって隠れていても存在することを記憶してもらえるよう、一貫性を貫く&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="chrome-2"&gt;Chromeに代わるジェスチャ？&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;代替となるジェスチャに正しいアフォーダンスがあり数が多すぎなければうまく機能する&lt;/li&gt;
-  &lt;li&gt;ページをめくるスワイプジェスチャなど&lt;/li&gt;
-  &lt;li&gt;人々が過去に行ったジェスチャをまねているので習得しやすく思い出しやすい&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="chrome-3"&gt;Chromeのメリット&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;コマンドやオプションを安定して提供&lt;/li&gt;
-  &lt;li&gt;常に同じ機能が表示されるので習得が難しくない&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="vs--2"&gt;オーバーロードコマンド vs 汎用コマンド&lt;/h3&gt;
-&lt;p&gt;画面スペースを有効に使うには２つのコマンドを使う必要がある&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;汎用コマンド&lt;/li&gt;
-  &lt;li&gt;ピンチ・ズーム、など&lt;/li&gt;
-  &lt;li&gt;オーバーロードコマンド&lt;/li&gt;
-  &lt;li&gt;同じコマンドを異なる結果を得る為に使う&lt;/li&gt;
-  &lt;li&gt;コンテキストによって結果が変わることもある&lt;/li&gt;
-  &lt;li&gt;オーバーロードコマンドはたいてい紛らわしい&lt;/li&gt;
-  &lt;li&gt;BACKには「取り消し」と「前のページへ戻る」が混在&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-23"&gt;画面をモバイル機器に最適化する&lt;/h2&gt;
-&lt;p&gt;ここでは韓流ポップスターを多くカバーするAllKpop.comのリデザインについて。デザインの制約がきついほど、最適なユーザビリティを供給するためにUIを磨かなければいけない。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;機能の削減&lt;/li&gt;
-  &lt;li&gt;記事を選ぶ為に署名は必要ない&lt;/li&gt;
-  &lt;li&gt;タッチする目標を広く&lt;/li&gt;
-  &lt;li&gt;見出しを全文表示に&lt;/li&gt;
-  &lt;li&gt;流し読みしやすく&lt;/li&gt;
-  &lt;li&gt;情報の香りをもっと強く&lt;/li&gt;
-  &lt;li&gt;写真の使用&lt;/li&gt;
-  &lt;li&gt;写真の方が認識が素早い&lt;/li&gt;
-  &lt;li&gt;タイル感の余白を少し狭く&lt;/li&gt;
-  &lt;li&gt;ファースとビューで４番目の記事をスクロールなしで読めるように&lt;/li&gt;
-  &lt;li&gt;ディバイダーとして発行日を表示&lt;/li&gt;
-  &lt;li&gt;オプション間のスペースを空ける&lt;/li&gt;
-  &lt;li&gt;ドロップダウン・メニューにラベルをつける&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-24"&gt;反復デザイン&lt;/h3&gt;
-&lt;p&gt;完璧なUIを一発でデザインはできない。反復デザインという手法を使って再デザイン。反復デザイン・反復ユーザーテストを何回か継続してより多くの利益を上げるサイトデザインを。&lt;/p&gt;
-
-&lt;h2 id="section-25"&gt;モバイル機器上でタイプすること&lt;/h2&gt;
-&lt;p&gt;モバイル入力はユーザーにとって面倒。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;書き込めるよう支援&lt;/li&gt;
-  &lt;li&gt;デフォルト値や略語&lt;/li&gt;
-  &lt;li&gt;コンピュータ処理&lt;/li&gt;
-  &lt;li&gt;コピペ&lt;/li&gt;
-  &lt;li&gt;既知値は自動入力&lt;/li&gt;
-  &lt;li&gt;フォームは短く&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-26"&gt;ダウンロード時間&lt;/h2&gt;
-
-&lt;h3 id="section-27"&gt;インタラクションコスト&lt;/h3&gt;
-&lt;p&gt;機器上でタスクを完了するために必要なごく小さなアクション数。アクションが追加されることはユーザーにとって苦痛である。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ダウンロードをできるだけ減らす。&lt;/li&gt;
-  &lt;li&gt;必要な情報だけ&lt;/li&gt;
-  &lt;li&gt;画像を使いすぎない&lt;/li&gt;
-  &lt;li&gt;プログレスバーでフィードバック&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-28"&gt;最初の段階でユーザー登録させない&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;マニュアルを読んでくれるように依頼することからスタートすべきではない&lt;/li&gt;
-  &lt;li&gt;最初のエクスペリエンスはユーザーに強制するものではなく、魅了し引きつけるものであるべき&lt;/li&gt;
-  &lt;li&gt;起動画面で同意を求めない&lt;/li&gt;
-  &lt;li&gt;求めるのであればなぜいまその同意が必要なのかを事前に説明&lt;/li&gt;
-  &lt;li&gt;長い説明書やマニュアルは読ませない&lt;/li&gt;
-  &lt;li&gt;UIの中ではユーザーの言葉で話す&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-29"&gt;90:9:1の法則&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;90%はROMユーザー&lt;/li&gt;
-  &lt;li&gt;9%は時々寄与するユーザー&lt;/li&gt;
-  &lt;li&gt;1%は非常に積極的に参加するユーザー&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-30"&gt;モバイルに適したライティング&lt;/h1&gt;
-
-&lt;h2 id="section-31"&gt;モバイルで読むのは何故困難なのか？&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;一度に見られるものが少なくなる&lt;/li&gt;
-  &lt;li&gt;理解しづらい&lt;/li&gt;
-  &lt;li&gt;文章を目で追うことができず多くのスクロールをしなければならない&lt;/li&gt;
-  &lt;li&gt;読みやすく、目を通しやすくすべき&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-32"&gt;疑問に思うなら取り去ってみよう&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;時間を潰したいのに冗長だと起こるのはなぜ？&lt;/li&gt;
-  &lt;li&gt;時間つぶしのアプリこそキラーアプリである&lt;/li&gt;
-  &lt;li&gt;時間を浪費する冗長な表現は嫌われる&lt;/li&gt;
-  &lt;li&gt;解決方法&lt;/li&gt;
-  &lt;li&gt;余分な情報をカット&lt;/li&gt;
-  &lt;li&gt;背景となる情報は次ページに&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-33"&gt;モバイルコンテンツ用の署名&lt;/h2&gt;
-
-&lt;h3 id="section-34"&gt;署名欄に対する原則は排除すること&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;誰が書いたか知りたい？120語しか読まないのに署名で無駄遣いすべき？&lt;/li&gt;
-  &lt;li&gt;モバイルの文章はパソコンより短くすべき&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-35"&gt;署名欄が合った方がいい場合&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;著名人の場合&lt;/li&gt;
-  &lt;li&gt;特定の資格や記事の信頼性を高める場合&lt;/li&gt;
-  &lt;li&gt;信憑性を高める場合&lt;/li&gt;
-  &lt;li&gt;その手の記事をよく書いている場合&lt;/li&gt;
-  &lt;li&gt;意見記事・レビュー記事・政治的解釈など&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="section-36"&gt;二次的コンテンツはリンク先へ&lt;/h2&gt;
-
-&lt;h3 id="section-37"&gt;モバイルクーポンの例&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;モバイルユーザーは必要な情報を探すことにとてもせっかち&lt;/li&gt;
-  &lt;li&gt;「Buy Now!」ボタンがいつも押しやすい場所にあり、大きく明確で他のボタンと間違えて押す可能性が低くあるべき&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="wikipedia"&gt;Wikipediaの例&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;概要をつかむために記事の見出しを見て、読みたいものがあればそこへ行けば良い&lt;/li&gt;
-  &lt;li&gt;最初の情報がよく読まれる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="ia"&gt;ミニIA　コンテンツの構造化&lt;/h2&gt;
-&lt;p&gt;mini-information architecture：小規模な情報の構造化
-「トピックごとの情報をどう組み立てるか？」&lt;/p&gt;
-
-&lt;h3 id="section-38"&gt;長々と続くページは一般的に見づらい&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;使い勝手の悪いmini-IAは例外無く取り除いて行く&lt;/li&gt;
-  &lt;li&gt;iPadや電子書籍リーダーのようなタブレットの場合は別&lt;/li&gt;
-  &lt;li&gt;スクロールさせるよりもページを区切っておいた方が使いやすい&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-39"&gt;アルファベット順は消え去るべし&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;ユーザーが探しているものの名前を知らない場合は使えない&lt;/li&gt;
-  &lt;li&gt;項目によっては並べる順序にロジックがあり、かえって探しづらくなってしまう&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-40"&gt;使い方を変える構造&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;長い１ページにする&lt;/li&gt;
-  &lt;li&gt;二次的なトピックスを探すのが難しくなる可能性&lt;/li&gt;
-  &lt;li&gt;mini IAを行う&lt;/li&gt;
-  &lt;li&gt;情報を適当なまとまりに分類&lt;/li&gt;
-  &lt;li&gt;分散型情報にする&lt;/li&gt;
-  &lt;li&gt;たくさんのトピックスの中から選んだ情報を組み合わせて二次的なトピックスを作る&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-41"&gt;タブレットと電子書籍リーダー&lt;/h1&gt;
-
-&lt;h2 id="ipad"&gt;iPadのユーザービリティ&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;iPadで重要なことは、画面が広いだけでなく、利用する状況が違うこと&lt;/li&gt;
-  &lt;li&gt;iPadがiPhoneと大きく異なる点の１つはタブレットの大きな画面では通常のウェブサイトが充分に機能する&lt;/li&gt;
-  &lt;li&gt;小さいターゲットを正確にタッチするには指が太すぎるという共通の問題も残る&lt;/li&gt;
-  &lt;li&gt;iPadの「美しい」特性を生かすなら画像は大きくわかりやすいほうがいい&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-42"&gt;タブレットはシェアされる機器&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;ユーザーが利用したいアプリをすぐに判別できるようにアプリのアイコンを特徴的に&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="ipad-1"&gt;iPadは何の為に使われる？&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;ノートPCでやっていた複雑な情報検索をiPadでやる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="ipad-2"&gt;iPadデザインに潜む３つの脅威&lt;/h3&gt;
-&lt;p&gt;iPadのUIでユーザーに重大な混乱を引き起こす３つ&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;目に見えない&lt;/li&gt;
-  &lt;li&gt;かくれてしまってアフォーダンスを与えてくれない&lt;/li&gt;
-  &lt;li&gt;思い出せない&lt;/li&gt;
-  &lt;li&gt;業界標準コマンドに広く準拠&lt;/li&gt;
-  &lt;li&gt;iPad上でほとんどのユーザが自然にできるジェスチャはタップとドラッグ&lt;/li&gt;
-  &lt;li&gt;一本指でダブるタップや長押しはすぐに慣れない&lt;/li&gt;
-  &lt;li&gt;指を吹く数本使ったジェスチャは間違う可能性が高い&lt;/li&gt;
-  &lt;li&gt;予想外の反応&lt;/li&gt;
-  &lt;li&gt;ユーザービリティについてユーザーに聞くよりユーザーの様子を見た方がいい&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="vs--3"&gt;カードの達人 vs スクロール信者&lt;/h3&gt;
-&lt;p&gt;忠実にひとつのナビゲーションの方法だけを採用し同じページ内や画像の向きによって複数のナビゲーション方法を混在させない&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;カード&lt;/li&gt;
-  &lt;li&gt;固定した大きさのキャンバスの中に美しいレイアウトを配置が可能&lt;/li&gt;
-  &lt;li&gt;情報を得るには別カードにジャンプしなくてはならない&lt;/li&gt;
-  &lt;li&gt;スクロール&lt;/li&gt;
-  &lt;li&gt;好きなだけ情報を入れられる&lt;/li&gt;
-  &lt;li&gt;室の高いレイアウトができない&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-43"&gt;スプラッシュ画面と起動ノイズ&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;最初は楽しませてくれてもすぐに歓迎されなくなってしまう長い導入部&lt;/li&gt;
-  &lt;li&gt;起動音は使わない&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="section-44"&gt;画面の向き&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;iPadでは横向きを好むユーザーの方が多い&lt;/li&gt;
-  &lt;li&gt;すべての向きで機能がアクセスできることを推奨&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="ipadux"&gt;よりよいiPadUXのために&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;インタラクティブな領域を大きくよりわかりやすく&lt;/li&gt;
-  &lt;li&gt;繊細なGUIでインタラクティブの葬祭性を向上&lt;/li&gt;
-  &lt;li&gt;妙な付加価値をつけようとしないこと&lt;/li&gt;
-  &lt;li&gt;戻る・検索・ヘッドラインなどほとんどのアプリで使われている標準的なナビゲーションをサポートする&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id="section-45"&gt;未来への展望&lt;/h1&gt;
-&lt;p&gt;将来のユーザーインターフェースについての考察&lt;/p&gt;
-
-&lt;h2 id="section-46"&gt;モバイルは「より小さく」「より安く」「様々な用途に応じて」進化&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;パソコンは重要なまま存続する&lt;/li&gt;
-  &lt;li&gt;仕事で価値を生み出す割合はデスクトップPC、時間を使う割合はタブレットやモバイルへ&lt;/li&gt;
-  &lt;li&gt;第３の画面：テレビ&lt;/li&gt;
-  &lt;li&gt;テレビにはモバイル・デスクトップとは異なる３番目のUIが必要になる&lt;/li&gt;
 &lt;/ul&gt;
 
 </content>
