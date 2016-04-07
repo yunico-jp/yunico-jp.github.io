@@ -5,10 +5,42 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-10-25T23:07:00+09:00</updated>
+  <updated>2016-04-07T23:53:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>なぜ技術ブログを書くのか？</title>
+    <link rel="alternate" href="http://blog.url.com/2016/04/07/blog-entry.html"/>
+    <id>http://blog.url.com/2016/04/07/blog-entry.html</id>
+    <published>2016-04-07T23:53:00+09:00</published>
+    <updated>2016-04-08T00:06:02+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;少し前にホッテントリ入りしていた&lt;a href="http://www.2dgod.com/entry/2016/03/28/060000"&gt;【転職後1ヶ月目】ガチ未経験でwebエンジニアになって困ったこと&lt;/a&gt;という記事について、同僚の小川さんが&lt;a href="http://blog.koogawa.com/entry/2016/03/29/225531"&gt;自分のブログ&lt;/a&gt;で言及をしていた。元の記事の内容は「Webエンジニアになったけど些細なこともわからない！」というかんじで、Webエンジニアっていうか、フロントエンドエンジニアなのかな？&lt;/p&gt;
+
+&lt;p&gt;元記事に対して、小川さんは「なぜ技術ブログを書くのか」というテーマで書いていて、その中に&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;なんとなく書いたTipsが意外にも多くの反応を頂けたりすることもあるので（困っていることはみんな一緒だったりする）、どんな些細な事でもアウトプットしていくことが大事なんだなぁ、と思いました。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;というものがあった。この「どんな些細な事でもアウトプットしていくことが大事」に対して、わたしも最近同じことを思ったのでそれについて書きます。&lt;/p&gt;
+
+&lt;p&gt;旧nanapiブログに載せていた&lt;a href="http://qiita.com/yunico-jp/items/de191a15ac07651abdea"&gt;「本当は怖くない！デザイナーがGitを大好きになった♡５つの理由」&lt;/a&gt;という記事を先日Qiitaに移行しました。内容は「デザイナーがGitを使ってみたけど実は全然難しくなかったよ！」っていう体験談で、特に便利なTipsとかを書いているわけではないのだけど、公開した初日から2週間で350くらいストックされました。TwitterやFacebookでの言及も多い。&lt;/p&gt;
+
+&lt;p&gt;移行する前、nanapiブログに置いてたときも800以上のはてぶがついていたし、ただの体験談がどうしてこんなに注目されるのかな？と考えてみた。Gitに関する情報って世の中に山ほどあるんだけど、もしかしたらこういう「最初にどういう風に感じて、その後どうやって克服していったか」みたいな超超初心者レベルの序章的なものってあまりない気がする。できるようになった人目線のものは多くあるけど、0から1、みたいなレベルのものは他に比べて実は少ないのかもしれない。みんなここから入るのにね。&lt;/p&gt;
+
+&lt;p&gt;このGitの記事の話に限らず「そんなこと、今更わざわざ聞く？」みたいなレベルの情報って意外となくて、でもネット上で「わからない」って言うと、はてぶ等で意見を言う人やツッコミをする人はいるけど、ストックされるような情報にアウトプットしてくれる人は稀。だから「こんなこと今更すぎるけど一応〜」みたいな感じで書くと意外と反応もらえることがある。&lt;a href="http://qiita.com/yunico-jp/items/5e11f6b018ec830bc39a"&gt;「新人必見！倍速かつ高品質なバナーを作るためのコツを全公開します」&lt;/a&gt;という記事も、誰でもやっていそうなバナー作成の手順を書いてるだけなのだけど、そんな当たり前そうなことでも書いてみると需要があったりする。そういう話をslackのblogチャンネルで話していたとき、@wadapが「10人が目にすると2〜3人くらい「今更ｗｗｗ」とかいう人がいるけど、１人でも役に立つ人がいるならそれでいいよね」と言っていて、本当にそれに尽きると思った。&lt;/p&gt;
+
+&lt;p&gt;ふと「前にもこんな話したな？」とデジャヴのようなものを感じて色々思い出してみたら「自分ではできて当たり前と思っていることが、必ずしも他人も当たり前のようにできるわけではない。だからそれをライフレシピにすることで、世界の誰かの役に立つはず」ってけんすうさんがよくnanapiというメディアについて言っていたことだった。そこに共感してnanapiに来たのだから、こういうアウトプットの考え方になるのはある意味当たり前かもしれない？今更だけど。&lt;/p&gt;
+
+&lt;p&gt;社内のTeam:Qiitaも些細なことでもネタっぽいことでも書いておく。意外とあとで何かのヒントになったりするし。Qiita公式でも&lt;a href="http://blog.qiita.com/post/141132737319/4yournewlife"&gt;「Qiitaで春の新生活を応援しましょう！」&lt;/a&gt;みたいなこういうのやってていいですね。あと最近、わからない人目線での説明がうまい、と褒められたので、そういうところを生かしつつ、わたしも小川さん同様些細な事でもアウトプットしていこう〜と改めて思いました。&lt;/p&gt;
+
+&lt;p&gt;新年度の抱負風にしておわり。FY16もがんばるぞ！&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>リーダー合宿で学んだこと・得たもの</title>
     <link rel="alternate" href="http://blog.url.com/2015/10/25/leader-training-camp.html"/>
@@ -609,73 +641,6 @@
   &lt;li&gt;学習しながら実行する場合、リーダーは答えを与えるのではなく、方向性を定める&lt;/li&gt;
   &lt;li&gt;方向性を定めるとは、その組織にとって最も重要な優先事項を述べることである&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>頭が良くない人向けの本の読み方</title>
-    <link rel="alternate" href="http://blog.url.com/2015/09/12/reading.html"/>
-    <id>http://blog.url.com/2015/09/12/reading.html</id>
-    <published>2015-09-12T22:27:00+09:00</published>
-    <updated>2015-09-12T23:03:08+09:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;こんにちは！yunico.nagataです。結構ひさしぶりになってしまった。最近はまた少し別のことを勉強してます。&lt;/p&gt;
-
-&lt;p&gt;よって、いろんな本を読むわけですが、小説のようにじっくりと一行ずつ読むので非常に進みが遅く、そして内容がなかなか頭に入ってこない。
-そんなに頭が良くないので勉強しようと本を読むけど本もうまく読めないとか悲しすぎます。という訳で変えてみることにしました。&lt;/p&gt;
-
-&lt;p&gt;参考にしたのは&lt;a href="http://blog.livedoor.jp/kensuu/archives/50875771.html"&gt;けんすうさんのブログ&lt;/a&gt;。2009年の記事なんですが、いま読んでも非常に役立つノウハウです。&lt;/p&gt;
-
-&lt;p&gt;そんなに頭が良くない人はそれなりに適切なやり方を意識的に選択していかないとやばい。頭が良くないということを自覚するのも大事です。具体的なやり方はブログに書かれているものが全てなのですが、少し引用をさせていただくとこんな感じ。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;１：もくじを熟読&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;２：著者欄を熟読&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;３：ネットとかでその本について調べてレビューを読む&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;４：どんないいことが書かれているか仮説を立ててどっかに書いておく&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;５：１時間で読み切るぞと時間を計って読む（電車を降りるまで、とか決めてもOK）&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;６：ぐわって仮説で立てた個所がないか探しながらざっと全体を「眺める」&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;７：関係ありそうなところがあれば本のはしを追っておく&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;８：関係ありそうなところは熟読&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;９：読み終わったらもうその本は捨てちゃう。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;１０：その本から何を得たかどっかに書いておく。書かなくても頭の中で考えておく&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;要は、必要なエッセンスだけ取り出せられればOK、ぐらいの気持ちで読む。欲張りすぎないことです。&lt;/p&gt;
-
-&lt;p&gt;実際に仮説を立ててから、時間を決めて、眺めながら関係ありそうなところを探して必要な部分のみを取り出していく、という読み方に変えてみたところ、非常に効率よく内容を理解することができました。てか、周りの人に話したらみんな既にそうしていた……&lt;/p&gt;
-
-&lt;p&gt;時間がなくてなかなか本が読めない〜とか、本を読むのが苦手だ〜、という人におすすめです。&lt;/p&gt;
-
-&lt;p&gt;おわり&lt;/p&gt;
 </content>
   </entry>
 </feed>
