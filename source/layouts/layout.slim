@@ -12,7 +12,7 @@ html
 
     /! Use title if it's in the page YAML frontmatter
     title
-      | Yunicode#{ ("-" + current_article.title) unless current_article.nil?}
+      | Yunicode#{ (" : " + current_article.title) unless current_article.nil?}
     = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
     == stylesheet_link_tag "styles"
     == javascript_include_tag  "scripts"
