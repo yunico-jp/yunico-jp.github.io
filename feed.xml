@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Yunicode</title>
   <subtitle>Blog subtitle</subtitle>
-  <id>http://blog.url.com/</id>
-  <link href="http://blog.url.com/"/>
-  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <id>http://yuni.co/</id>
+  <link href="http://yuni.co/"/>
+  <link href="http://yuni.co/feed.xml" rel="self"/>
   <updated>2016-04-07T23:53:00+09:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
     <title>なぜ技術ブログを書くのか？</title>
-    <link rel="alternate" href="http://blog.url.com/2016/04/07/blog-entry.html"/>
-    <id>http://blog.url.com/2016/04/07/blog-entry.html</id>
+    <link rel="alternate" href="http://yuni.co/2016/04/07/blog-entry.html"/>
+    <id>http://yuni.co/2016/04/07/blog-entry.html</id>
     <published>2016-04-07T23:53:00+09:00</published>
     <updated>2016-04-08T00:06:02+09:00</updated>
     <author>
@@ -43,8 +43,8 @@
   </entry>
   <entry>
     <title>リーダー合宿で学んだこと・得たもの</title>
-    <link rel="alternate" href="http://blog.url.com/2015/10/25/leader-training-camp.html"/>
-    <id>http://blog.url.com/2015/10/25/leader-training-camp.html</id>
+    <link rel="alternate" href="http://yuni.co/2015/10/25/leader-training-camp.html"/>
+    <id>http://yuni.co/2015/10/25/leader-training-camp.html</id>
     <published>2015-10-25T23:07:00+09:00</published>
     <updated>2015-10-26T09:34:59+09:00</updated>
     <author>
@@ -179,8 +179,8 @@
   </entry>
   <entry>
     <title>【読書メモ】アナロジー思考　「構造」と「関係性」を見抜く</title>
-    <link rel="alternate" href="http://blog.url.com/2015/09/21/analogy-thinking.html"/>
-    <id>http://blog.url.com/2015/09/21/analogy-thinking.html</id>
+    <link rel="alternate" href="http://yuni.co/2015/09/21/analogy-thinking.html"/>
+    <id>http://yuni.co/2015/09/21/analogy-thinking.html</id>
     <published>2015-09-21T20:33:00+09:00</published>
     <updated>2015-09-21T20:34:57+09:00</updated>
     <author>
@@ -261,8 +261,8 @@
   </entry>
   <entry>
     <title>【読書メモ】21世紀のビジネスにデザイン思考が必要な理由</title>
-    <link rel="alternate" href="http://blog.url.com/2015/09/19/design-thinking.html"/>
-    <id>http://blog.url.com/2015/09/19/design-thinking.html</id>
+    <link rel="alternate" href="http://yuni.co/2015/09/19/design-thinking.html"/>
+    <id>http://yuni.co/2015/09/19/design-thinking.html</id>
     <published>2015-09-19T22:57:00+09:00</published>
     <updated>2015-09-19T22:59:07+09:00</updated>
     <author>
@@ -441,8 +441,8 @@
   </entry>
   <entry>
     <title>【読書メモ】仮説思考 BCG流 問題発見・解決の発想法</title>
-    <link rel="alternate" href="http://blog.url.com/2015/09/17/hypothesis-thinking.html"/>
-    <id>http://blog.url.com/2015/09/17/hypothesis-thinking.html</id>
+    <link rel="alternate" href="http://yuni.co/2015/09/17/hypothesis-thinking.html"/>
+    <id>http://yuni.co/2015/09/17/hypothesis-thinking.html</id>
     <published>2015-09-17T10:18:00+09:00</published>
     <updated>2015-09-17T10:20:40+09:00</updated>
     <author>
@@ -525,8 +525,8 @@
   </entry>
   <entry>
     <title>【読書メモ】チームが機能するとはどういうことか――「学習力」と「実行力」を高める実践アプローチ</title>
-    <link rel="alternate" href="http://blog.url.com/2015/09/15/teaming.html"/>
-    <id>http://blog.url.com/2015/09/15/teaming.html</id>
+    <link rel="alternate" href="http://yuni.co/2015/09/15/teaming.html"/>
+    <id>http://yuni.co/2015/09/15/teaming.html</id>
     <published>2015-09-15T23:45:00+09:00</published>
     <updated>2015-09-15T23:55:01+09:00</updated>
     <author>
