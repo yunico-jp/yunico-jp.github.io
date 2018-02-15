@@ -2,7 +2,7 @@
 title: 久しぶりに書きました
 date: 2018-02-14 13:12 JST
 tags:
-- tmp
+- Soliloquy
 ---
 
 超ひさしぶりにブログを更新してみた
