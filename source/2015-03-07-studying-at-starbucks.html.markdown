@@ -3,7 +3,7 @@ title: スタバで自習
 date: 2015-03-07
 tags:
   - Design
-  - Slim
+  - slim
 ---
 
 こんにちは！yunico.nagataです。今日から記事URLもちゃんと考えるようにした。

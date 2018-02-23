@@ -3,7 +3,7 @@ title: デザインをさわる
 date: 2015-03-05
 tags:
   - Design
-  - Slim
+  - slim
 ---
 
 こんにちは！yunico.nagataです。
