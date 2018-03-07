@@ -3,7 +3,6 @@ title: プログラミングを学んでおいて良かったと思う
 date: 2018-03-07 12:30 JST
 tags:
 - nanapi
-- Facilitation
 - Communication
 ---
 
