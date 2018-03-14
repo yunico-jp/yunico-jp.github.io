@@ -4,6 +4,7 @@ develop
 
 ```
 % middleman server
+bundle exec middleman server
 ```
 
 build
@@ -16,4 +17,5 @@ deploy to master branch
 
 ```
 % middleman deploy
+bundle exec middleman deploy
 ```
